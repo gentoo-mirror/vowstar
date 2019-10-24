@@ -1,5 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
+DEPEND=>=x11-libs/gtk+-3.22 x11-themes/gtk-engines-adwaita
 DESCRIPTION=Obsidian Gnome Theme, based upon Adwaita-Maia dark skin
 EAPI=7
 HOMEPAGE=https://github.com/madmaxms/theme-obsidian-2
@@ -8,4 +9,4 @@ PROPERTIES=live
 RDEPEND=>=x11-libs/gtk+-3.22 x11-themes/gtk-engines-adwaita
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
-_md5_=05a1a0fb8a62004ef3a2e23403743212
+_md5_=886aa769de724cf83d8e24f0004fcecd

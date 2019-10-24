@@ -1,5 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
+DEPEND=x11-themes/adwaita-icon-theme
 DESCRIPTION=Obsidian Icon Theme
 EAPI=7
 HOMEPAGE=https://github.com/madmaxms/iconpack-obsidian
@@ -8,4 +9,4 @@ PROPERTIES=live
 RDEPEND=x11-themes/adwaita-icon-theme
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
-_md5_=7cd91d6ec34be3a0f10eeeaa794599ac
+_md5_=b28eee812eedb07e2a369d84e4f8fddb
