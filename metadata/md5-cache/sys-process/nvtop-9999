@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=sys-libs/ncurses:0=[unicode?] dev-util/cmake dev-vcs/git x11-drivers/nvidia-drivers
+DESCRIPTION=NVIDIA GPUs htop like monitoring tool
+EAPI=7
+HOMEPAGE=https://github.com/Syllo/nvtop
+IUSE=unicode debug
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=sys-libs/ncurses:0=[unicode?] dev-util/cmake dev-vcs/git x11-drivers/nvidia-drivers
+SLOT=0
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
+_md5_=1e8ac07dbe3a5405739ffd0458e22d39
