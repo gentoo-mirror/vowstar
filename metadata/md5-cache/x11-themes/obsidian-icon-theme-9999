@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=x11-themes/adwaita-icon-theme
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
-_md5_=7f27566eda468ba11dc0cd7cab36760d
+_md5_=5a52a8636d517b3fa1d844b0c315b42b
