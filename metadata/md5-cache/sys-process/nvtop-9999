@@ -1,13 +1,13 @@
 BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=sys-libs/ncurses:0=[unicode?] dev-util/cmake dev-vcs/git x11-drivers/nvidia-drivers
+DEPEND=dev-util/cmake sys-libs/ncurses:0=[unicode?] dev-vcs/git x11-drivers/nvidia-drivers
 DESCRIPTION=NVIDIA GPUs htop like monitoring tool
 EAPI=7
 HOMEPAGE=https://github.com/Syllo/nvtop
 IUSE=unicode debug
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=sys-libs/ncurses:0=[unicode?] dev-util/cmake dev-vcs/git x11-drivers/nvidia-drivers
+RDEPEND=sys-libs/ncurses:0=[unicode?] dev-vcs/git x11-drivers/nvidia-drivers
 SLOT=0
 _eclasses_=cmake-utils	91d6ef31dc426240577497cacbf2508c	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	8a43b9830f1e64a7a5fc0a276afa0275	git-r3	562b380fc59ae6a8622171d0acb777d1	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=3e82a1b8cbd47c08b5e3a9b989e06a3a
+_md5_=206d87b9fdffa6093aef4000b8fab12e
