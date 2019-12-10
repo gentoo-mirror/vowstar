@@ -93,4 +93,5 @@ src_compile() {
 
 src_install() {
 	cmake-utils_src_install
+	find "${WORKDIR}/build" | grep -e "so$" | xargs -I{} cp -u {} "${EPREFIX}/usr/lib64" | die
 }
