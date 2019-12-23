@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=app-arch/bzip2 sys-libs/readline:0= sys-libs/zlib:=
 SLOT=0
 _eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
-_md5_=ccb2613656063b52766a48cd57698b5c
+_md5_=ffff79b5f59df54a6f99e651cf9d499e
