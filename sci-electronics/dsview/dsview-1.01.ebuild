@@ -43,6 +43,9 @@ DEPEND="
 "
 
 src_prepare() {
+	cd "${S}"
+	find . -type f -exec sed -i "s@/usr/local/@/usr/@g" {} + || die
+	find . -type f -exec sed -i "s@/usr/lib@/usr/lib64@g" {} + || die
 	cd "${S}/libsigrok4DSL" || die
 	sh ./autogen.sh || die
 	cd "${S}/libsigrokdecode4DSL" || die
@@ -72,10 +75,10 @@ src_install() {
 	cd "${S}/DSView" || die
 
 	DESTDIR="${D}" \
-	PKG_CONFIG_PATH="${D}/usr/local/lib/pkgconfig" \
-	CFLAGS="-I${D}/usr/local/include" \
-	CXXFLAGS="-I${D}/usr/local/include" \
-	LDFLAGS="-L${D}/usr/local/lib" \
+	PKG_CONFIG_PATH="${D}/usr/lib/pkgconfig" \
+	CFLAGS="-I${D}/usr/include" \
+	CXXFLAGS="-I${D}/usr/include" \
+	LDFLAGS="-L${D}/usr/lib" \
 	cmake . || die
 	emake DESTDIR="${D}" install
 }
