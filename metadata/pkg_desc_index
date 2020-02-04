@@ -2,6 +2,7 @@ net-print/hplip-plugin 3.19.12: Proprietary plugins and firmware for HPLIP
 sci-electronics/dsview 1.01 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 9999: A Verilog simulation and synthesis tool
 sci-electronics/kactus2 3.8.0 9999: A open source IP-XACT-based tool
+sci-electronics/librepcb 0.1.3: Free EDA GUI software to develop printed circuit boards
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sys-process/nvtop 1.0.0 9999: NVIDIA GPUs htop like monitoring tool
 x11-themes/obsidian-icon-theme 4.8 4.9 4.10 9999: Obsidian Icon Theme
