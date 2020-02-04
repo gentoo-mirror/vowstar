@@ -1,4 +1,4 @@
-BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
 DEPEND=dev-qt/qtcore:5 dev-qt/qtxml:5 dev-qt/qtwidgets:5 dev-qt/qtgui:5 dev-qt/qtprintsupport:5 dev-qt/qthelp:5 dev-qt/qtsvg:5
 DESCRIPTION=A open source IP-XACT-based tool
@@ -8,5 +8,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtxml:5 dev-qt/qtwidgets:5 dev-qt/qtgui:5 dev-qt/qtprintsupport:5 dev-qt/qthelp:5 dev-qt/qtsvg:5
 SLOT=0
-_eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	git-r3	809e27702c573cbba31c08ed00bbad33	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=bae56289572b7be8c5b90e449bea56b5
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33
+_md5_=5f58f2d526fb869e062fa8c323149540
