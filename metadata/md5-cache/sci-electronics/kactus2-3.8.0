@@ -1,4 +1,4 @@
-DEFINED_PHASES=install
+DEFINED_PHASES=install postinst postrm
 DEPEND=dev-qt/qtcore:5 dev-qt/qtxml:5 dev-qt/qtwidgets:5 dev-qt/qtgui:5 dev-qt/qtprintsupport:5 dev-qt/qthelp:5 dev-qt/qtsvg:5
 DESCRIPTION=A open source IP-XACT-based tool
 EAPI=7
@@ -8,4 +8,5 @@ LICENSE=GPL-2
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtxml:5 dev-qt/qtwidgets:5 dev-qt/qtgui:5 dev-qt/qtprintsupport:5 dev-qt/qthelp:5 dev-qt/qtsvg:5
 SLOT=0
 SRC_URI=https://github.com/kactus2/kactus2dev/archive/v3.8.0.tar.gz -> kactus2-3.8.0.tar.gz
-_md5_=5f58f2d526fb869e062fa8c323149540
+_eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=f88d49b5750c5cb18f85bcf5d260bd87
