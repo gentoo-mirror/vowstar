@@ -1,0 +1,12 @@
+BDEPEND=>=dev-lang/ghc-6.12.1 dev-util/gperf >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile unpack
+DEPEND=>=dev-haskell/cabal-1.6 >=dev-haskell/old-time-1.1 >=dev-haskell/regex-compat-0.95.1 >=dev-haskell/syb-0.1 media-libs/fontconfig x11-libs/libXft
+DESCRIPTION=Bluespec High Level Hardware Design Language
+EAPI=7
+HOMEPAGE=https://github.com/B-Lang-org/bsc
+LICENSE=BSD GPL-3+ MIT
+PROPERTIES=live
+RDEPEND=>=dev-haskell/cabal-1.6 >=dev-haskell/old-time-1.1 >=dev-haskell/regex-compat-0.95.1 >=dev-haskell/syb-0.1 media-libs/fontconfig x11-libs/libXft
+SLOT=0
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33
+_md5_=9d14485e5685eb4dd8a82d1673c0981a
