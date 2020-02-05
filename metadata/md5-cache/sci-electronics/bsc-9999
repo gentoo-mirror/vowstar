@@ -1,12 +1,13 @@
 BDEPEND=>=dev-lang/ghc-6.12.1 dev-util/gperf >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile unpack
-DEPEND=>=dev-haskell/cabal-1.6 >=dev-haskell/old-time-1.1 >=dev-haskell/regex-compat-0.95.1 >=dev-haskell/syb-0.1 media-libs/fontconfig x11-libs/libXft
+DEFINED_PHASES=compile configure install postinst postrm setup test unpack
+DEPEND=>=dev-haskell/cabal-1.6:=[profile?] >=dev-haskell/old-time-1.1:=[profile?] >=dev-haskell/regex-compat-0.95.1:=[profile?] >=dev-haskell/syb-0.1:=[profile?] media-libs/fontconfig x11-libs/libXft doc? ( || ( dev-haskell/haddock >=dev-lang/ghc-7.10.2 ) ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Bluespec High Level Hardware Design Language
 EAPI=7
 HOMEPAGE=https://github.com/B-Lang-org/bsc
+IUSE=doc hscolour profile
 LICENSE=BSD GPL-3+ MIT
 PROPERTIES=live
-RDEPEND=>=dev-haskell/cabal-1.6 >=dev-haskell/old-time-1.1 >=dev-haskell/regex-compat-0.95.1 >=dev-haskell/syb-0.1 media-libs/fontconfig x11-libs/libXft
+RDEPEND=>=dev-haskell/cabal-1.6:=[profile?] >=dev-haskell/old-time-1.1:=[profile?] >=dev-haskell/regex-compat-0.95.1:=[profile?] >=dev-haskell/syb-0.1:=[profile?] media-libs/fontconfig x11-libs/libXft
 SLOT=0
-_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33
-_md5_=9d14485e5685eb4dd8a82d1673c0981a
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	ghc-package	cfc8267c6151d804d0c34bf9e180533f	git-r3	809e27702c573cbba31c08ed00bbad33	haskell-cabal	433b5153bec6b0ffe21c7be2210e8396	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=d71eeb8678d8f3e7fcdadf83b1393b3c
