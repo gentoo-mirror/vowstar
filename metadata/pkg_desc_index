@@ -1,6 +1,6 @@
 net-print/hplip-plugin 3.19.12: Proprietary plugins and firmware for HPLIP
 sci-electronics/bsc 9999: Bluespec High Level Hardware Design Language
-sci-electronics/dsview 1.01 9999: An open source multi-function instrument
+sci-electronics/dsview 1.01 1.10 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 9999: A Verilog simulation and synthesis tool
 sci-electronics/kactus2 3.8.0 9999: A open source IP-XACT-based tool
 sci-electronics/verilator 4.026 9999: The fast free Verilog/SystemVerilog simulator
