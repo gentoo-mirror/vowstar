@@ -1,15 +1,15 @@
 BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-util/cmake !sci-mathematics/ggnfs !sci-biology/shrimp mpi? ( virtual/mpi ) mysql? ( virtual/mysql ) curl? ( net-misc/curl ) hwloc? ( >=sys-apps/hwloc-2.0.0 ) dev-libs/gmp:0= python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[sqlite] ) python_targets_python3_6? ( dev-lang/python:3.6[sqlite] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]
+DEPEND=dev-util/cmake !sci-mathematics/ggnfs !sci-biology/shrimp mpi? ( virtual/mpi ) mysql? ( virtual/mysql ) curl? ( net-misc/curl ) hwloc? ( >=sys-apps/hwloc-2.0.0 ) dev-libs/gmp:0= python_targets_python2_7? ( >=dev-lang/python-2.7.17-r1:2.7[sqlite] ) python_targets_python3_6? ( >=dev-lang/python-3.6.10:3.6[sqlite] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]
 DESCRIPTION=Number Field Sieve (NFS) implementation for factoring integers
 EAPI=7
 HOMEPAGE=http://cado-nfs.gforge.inria.fr
 IUSE=mpi mysql +curl +hwloc python_targets_python2_7 python_targets_python3_6
 KEYWORDS=~amd64 ~hppa ~m68k ~mips ~s390 ~sh ~sparc ~x86 ~ppc-aix ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
 LICENSE=LGPL-2.1
-RDEPEND=!sci-mathematics/ggnfs !sci-biology/shrimp mpi? ( virtual/mpi ) mysql? ( virtual/mysql ) curl? ( net-misc/curl ) hwloc? ( >=sys-apps/hwloc-2.0.0 ) dev-libs/gmp:0= python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[sqlite] ) python_targets_python3_6? ( dev-lang/python:3.6[sqlite] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]
+RDEPEND=!sci-mathematics/ggnfs !sci-biology/shrimp mpi? ( virtual/mpi ) mysql? ( virtual/mysql ) curl? ( net-misc/curl ) hwloc? ( >=sys-apps/hwloc-2.0.0 ) dev-libs/gmp:0= python_targets_python2_7? ( >=dev-lang/python-2.7.17-r1:2.7[sqlite] ) python_targets_python3_6? ( >=dev-lang/python-3.6.10:3.6[sqlite] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://gforge.inria.fr/frs/download.php/file/37058/cado-nfs-2.3.0.tar.gz -> cado-nfs-2.3.0.tar.gz
-_eclasses_=cmake-utils	be72eac95bd029ad1d81d5d656c3c83b	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	42d97132740235ad4310cd60beb1992e	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-r1	8386b016a2b3bbefa88443fdaa898057	python-utils-r1	e03f98555f2634bb9fb3160a8e30e3ec	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=cmake-utils	be72eac95bd029ad1d81d5d656c3c83b	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	42d97132740235ad4310cd60beb1992e	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-r1	8386b016a2b3bbefa88443fdaa898057	python-utils-r1	6f5996d2ae01e0c6f2869ed18f023239	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=eb17ebf06448ef48d6a30660522ac82b
