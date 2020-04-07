@@ -1,7 +1,7 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
 DEPEND=x11-themes/adwaita-icon-theme
-DESCRIPTION=Obsidian Icon Theme
+DESCRIPTION=Obsidian Icon Theme is intuitive Faenza-like icon theme
 EAPI=7
 HOMEPAGE=https://github.com/madmaxms/iconpack-obsidian
 LICENSE=GPL-3
@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=x11-themes/adwaita-icon-theme
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=43426e71013ef554dfde14d31ffdcd5c
+_md5_=89b6d331a4c0a72a4c5afe271eb455c3
