@@ -8,4 +8,4 @@ LICENSE=GPL-3
 RDEPEND=x11-themes/adwaita-icon-theme
 SLOT=0
 SRC_URI=https://github.com/madmaxms/iconpack-obsidian/archive/v4.11.tar.gz -> obsidian-icon-theme-4.11.tar.gz
-_md5_=89b6d331a4c0a72a4c5afe271eb455c3
+_md5_=0f9cd7cca08bf7cebd102bca182a7aab
