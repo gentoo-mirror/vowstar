@@ -17,8 +17,8 @@ else
 	S="${WORKDIR}/${PN}-${PV}"
 fi
 
-LICENSE="GPL-2"
-SLOT="5"
+LICENSE="MIT"
+SLOT="0"
 
 IUSE="doc examples test"
 
@@ -30,6 +30,10 @@ DEPEND="
 	doc? ( app-doc/doxygen )
 	test? ( dev-qt/qttest:5 )
 	${RDEPEND}
+"
+
+BDEPEND="
+	virtual/pkgconfig
 "
 
 src_configure() {
