@@ -26,23 +26,50 @@ LICENSE="GPL-3"
 SLOT="0"
 
 RDEPEND="
-	dev-lang/lua
-	dev-libs/qhttpengine
+	dev-lang/lua:5.3
+	dev-libs/qhttpengine:5
 	dev-qt/qtconcurrent:5
 	dev-qt/qtcore:5
 	dev-qt/qtgui:5
 	dev-qt/qtnetwork:5
 	dev-qt/qtsql:5
 	dev-qt/qtwidgets:5
-	media-video/mpv[libmpv]
+	media-video/mpv[libmpv,-luajit]
 "
 
 DEPEND="
 	${RDEPEND}
 "
 
+BDEPEND="
+	media-gfx/imagemagick
+	virtual/pkgconfig
+"
+
+PATCHES=(
+	"${FILESDIR}"/${PN}-0.6.0-desktop.patch # Add a desktop file
+)
+
+src_prepare() {
+	default
+	# Fix lua link problem, link to lua5.3 to fix bug
+	sed -i "s/-llua/-llua5.3/" KikoPlay.pro || die "Could not fix lua link"
+	echo "target.path += ${D}/usr/bin" >> KikoPlay.pro || die "Could not fix install path"
+	echo "INSTALLS += KikoPlay kikoplay icons desktop" >> KikoPlay.pro || die "Could not fix install target"
+	echo "unix:icons.path = /usr/share/pixmaps" >> KikoPlay.pro || die "Could not fix install icon PATH"
+	echo "unix:desktop.path = /usr/share/applications" >> KikoPlay.pro || die "Could not fix install desktop PATH"
+	echo "unix:icons.files = kikoplay.png kikoplay.xpm" >> KikoPlay.pro || die "Could not fix install desktop PATH"
+	echo "unix:desktop.files = kikoplay.desktop" >> KikoPlay.pro || die "Could not fix install desktop PATH"
+	ln -s KikoPlay kikoplay || die "Could not create alias"
+	convert kikoplay.ico kikoplay.png || die "Could not create PNG icon"
+	convert kikoplay.ico kikoplay.xpm || die "Could not create XPM icon"
+}
+
 src_configure() {
-	eqmake5 \
-		INSTROOT="${D}" \
-		CONFIG+=install_translations
+	eqmake5 PREFIX="${D}"/usr
+}
+
+src_install() {
+	# Can't use default, set INSTALL_ROOT
+	emake INSTALL_ROOT="${D}" install
 }
