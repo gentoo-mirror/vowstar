@@ -8,5 +8,5 @@ sci-electronics/verilator 4.032 9999: The fast free Verilog/SystemVerilog simula
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sys-fs/zfs-kmod 0.8.3: Linux ZFS kernel module for sys-fs/zfs
 sys-process/nvtop 1.0.0 9999: NVIDIA GPUs htop like monitoring tool
-x11-themes/obsidian-icon-theme 4.11 9999: Obsidian Icon Theme is intuitive Faenza-like icon theme
-x11-themes/obsidian2-gtk-theme 2.11 9999: Obsidian Gnome Theme, based upon Adwaita-Maia dark skin
+x11-themes/obsidian-icon-theme 4.11-r1 9999: Obsidian Icon Theme is intuitive Faenza-like icon theme
+x11-themes/obsidian2-gtk-theme 2.11-r1 9999: Obsidian Gnome Theme, based upon Adwaita-Maia dark skin
