@@ -4,7 +4,8 @@
 EAPI=7
 
 GITHUB_PN="container-toolkit"
-EGO_PN="github.com/NVIDIA/${GITHUB_PN}"
+EGO_PN_VCS="github.com/NVIDIA/${GITHUB_PN}"
+EGO_PN="${EGO_PN_VCS}"
 
 inherit golang-build
 
@@ -36,15 +37,17 @@ BDEPEND=""
 
 src_compile() {
 	echo "${S}" || die
-	EGO_PN="${EGO_PN}/pkg"
-	EGO_BUILD_FLAGS="-s -w" \
-	golang-build_src_compile
+	EGO_PN="${EGO_PN_VCS}/pkg" \
+		EGO_BUILD_FLAGS="-o ${T}/${PN}" \
+		golang-build_src_compile
 }
 
 src_install() {
-	dobin ${PN}
-	dosym "bin/${PN}" "bin/nvidia-container-runtime-hook"
-	cp "${S}/config/config.toml.debian" "${S}/config/config.toml" || die
-	insinto /etc/nvidia-container-runtime
-	doins "${S}/config/config.toml"
+	dobin "${T}/${PN}"
+	dosym "/usr/bin/${PN}" "/usr/bin/nvidia-container-runtime-hook"
+	pushd "src/${EGO_PN}" >/dev/null || die
+	cp "config/config.toml.debian" "config/config.toml" || die
+	insinto "/etc/nvidia-container-runtime"
+	doins "config/config.toml"
+	popd >/dev/null || die
 }
