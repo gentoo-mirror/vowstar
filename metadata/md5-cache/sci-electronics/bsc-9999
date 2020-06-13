@@ -1,13 +1,13 @@
-BDEPEND=>=dev-lang/ghc-6.12.1 dev-util/gperf >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-lang/ghc-6.12.1 dev-util/gperf >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm setup test unpack
-DEPEND=>=dev-haskell/cabal-1.6:=[profile?] >=dev-haskell/old-time-1.1:=[profile?] >=dev-haskell/regex-compat-0.95.1:=[profile?] >=dev-haskell/syb-0.1:=[profile?] media-libs/fontconfig x11-libs/libXft doc? ( || ( dev-haskell/haddock >=dev-lang/ghc-7.10.2 ) ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/cabal-1.6:=[profile?] >=dev-haskell/old-time-1.1:=[profile?] >=dev-haskell/regex-compat-0.95.1:=[profile?] >=dev-haskell/syb-0.1:=[profile?] doc? ( || ( dev-haskell/haddock >=dev-lang/ghc-7.10.2 ) ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Bluespec High Level Hardware Design Language
 EAPI=7
 HOMEPAGE=https://github.com/B-Lang-org/bsc
 IUSE=doc hscolour profile
 LICENSE=BSD GPL-3+ MIT
 PROPERTIES=live
-RDEPEND=>=dev-haskell/cabal-1.6:=[profile?] >=dev-haskell/old-time-1.1:=[profile?] >=dev-haskell/regex-compat-0.95.1:=[profile?] >=dev-haskell/syb-0.1:=[profile?] media-libs/fontconfig x11-libs/libXft
+RDEPEND=>=dev-haskell/cabal-1.6:=[profile?] >=dev-haskell/old-time-1.1:=[profile?] >=dev-haskell/regex-compat-0.95.1:=[profile?] >=dev-haskell/syb-0.1:=[profile?]
 SLOT=0
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	ghc-package	e3a4a688accbd5f1226e46b379cc1c3e	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	haskell-cabal	433b5153bec6b0ffe21c7be2210e8396	multilib	0914eab919f4f11dd9e0407b92af4726	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
-_md5_=0e8b6930f2d2cf336f412c5ddacea4c7
+_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ghc-package	e3a4a688accbd5f1226e46b379cc1c3e	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	haskell-cabal	433b5153bec6b0ffe21c7be2210e8396	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	0914eab919f4f11dd9e0407b92af4726	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
+_md5_=d42030ec73c182ffec5c0806d4ac16a6
