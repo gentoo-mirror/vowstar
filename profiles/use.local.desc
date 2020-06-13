@@ -2,11 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-dev-vcs/subversion:ctypes-python - Build and install Ctypes Python bindings
-dev-vcs/subversion:dso - Enable runtime module search
-dev-vcs/subversion:extras - Install extra scripts (examples, tools, hooks)
-dev-vcs/subversion:http - Enable http support using net-libs/serf
-dev-vcs/subversion:kwallet - Enable encrypted storage of passwords with kde-frameworks/kwallet
 sci-mathematics/cado-nfs:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
 sci-mathematics/cado-nfs:hwloc - Displays the hardware topology in convenient formats
 sci-mathematics/cado-nfs:mpi - Whether to use MPI (Message Passing Interface) or not

@@ -1,7 +1,6 @@
 app-emulation/libnvidia-container 1.1.1: NVIDIA container runtime library
 app-emulation/nvidia-container-toolkit 1.1.1: NVIDIA container runtime toolkit
 dev-libs/qhttpengine 1.0.1 9999: HTTP server for Qt applications
-dev-vcs/subversion 1.14.0: Advanced version control system
 media-video/kikoplay 0.6.1 0.6.2 0.7.0 9999: KikoPlay is a full-featured danmu player
 sci-electronics/bsc 9999: Bluespec High Level Hardware Design Language
 sci-electronics/dsview 1.01 1.10 9999: An open source multi-function instrument
