@@ -41,13 +41,14 @@ CMAKE_CONF="
 "
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-add-nvml.patch
-	"${FILESDIR}"/${PN}-fix-ncurses.patch
+	"${FILESDIR}"/${PN}-1.0.0-add-nvml.patch
+	"${FILESDIR}"/${PN}-1.0.0-fix-ncurses.patch
 )
 
 src_configure() {
 	local mycmakeargs=(
 		-DCMAKE_INSTALL_PREFIX="${EPREFIX}/usr"
+		-DNVML_INCLUDE_DIRS="${S}/include"
 		${CMAKE_CONF}
 	)
 
