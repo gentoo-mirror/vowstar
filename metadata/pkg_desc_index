@@ -6,7 +6,7 @@ sci-electronics/bsc 9999: Bluespec High Level Hardware Design Language
 sci-electronics/dsview 1.01 1.10 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 9999: A Verilog simulation and synthesis tool
 sci-electronics/kactus2 3.8.0 9999: A open source IP-XACT-based tool
-sci-electronics/verilator 4.032 4.034 9999: The fast free Verilog/SystemVerilog simulator
+sci-electronics/verilator 4.032 4.034 4.036 9999: The fast free Verilog/SystemVerilog simulator
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sys-process/nvtop 1.0.0 9999: NVIDIA GPUs htop like monitoring tool
 x11-themes/obsidian-icon-theme 4.11-r1 4.12 9999: Obsidian Icon Theme is intuitive Faenza-like icon theme
