@@ -7,7 +7,7 @@ GITHUB_PN="container-toolkit"
 EGO_PN_VCS="github.com/NVIDIA/${GITHUB_PN}"
 EGO_PN="${EGO_PN_VCS}"
 
-inherit golang-build
+inherit golang-build go-module
 
 DESCRIPTION="NVIDIA container runtime toolkit"
 HOMEPAGE="https://github.com/NVIDIA/container-toolkit"
@@ -33,11 +33,12 @@ RDEPEND="
 
 DEPEND="${RDEPEND}"
 
-BDEPEND=""
+BDEPEND="
+	app-arch/unzip
+"
 
 src_compile() {
-	echo "${S}" || die
-	EGO_PN="${EGO_PN_VCS}/pkg" \
+	EGO_PN="${EGO_PN_VCS}" \
 		EGO_BUILD_FLAGS="-o ${T}/${PN}" \
 		golang-build_src_compile
 }
