@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm preinst prepare unpack
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Huawei VPN client software to remotely access enterprise network
+EAPI=7
+HOMEPAGE=https://support.huawei.com/enterprise/en/doc/EDOC1000141431
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RESTRICT=strip test
+SLOT=0
+SRC_URI=amd64? ( https://github.com/h2o8/secoclient/releases/download/7.0.2.26/secoclient-linux-64-7.0.2.26.run )
+_eclasses_=multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	8ee8c1a2f31437d1766aac890d07a7f4	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=6fd5e9f47829982411b9b1e4192c087e
