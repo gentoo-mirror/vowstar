@@ -59,7 +59,7 @@ src_prepare() {
 	rm -rf "${S}/install.sh" || die
 	rm -rf "${S}/uninstall.sh" || die
 	# Set RPATH for fix relative DT_RPATH security problem
-	patchelf --set-rpath '$ORIGIN' "${S}/SecoClient" || die
+	patchelf --set-rpath '$ORIGIN' "${S}/SecoClient" || die "Failed to fix insecure RPATH"
 }
 
 src_install() {
