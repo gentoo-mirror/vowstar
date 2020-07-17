@@ -1,5 +1,7 @@
 app-emulation/libnvidia-container 1.1.1: NVIDIA container runtime library
 app-emulation/nvidia-container-toolkit 1.1.1 1.1.2: NVIDIA container runtime toolkit
+app-pda/libimobiledevice 1.3.0: Support library to communicate with Apple iPhone/iPod Touch devices
+app-pda/libplist 2.2.0: Support library to deal with Apple Property Lists (Binary & XML)
 dev-libs/qhttpengine 1.0.1 1.0.1-r1 9999: HTTP server for Qt applications
 media-video/kikoplay 0.6.1 0.6.2 0.7.0 0.7.1 9999: KikoPlay is a full-featured danmu player
 net-print/hplip-plugin 3.20.6: Proprietary plugins and firmware for HPLIP
