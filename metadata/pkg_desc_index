@@ -12,7 +12,7 @@ sci-electronics/iverilog 10.3 10.3-r1 9999: A Verilog simulation and synthesis t
 sci-electronics/kactus2 3.8.0 9999: A open source IP-XACT-based tool
 sci-electronics/verilator 4.032 4.034 4.036 4.038 9999: The fast free Verilog/SystemVerilog simulator
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
-sys-libs/libnvidia-container 1.1.1: NVIDIA container runtime library
+sys-libs/libnvidia-container 1.1.1 1.2.0: NVIDIA container runtime library
 sys-process/nvtop 1.0.0 9999: NVIDIA GPUs htop like monitoring tool
 x11-themes/obsidian-icon-theme 4.11-r1 4.12 9999: Obsidian Icon Theme is intuitive Faenza-like icon theme
 x11-themes/obsidian2-gtk-theme 2.11-r1 2.12 9999: Obsidian Gnome Theme, based upon Adwaita-Maia dark skin
