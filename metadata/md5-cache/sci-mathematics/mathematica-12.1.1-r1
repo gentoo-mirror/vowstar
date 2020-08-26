@@ -11,4 +11,4 @@ RESTRICT=strip mirror bindist fetch
 SLOT=0
 SRC_URI=Mathematica_12.1.1_LINUX.sh
 _eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	8ee8c1a2f31437d1766aac890d07a7f4	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=8c34b8827585093fd2c9e7c5d7fe3b1b
+_md5_=a31bfdba01e631f3abf23fd5754b7009
