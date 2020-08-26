@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit desktop multilib xdg
+inherit desktop multilib unpacker xdg
 
 DESCRIPTION="Wolfram Mathematica"
 SRC_URI="Mathematica_${PV}_LINUX.sh"
@@ -37,10 +37,8 @@ S=${WORKDIR}
 
 src_prepare() {
 	# fix ACCESS DENIED issue when installer check the avahi-daemon
-	sed -e "s:avahi-daemon -c:true:g" \
-		"${DISTDIR}/${A}" \
-			| SETUP_NOCHECK=1 /bin/sh /dev/stdin \
-			--nox11 --confirm -- -auto "-targetdir=${S}/${M_TARGET}" "-execdir=${S}/opt/bin" || die
+	sed -e "s:avahi-daemon -c:true:g" "${DISTDIR}/${A}" > "${S}/${A}" || die
+	SETUP_NOCHECK=1 /bin/sh "${S}/${A}" --nox11 --confirm -- -auto "-targetdir=${S}/${M_TARGET}" "-execdir=${S}/opt/bin" || die
 }
 
 src_install() {
