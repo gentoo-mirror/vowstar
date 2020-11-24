@@ -12,6 +12,7 @@ gnome-base/gvfs:google - Enables support for accessing Google accounts via dev-l
 gnome-base/gvfs:http - Enable the HTTP/DAV backend using net-libs/libsoup
 gnome-base/gvfs:nfs - Enable NFS client support via net-fs/libnfs.
 gnome-base/gvfs:udev - Enable udev base replacement code for cdda feature
+media-gfx/openscad:ccache - Use dev-util/ccache to speed up rebuilds
 media-libs/libgpod:gtk - Enable ArtworkDB support
 net-wireless/gqrx:gr-audio - Use audio support from net-wireless/gnuradio
 sci-mathematics/cado-nfs:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
