@@ -2,6 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-text/podofo:boost - Add support for boost
+app-text/podofo:tools - Build and install commandline tools.
 gnome-base/gvfs:afp - Enables support for accessing AFP (Apple Filing Protocol) network shares
 gnome-base/gvfs:archive - Enables support for accessing files in archives transparently via app-arch/libarchive
 gnome-base/gvfs:bluray - Enable playback of Blu-ray filesystems using media-libs/libbluray
