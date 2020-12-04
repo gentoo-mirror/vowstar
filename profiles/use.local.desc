@@ -2,6 +2,7 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 app-text/podofo:boost - Add support for boost
 app-text/podofo:tools - Build and install commandline tools.
 gnome-base/gvfs:afp - Enables support for accessing AFP (Apple Filing Protocol) network shares
