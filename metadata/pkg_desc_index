@@ -17,6 +17,6 @@ sci-electronics/verilator 4.032 4.034 4.036 4.038 4.040 4.100 4.102 4.104 9999: 
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sci-mathematics/mathematica 12.1.1-r1: Wolfram Mathematica
 sys-libs/libnvidia-container 1.1.1 1.2.0 1.3.0: NVIDIA container runtime library
-sys-process/nvtop 1.0.0 9999: NVIDIA GPUs htop like monitoring tool
+sys-process/nvtop 1.0.0 1.1.0 9999: NVIDIA GPUs htop like monitoring tool
 x11-themes/obsidian-icon-theme 4.11-r1 4.12 4.13 4.14 9999: Obsidian Icon Theme is intuitive Faenza-like icon theme
 x11-themes/obsidian2-gtk-theme 2.11-r1 2.12 2.13 2.14 2.15 2.16 9999: Obsidian Gnome Theme, based upon Adwaita-Maia dark skin
