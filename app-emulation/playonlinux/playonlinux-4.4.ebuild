@@ -20,9 +20,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="winbind"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-DEPEND=""
 RDEPEND="${PYTHON_DEPS}
-	app-arch/cabextract
 	app-arch/p7zip
 	app-arch/unzip
 	app-crypt/gnupg
@@ -39,6 +37,10 @@ RDEPEND="${PYTHON_DEPS}
 	winbind? ( net-fs/samba[winbind] )
 	x11-apps/mesa-progs
 	x11-terms/xterm
+"
+
+DEPEND="${RDEPEND}
+	app-arch/cabextract
 "
 
 S="${WORKDIR}/${PN}"
