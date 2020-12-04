@@ -17,6 +17,18 @@ gnome-base/gvfs:udev - Enable udev base replacement code for cdda feature
 media-gfx/openscad:ccache - Use dev-util/ccache to speed up rebuilds
 media-libs/libgpod:gtk - Enable ArtworkDB support
 net-wireless/gqrx:gr-audio - Use audio support from net-wireless/gnuradio
+sci-libs/vtk:R - Enable support for dev-lang/R
+sci-libs/vtk:all-modules - Build all modules
+sci-libs/vtk:boost - Add support for boost
+sci-libs/vtk:gdal - Support for gdal formated data
+sci-libs/vtk:imaging - Building Imaging modules
+sci-libs/vtk:json - Support for json formated data
+sci-libs/vtk:offscreen - Offscreen rendering through OSMesa
+sci-libs/vtk:rendering - Building Redering modules
+sci-libs/vtk:tbb - Use dev-cpp/tbb to handle smp support
+sci-libs/vtk:views - Building Views modules
+sci-libs/vtk:web - Install web component
+sci-libs/vtk:xdmf2 - Support for xdmf2 formated data
 sci-mathematics/cado-nfs:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
 sci-mathematics/cado-nfs:hwloc - Displays the hardware topology in convenient formats
 sci-mathematics/cado-nfs:mpi - Whether to use MPI (Message Passing Interface) or not
