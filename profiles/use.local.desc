@@ -38,7 +38,6 @@ media-video/mpv:tools - Install extra tools: mpv_identify.sh, mpv_idet.sh, and u
 media-video/mpv:uchardet - Enable subtitles charset discovery via app-i18n/uchardet
 media-video/mpv:vulkan - Enable support for various Vulkan-based video backends
 media-video/mpv:zimg - Enable libzimg support (for vf_fingerprint)
-net-wireless/gqrx:gr-audio - Use audio support from net-wireless/gnuradio
 sci-libs/vtk:R - Enable support for dev-lang/R
 sci-libs/vtk:all-modules - Build all modules
 sci-libs/vtk:boost - Add support for boost
