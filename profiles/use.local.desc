@@ -5,16 +5,6 @@
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 app-text/podofo:boost - Add support for boost
 app-text/podofo:tools - Build and install commandline tools.
-gnome-base/gvfs:afp - Enables support for accessing AFP (Apple Filing Protocol) network shares
-gnome-base/gvfs:archive - Enables support for accessing files in archives transparently via app-arch/libarchive
-gnome-base/gvfs:bluray - Enable playback of Blu-ray filesystems using media-libs/libbluray
-gnome-base/gvfs:elogind - Use sys-auth/elogind for session tracking.
-gnome-base/gvfs:fuse - Enables fuse mount points in $HOME/.gvfs for legacy application access
-gnome-base/gvfs:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
-gnome-base/gvfs:google - Enables support for accessing Google accounts via dev-libs/libgdata
-gnome-base/gvfs:http - Enable the HTTP/DAV backend using net-libs/libsoup
-gnome-base/gvfs:nfs - Enable NFS client support via net-fs/libnfs.
-gnome-base/gvfs:udev - Enable udev base replacement code for cdda feature
 media-gfx/openscad:ccache - Use dev-util/ccache to speed up rebuilds
 media-libs/libgpod:gtk - Enable ArtworkDB support
 media-video/mpv:archive - Enable support for various archive formats via app-arch/libarchive
