@@ -40,14 +40,17 @@ BDEPEND="
 	sys-devel/flex
 "
 
+PATCHES=(
+	"${FILESDIR}"/${PN}-9999-fix-libdir.patch
+)
+
 DOCS=( "README.md" "COPYING" "LICENSES/*" )
 
 src_prepare() {
 	default
-	find "${S}" -type f -exec sed -i "s:/lib:/$(get_libdir):g" "{}" + || die
 }
 
 src_install() {
-	emake PREFIX="${ED%/}"/usr install
+	emake PREFIX="${ED%/}"/usr LIBDIR="${ED%/}"/usr/$(get_libdir) install
 	einstalldocs
 }
