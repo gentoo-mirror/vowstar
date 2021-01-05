@@ -1,5 +1,5 @@
-BDEPEND=dev-haskell/cabal:0= dev-lang/ghc:0= dev-util/gperf >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install unpack
+BDEPEND=dev-haskell/cabal:0= dev-lang/ghc:0= dev-util/gperf sys-devel/autoconf sys-devel/bison sys-devel/flex >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=unpack
 DEPEND=dev-haskell/old-time:0= dev-haskell/regex-compat:0= dev-haskell/split:0= dev-haskell/syb:0= dev-lang/tcl
 DESCRIPTION=Bluespec High Level Hardware Design Language
 EAPI=7
@@ -8,5 +8,5 @@ LICENSE=BSD GPL-3+ MIT
 PROPERTIES=live
 RDEPEND=dev-haskell/old-time:0= dev-haskell/regex-compat:0= dev-haskell/split:0= dev-haskell/syb:0= dev-lang/tcl
 SLOT=0
-_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=dec2da60a4d4e5e0786a33171eff5796
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=59bc9b02ee212613a8a19e4a22c1bac9
