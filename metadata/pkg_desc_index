@@ -2,7 +2,6 @@ app-emulation/containerd 1.4.3-r1: A daemon to control runC
 app-emulation/nvidia-container-toolkit 1.1.1 1.1.2 1.2.0 1.2.1 1.3.0 1.4.0: NVIDIA container runtime toolkit
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
 dev-libs/qhttpengine 1.0.1 1.0.1-r1 9999: HTTP server for Qt applications
-dev-python/matplotlib 3.3.3-r1: Pure python plotting library with matlab like syntax
 media-gfx/freecad 0.18.5-r3 9999: QT based Computer Aided Design application
 media-video/kikoplay 0.6.1 0.6.2 0.7.0 0.7.1 0.7.2 9999: KikoPlay is a full-featured danmu player
 sci-electronics/bsc 9999: Bluespec high level hardware design language compiler
