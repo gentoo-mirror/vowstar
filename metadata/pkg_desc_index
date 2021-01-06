@@ -4,7 +4,7 @@ app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows 
 dev-libs/qhttpengine 1.0.1 1.0.1-r1 9999: HTTP server for Qt applications
 media-gfx/freecad 0.18.5-r3 9999: QT based Computer Aided Design application
 media-video/kikoplay 0.6.1 0.6.2 0.7.0 0.7.1 0.7.2 9999: KikoPlay is a full-featured danmu player
-sci-electronics/bsc 9999: Bluespec high level hardware design language compiler
+sci-electronics/bsc 0_pre20210106 9999: Bluespec high level hardware design language compiler
 sci-electronics/dsview 1.01 1.10 1.11 1.12 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 10.3-r1 10.3-r2 11.0 9999: A Verilog simulation and synthesis tool
 sci-electronics/kactus2 3.8.0 9999: A open source IP-XACT-based tool
