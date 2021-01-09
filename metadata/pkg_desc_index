@@ -8,6 +8,7 @@ sci-electronics/bsc 0_pre20210106 9999: Bluespec high level hardware design lang
 sci-electronics/dsview 1.01 1.10 1.11 1.12 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 10.3-r1 10.3-r2 11.0 9999: A Verilog simulation and synthesis tool
 sci-electronics/kactus2 3.8.0 9999: A open source IP-XACT-based tool
+sci-electronics/systemc 2.3.4: A C++ based modeling platform for VLSI and system-level co-design
 sci-electronics/verilator 4.032 4.034 4.036 4.038 4.040 4.100 4.102 4.104 4.106 9999: The fast free Verilog/SystemVerilog simulator
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sci-mathematics/mathematica 12.1.1-r1: Wolfram Mathematica
