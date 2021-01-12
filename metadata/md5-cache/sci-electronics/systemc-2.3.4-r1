@@ -1,5 +1,5 @@
 BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
-DEFINED_PHASES=configure install postinst prepare
+DEFINED_PHASES=configure install prepare
 DESCRIPTION=A C++ based modeling platform for VLSI and system-level co-design
 EAPI=7
 HOMEPAGE=https://accellera.org/community/systemc https://github.com/accellera-official/systemc
@@ -11,4 +11,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/accellera-official/systemc/archive/2.3.4_pub_rev_20190614.tar.gz -> systemc-2.3.4.tar.gz
 _eclasses_=autotools	9677fc170e6d375dc41c14871b33d28c	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e
-_md5_=6b8acedcbaa088f1718d2db2b9231e86
+_md5_=afc3b80b639f0b7967be9ddbe01fbb4f
