@@ -7,32 +7,6 @@ app-emulation/containerd:btrfs - Support for BTRFS snapshot driver
 app-emulation/containerd:cri - Support for Kubernetes CRI
 app-emulation/containerd:device-mapper - Support for device mapper snapshot driver
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
-media-gfx/freecad:addonmgr - Build the addon manager module for automatic handling of 3rd party addons
-media-gfx/freecad:arch - Build the architecture workbench for working with architectural elements
-media-gfx/freecad:assembly - Build the assembly module
-media-gfx/freecad:drawing - Build the drawing module and workbench to display 3D work on a 2D sheet
-media-gfx/freecad:fem - Build the FEM module and workbench which provides Finite Element Analysis (FEA) workflows
-media-gfx/freecad:idf - Build the IDF module to provide file exchange capabilities with IDF files
-media-gfx/freecad:image - Build the image module and workbench for working with bitmap images
-media-gfx/freecad:inspection - Build the inspection workbench which gives you specific tools for examination of shapes (experimental)
-media-gfx/freecad:material - Build the material module and workbench to work with materials
-media-gfx/freecad:mesh - Build the mesh module and workbench to work with triangulated meshes
-media-gfx/freecad:netgen - Support sci-mathematics/netgen with the FEM workbench
-media-gfx/freecad:oce - If set, build against the community edition of opencascade, sci-libs/oce. If unset, the package is built against the official version sci-libs/opencascade.
-media-gfx/freecad:openscad - Build the OpenSCAD module for interoperability with OpenSCAD and repairing Constructive Solid Geometry (CSG) history
-media-gfx/freecad:part-design - Build the part design module and workbench for build part shapes from sketches
-media-gfx/freecad:path - Build the path module and workbench to procude G-Code instructions for CNC
-media-gfx/freecad:pcl - Use external sci-libs/pcl for point clouds support.
-media-gfx/freecad:plot - Build the internal plot workbench. NOTE: This conflicts with the external plot workbench, which you can add via the Addon Manager!
-media-gfx/freecad:points - Build the points module and workbench for working with point clouds
-media-gfx/freecad:raytracing - Build the raytracing module and workbench for raytracing and rendering
-media-gfx/freecad:robot - Build the robot module and workbench for studying robot movements
-media-gfx/freecad:ship - Build the ship module and workbench which works over ship entities, that must be created on top of provided geometry. NOTE: This conflicts with the external ship workbench, which you can add via the Addon Manager!
-media-gfx/freecad:show - Build the show module, a helper module for visibility automation
-media-gfx/freecad:spreadsheet - Build the spreadsheet module and workbench to create and manipulate spreadsheet data
-media-gfx/freecad:surface - Build the surface module and workbench
-media-gfx/freecad:techdraw - Build the techdraw module and workbench, a more advanced and feature-rich successor of the drawing workbench
-media-gfx/freecad:tux - Build the Tux module
 sci-mathematics/cado-nfs:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
 sci-mathematics/cado-nfs:hwloc - Displays the hardware topology in convenient formats
 sci-mathematics/cado-nfs:mpi - Whether to use MPI (Message Passing Interface) or not
