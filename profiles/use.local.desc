@@ -7,6 +7,7 @@ app-emulation/containerd:btrfs - Support for BTRFS snapshot driver
 app-emulation/containerd:cri - Support for Kubernetes CRI
 app-emulation/containerd:device-mapper - Support for device mapper snapshot driver
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
+sci-electronics/kicad:github - Add github support into PCB editor
 sci-electronics/kicad:ngspice - Enable circuit simulation
 sci-electronics/kicad:occ - Enable viewing 3D rendering of designs via opencascade
 sci-electronics/kicad:oce - Enable viewing 3D rendering of designs via OCE
