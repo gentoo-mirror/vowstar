@@ -78,12 +78,12 @@ src_unpack() {
 	# Appdata/Metainfo files should be installed into /usr/share/metainfo
 	# directory. as per
 	# https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html
-	mv "${S}/resources/linux/appdata" "${S}/resources/linux/metainfo" || die "Appdata move failed"
+	# mv "${S}/resources/linux/appdata" "${S}/resources/linux/metainfo" || die "Appdata move failed"
 }
 
 src_prepare() {
 	default
-	grep -rl "resources/linux/appdata" "${S}" | xargs sed -i "s@resources/linux/appdata@resources/linux/metainfo@g" || die
+	# grep -rl "resources/linux/appdata" "${S}" | xargs sed -i "s@resources/linux/appdata@resources/linux/metainfo@g" || die
 	cmake_src_prepare
 }
 
