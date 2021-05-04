@@ -1,5 +1,5 @@
 app-emulation/containerd 1.4.3-r1: A daemon to control runC
-app-emulation/nvidia-container-toolkit 1.1.1 1.1.2 1.2.0 1.2.1 1.3.0 1.4.0 1.4.2: NVIDIA container runtime toolkit
+app-emulation/nvidia-container-toolkit 1.1.1 1.1.2 1.2.0 1.2.1 1.3.0 1.4.0 1.4.2 1.5.0: NVIDIA container runtime toolkit
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
 dev-libs/cudnn 8.2.0.53: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/qhttpengine 1.0.1 1.0.1-r1 9999: HTTP server for Qt applications
