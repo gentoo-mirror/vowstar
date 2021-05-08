@@ -47,7 +47,6 @@ DEPEND="
 "
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-1.01-viewport.patch
 	"${FILESDIR}"/${P}-desktop.patch
 	"${FILESDIR}"/${P}-cmake.patch
 	"${FILESDIR}"/${P}-fix-qt.patch
@@ -78,6 +77,13 @@ src_configure() {
 	sh ./configure --libdir=${LIBDIR} --prefix=/usr || die
 	cd "${S}/libsigrokdecode4DSL" || die
 	sh ./configure --libdir=${LIBDIR} --prefix=/usr || die
+}
+
+src_compile() {
+	cd "${S}/libsigrok4DSL" || die
+	emake
+	cd "${S}/libsigrokdecode4DSL" || die
+	emake
 }
 
 src_install() {
