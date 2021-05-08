@@ -10,6 +10,16 @@ app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 dev-libs/cudnn:cuda10-2 - On nVidia CUDA 10.2.
 dev-libs/cudnn:cuda11-1 - On nVidia CUDA 11.1.
 dev-libs/cudnn:cuda11-2 - On nVidia CUDA 11.2.
+net-wireless/uhd:b100 - support B100 hardware
+net-wireless/uhd:b200 - support B200, B210, B200mini, B205mini hardware
+net-wireless/uhd:e300 - support E300, E310 hardware
+net-wireless/uhd:mpmd - support N300, N310 hardware
+net-wireless/uhd:n230 - support N230 harware
+net-wireless/uhd:octoclock - Octoclock Network Support
+net-wireless/uhd:usrp1 - support USRP1 hardware
+net-wireless/uhd:usrp2 - support USRP2, N200, N210 hardware
+net-wireless/uhd:utils - utilities needed to list, query, calibrate, or update FPGA/Firmware
+net-wireless/uhd:x300 - support X300, X310 hardware
 sci-electronics/kicad:github - Add github support into PCB editor
 sci-electronics/kicad:ngspice - Enable circuit simulation
 sci-electronics/kicad:occ - Enable viewing 3D rendering of designs via opencascade

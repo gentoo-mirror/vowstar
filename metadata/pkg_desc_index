@@ -5,6 +5,7 @@ dev-libs/cudnn 8.2.0.53: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/qhttpengine 1.0.1 1.0.1-r1 9999: HTTP server for Qt applications
 media-gfx/sane-backends 1.0.31: Scanner Access Now Easy - Backends
 media-video/kikoplay 0.7.2 0.8.0 9999: KikoPlay is a full-featured danmu player
+net-wireless/uhd 4.0.0.0: Universal Software Radio Peripheral (USRP) Hardware Driver
 sci-electronics/bsc 0_pre20210106 0_pre20210124 9999: Bluespec high level hardware design language compiler
 sci-electronics/dsview 1.01 1.10 1.11 1.12 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 10.3-r1 10.3-r2 11.0 9999: A Verilog simulation and synthesis tool
