@@ -1,16 +1,16 @@
 BDEPEND=virtual/pkgconfig
 DEFINED_PHASES=install prepare setup
-DEPEND=python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?]
+DEPEND=python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
 DESCRIPTION=Fix Intel CPU Throttling on Linux
 EAPI=7
 HOMEPAGE=https://github.com/erpalma/throttled
 INHERIT=python-r1 linux-info systemd
-IUSE=python_targets_python3_8 python_targets_python3_9 kernel_linux
+IUSE=python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 kernel_linux
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?] dev-python/dbus-python[python_targets_python3_8(-)?,python_targets_python3_9(-)?] dev-python/pygobject[python_targets_python3_8(-)?,python_targets_python3_9(-)?]
-REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 )
+RDEPEND=python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/dbus-python[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pygobject[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
+REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
 SLOT=0
 SRC_URI=https://github.com/erpalma/throttled/archive/v0.8.tar.gz
 _eclasses_=multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	2f5967e7ced9abfa71ff7b0ea8d61b3a	python-r1	e20b80360497e6215aed0dd4ca7d6bad	linux-info	7e8ed4c6a1d136fb291c52386f996c2c	systemd	c846b9e02ac8293bfc9ca38a195c2a18
-_md5_=b33b4bf9915784c52b6d23ac685369b3
+_md5_=4cb3ca4fc3f03c910b6b46df796e994d
