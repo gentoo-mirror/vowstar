@@ -1,5 +1,5 @@
 BDEPEND=virtual/pkgconfig
-DEFINED_PHASES=install postinst postrm unpack
+DEFINED_PHASES=compile configure install postinst postrm prepare unpack
 DEPEND=sci-mathematics/octave
 DESCRIPTION=Signal processing tools, including filtering, windowing and display functions.
 EAPI=7
@@ -7,6 +7,7 @@ HOMEPAGE=https://octave.sourceforge.io/octave-signal
 KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
 LICENSE=GPL-3
 RDEPEND=sci-mathematics/octave
+RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/signal-1.4.1.tar.gz -> octave-signal-1.4.1.tar.gz
-_md5_=031572e41e48e27106960cddeb21151a
+_md5_=f0ce43cd2c61446e19f55aba942c4ba8
