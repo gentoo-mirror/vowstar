@@ -4,7 +4,7 @@
 EAPI=7
 
 DESCRIPTION="Signal processing tools, including filtering, windowing and display functions."
-HOMEPAGE="https://octave.sourceforge.io/${PN}"
+HOMEPAGE="https://octave.sourceforge.io/signal"
 SRC_URI="https://downloads.sourceforge.net/octave/${P/octave-/}.tar.gz -> ${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
@@ -22,7 +22,7 @@ src_install() {
 	local ARCH_PREFIX="${D}/usr/$(get_libdir)/octave/packages"
 
 	octave --no-history --no-init-file --no-site-file --no-window-system -q -f \
-		--eval "warning('off','all');\
+		--eval "warning off all;\
 		pkg prefix ${INST_PREFIX} ${ARCH_PREFIX};\
 		pkg local_list octave_packages;\
 		pkg global_list octave_packages;\
@@ -30,13 +30,15 @@ src_install() {
 }
 
 pkg_postinst() {
-	einfo "Update Octave internal packages cache"
+	einfo "Updating Octave internal packages cache..."
 	octave --no-history --no-init-file --no-site-file --no-window-system -q -f \
-		--eval "pkg('rebuild');" || die
+		--eval "pkg rebuild;" || die
+	elog "Please append 'pkg load ${PN/octave-/}' to ~/.octaverc"
 }
 
 pkg_postrm() {
-	einfo "Update Octave internal packages cache"
+	einfo "Updating Octave internal packages cache..."
 	octave --no-history --no-init-file --no-site-file --no-window-system -q -f \
-		--evall "pkg('rebuild');" || die
+		--eval "pkg rebuild;" || die
+	elog "Please remove 'pkg load ${PN/octave-/}' to ~/.octaverc"
 }
