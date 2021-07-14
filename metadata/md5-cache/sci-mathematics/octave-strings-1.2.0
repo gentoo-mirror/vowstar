@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm
+DEPEND=sci-mathematics/octave
+DESCRIPTION=Additional functions for manipulation and analysis of strings
+EAPI=7
+HOMEPAGE=https://octave.sourceforge.io/strings
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-mathematics/octave
+RESTRICT=test
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/octave/strings-1.2.0.tar.gz -> octave-strings-1.2.0.tar.gz
+_md5_=814608ed3e8976f2a344b89c2d7c9776

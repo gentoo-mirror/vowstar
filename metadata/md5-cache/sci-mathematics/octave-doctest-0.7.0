@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm
+DEPEND=sci-mathematics/octave
+DESCRIPTION=Find and run example code within documentation
+EAPI=7
+HOMEPAGE=https://octave.sourceforge.io/doctest
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-mathematics/octave
+RESTRICT=test
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/octave/doctest-0.7.0.tar.gz -> octave-doctest-0.7.0.tar.gz
+_md5_=51ba8bed3263c41911ea03381b4311e5

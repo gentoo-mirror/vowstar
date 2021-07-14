@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm
+DEPEND=sci-mathematics/octave
+DESCRIPTION=A wrapper for OpenCV's CvCapture_FFMPEG and CvVideoWriter_FFMPEG
+EAPI=7
+HOMEPAGE=https://octave.sourceforge.io/video
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-mathematics/octave
+RESTRICT=test
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/octave/video-2.0.0.tar.gz -> octave-video-2.0.0.tar.gz
+_md5_=67c3cb411b21724e68b2f5c1968295d0

@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm
+DEPEND=sci-mathematics/octave
+DESCRIPTION=Create and manage triangular and tetrahedral meshes for Finite Element or Finite Volume PDE solvers
+EAPI=7
+HOMEPAGE=https://octave.sourceforge.io/msh
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-mathematics/octave
+RESTRICT=test
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/octave/msh-1.0.10.tar.gz -> octave-msh-1.0.10.tar.gz
+_md5_=d24ece30f068bf345a959fc88f1592af

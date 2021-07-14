@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm
+DEPEND=sci-mathematics/octave
+DESCRIPTION=Routines for calculating the time-evolution of the level-set equation and extracting geometric information from the level-set function
+EAPI=7
+HOMEPAGE=https://octave.sourceforge.io/level-set
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-mathematics/octave
+RESTRICT=test
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/octave/level-set-0.3.0.tar.gz -> octave-level-set-0.3.0.tar.gz
+_md5_=82df522e333b29497f322f559a6201cb

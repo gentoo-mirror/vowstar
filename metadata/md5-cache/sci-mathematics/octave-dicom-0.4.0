@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm
+DEPEND=sci-mathematics/octave
+DESCRIPTION=Digital communications in medicine (DICOM) file io
+EAPI=7
+HOMEPAGE=https://octave.sourceforge.io/dicom
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-mathematics/octave
+RESTRICT=test
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/octave/dicom-0.4.0.tar.gz -> octave-dicom-0.4.0.tar.gz
+_md5_=2d09c4756bfd6f71901d3722064be7a2

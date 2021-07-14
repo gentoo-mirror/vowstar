@@ -24,7 +24,77 @@ sci-electronics/systemc 2.3.4-r1: A C++ based modeling platform for VLSI and sys
 sci-electronics/verilator 4.032 4.034 4.036 4.038 4.040 4.100 4.102 4.104 4.106 4.108 4.110 4.200 4.202 4.204 4.210 9999: The fast free Verilog/SystemVerilog simulator
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sci-mathematics/mathematica 12.1.1-r1 12.2.0: Wolfram Mathematica
-sci-mathematics/octave-signal 1.4.1: Signal processing tools, including filtering, windowing and display functions.
+sci-mathematics/octave-arduino 0.7.0: Basic Octave implementation of the matlab arduino extension, allowing communication to a programmed arduino board to control its hardware
+sci-mathematics/octave-audio 2.0.2: Audio and MIDI Toolbox for GNU Octave
+sci-mathematics/octave-bim 1.1.5: Package for solving Diffusion Advection Reaction (DAR) Partial Differential Equations
+sci-mathematics/octave-bsltl 1.3.1: The BSLTL package is a free collection of OCTAVE/MATLAB routines for working with the biospeckle laser technique
+sci-mathematics/octave-cgi 0.1.2: Common Gateway Interface for Octave
+sci-mathematics/octave-communications 1.2.3: Digital Communications, Error Correcting Codes (Channel Code), Source Code functions, Modulation and Galois Fields
+sci-mathematics/octave-control 3.3.1: Computer-Aided Control System Design (CACSD) Tools for GNU Octave, based on the proven SLICOT Library
+sci-mathematics/octave-data-smoothing 1.3.0: Algorithms for smoothing noisy data
+sci-mathematics/octave-database 2.4.4: Interface to SQL databases, currently only postgresql using libpq
+sci-mathematics/octave-dataframe 1.2.0: Data manipulation toolbox similar to R data.frame
+sci-mathematics/octave-dicom 0.4.0: Digital communications in medicine (DICOM) file io
+sci-mathematics/octave-divand 1.1.2: divand performs an n-dimensional variational analysis (interpolation) of arbitrarily located observations
+sci-mathematics/octave-doctest 0.7.0: Find and run example code within documentation
+sci-mathematics/octave-econometrics 1.1.2: Econometrics functions including MLE and GMM based techniques
+sci-mathematics/octave-fem-fenics 0.0.5: pkg for the resolution of partial differential equations based on fenics
+sci-mathematics/octave-financial 0.5.3: Monte Carlo simulation, options pricing routines, financial manipulation, plotting functions and additional date manipulation tools
+sci-mathematics/octave-fits 1.0.7: The Octave-FITS package provides functions for reading, and writing FITS (Flexible Image Transport System) files
+sci-mathematics/octave-fpl 1.3.5: Collection of routines to export data produced by Finite Elements or Finite Volume Simulations in formats used by some visualization programs
+sci-mathematics/octave-fuzzy-logic-toolkit 0.4.6: A mostly MATLAB-compatible fuzzy logic toolkit for Octave
+sci-mathematics/octave-ga 0.10.2: Genetic optimization code
+sci-mathematics/octave-general 2.1.1: General tools for Octave
+sci-mathematics/octave-generate_html 0.3.2: This package provides functions for generating HTML pages that contain the help texts for a set of functions
+sci-mathematics/octave-geometry 4.0.0: Library for extending MatGeom functionality
+sci-mathematics/octave-gsl 2.1.1: Octave bindings to the GNU Scientific Library
+sci-mathematics/octave-image 2.12.0: The Octave-forge Image package provides functions for processing images
+sci-mathematics/octave-image-acquisition 0.2.2: The Octave-forge Image Aquisition package provides functions to capture images from connected devices
+sci-mathematics/octave-instrument-control 0.7.0: Low level I/O functions for serial, i2c, spi, parallel, tcp, gpib, vxi11, udp and usbtmc interfaces
+sci-mathematics/octave-interval 3.2.0: The interval package for real-valued interval arithmetic allows one to evaluate functions over subsets of their domain
+sci-mathematics/octave-io 2.6.3: Input/Output in external formats
+sci-mathematics/octave-level-set 0.3.0: Routines for calculating the time-evolution of the level-set equation and extracting geometric information from the level-set function
+sci-mathematics/octave-linear-algebra 2.2.3: Additional linear algebra code, including matrix functions
+sci-mathematics/octave-lssa 0.1.4: A package implementing tools to compute spectral decompositions of irregularly-spaced time series
+sci-mathematics/octave-ltfat 2.3.1: The Large Time/Frequency Analysis Toolbox (LTFAT) is a Matlab/Octave toolbox for working with time-frequency analysis, wavelets and signal processing
+sci-mathematics/octave-mapping 1.4.1: Simple mapping and GIS .shp .dxf and raster file functions
+sci-mathematics/octave-matgeom 1.2.3: Geometry toolbox for 2D/3D geometric computing
+sci-mathematics/octave-miscellaneous 1.3.0: Miscellaneous tools that don't fit somewhere else
+sci-mathematics/octave-msh 1.0.10: Create and manage triangular and tetrahedral meshes for Finite Element or Finite Volume PDE solvers
+sci-mathematics/octave-mvn 1.1.0: Multivariate normal distribution clustering and utility functions
+sci-mathematics/octave-nan 3.5.3: A statistics and machine learning toolbox for data with and w/o missing values
+sci-mathematics/octave-ncarray 1.0.4: Access a single or a collection of NetCDF files as a multi-dimensional array
+sci-mathematics/octave-netcdf 1.0.14: A NetCDF interface for Octave
+sci-mathematics/octave-nurbs 1.4.3: Collection of routines for the creation, and manipulation of Non-Uniform Rational B-Splines (NURBS), based on the NURBS toolbox by Mark Spink
+sci-mathematics/octave-ocl 1.1.1: Package using OpenCL for parallelization, mostly suitable to Single-Instruction-Multiple-Data (SIMD) computations, selectively using available OpenCL hardware and drivers
+sci-mathematics/octave-ocs 0.1.5: Package for solving DC and transient electrical circuit equations
+sci-mathematics/octave-octclip 2.0.1: This package allows to do boolean operations with polygons using the Greiner-Hormann algorithm
+sci-mathematics/octave-octproj 2.0.1: This package allows to call functions of PROJ library for cartographic projections and CRS transformations
+sci-mathematics/octave-optics 0.1.4: Functions covering various aspects of optics
+sci-mathematics/octave-optim 1.6.1: Non-linear optimization toolkit
+sci-mathematics/octave-optiminterp 0.3.6: An optimal interpolation toolbox for octave
+sci-mathematics/octave-parallel 4.0.1: Parallel execution package
+sci-mathematics/octave-quaternion 2.4.0: Quaternion package for GNU Octave, includes a quaternion class with overloaded operators
+sci-mathematics/octave-queueing 1.2.7: The queueing package provides functions for queueing networks and Markov chains analysis
+sci-mathematics/octave-secs1d 0.0.9: A Drift-Diffusion simulator for 1d semiconductor devices
+sci-mathematics/octave-secs2d 0.0.8: A Drift-Diffusion simulator for 2d semiconductor devices
+sci-mathematics/octave-secs3d 0.0.1: A Drift-Diffusion simulator for 3d semiconductor devices
+sci-mathematics/octave-signal 1.4.1: Signal processing tools, including filtering, windowing and display functions
+sci-mathematics/octave-sockets 1.2.1: Socket functions for networking from within octave
+sci-mathematics/octave-sparsersb 1.0.8: Interface to the librsb package implementing the RSB sparse matrix format for fast shared-memory sparse matrix computations
+sci-mathematics/octave-splines 1.3.4: Additional spline functions
+sci-mathematics/octave-statistics 1.4.2: Additional statistics functions for Octave
+sci-mathematics/octave-stk 2.6.1: The STK is a (not so) Small Toolbox for Kriging
+sci-mathematics/octave-strings 1.2.0: Additional functions for manipulation and analysis of strings
+sci-mathematics/octave-struct 1.0.17: Additional structure manipulation functions
+sci-mathematics/octave-symbolic 2.9.0: Adds symbolic calculation features to GNU Octave
+sci-mathematics/octave-tisean 0.2.3: Port of TISEAN 3.0.1
+sci-mathematics/octave-tsa 4.6.2: Stochastic concepts and maximum entropy methods for time series analysis
+sci-mathematics/octave-vibes 0.2.0: The VIBes API allows one to easily display results (boxes, pavings) from interval methods
+sci-mathematics/octave-video 2.0.0: A wrapper for OpenCV's CvCapture_FFMPEG and CvVideoWriter_FFMPEG
+sci-mathematics/octave-vrml 1.0.13: 3D graphics using VRML
+sci-mathematics/octave-windows 1.6.1: Provides COM interface and additional functionality on Windows
+sci-mathematics/octave-zeromq 1.5.2: ZeroMQ bindings for GNU Octave
 sys-auth/fprintd-clients 1.90.1: D-Bus clients to access fingerprint readers
 sys-auth/open-fprintd 0.6: D-Bus clients to access fingerprint readers
 sys-libs/libnvidia-container 1.1.1 1.2.0 1.3.0 1.3.1 1.3.3 1.4.0: NVIDIA container runtime library
