@@ -9,6 +9,7 @@ media-gfx/oda-file-converter 22.5.0.0-r1: For converting between different versi
 media-gfx/sane-backends 1.0.31: Scanner Access Now Easy - Backends
 media-video/kikoplay 0.7.2 0.8.0 0.8.1 9999: KikoPlay is a full-featured danmu player
 media-video/uxplay 0_pre20210525: AirPlay Unix mirroring server
+net-im/dingtalk 0.9.0.172: dingtalk
 net-wireless/uhd 4.0.0.0: Universal Software Radio Peripheral (USRP) Hardware Driver
 sci-electronics/bsc 0_pre20210106 0_pre20210124 9999: Bluespec high level hardware design language compiler
 sci-electronics/dsview 1.12-r1 9999: An open source multi-function instrument
