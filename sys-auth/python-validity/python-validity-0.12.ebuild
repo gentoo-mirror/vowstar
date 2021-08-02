@@ -5,7 +5,7 @@ EAPI=7
 
 PYTHON_COMPAT=( python3_{7..10} pypy )
 
-inherit distutils-r1 systemd
+inherit distutils-r1 systemd udev
 
 DESCRIPTION="Validity fingerprint sensor prototype"
 HOMEPAGE="https://github.com/uunicorn/python-validity"
@@ -41,5 +41,5 @@ python_install_all() {
 
 pkg_postinst() {
 	elog "Sample configurations are available at:"
-	elog "http://mmonit.com/monit/documentation/"
+	elog "https://github.com/uunicorn/python-validity"
 }
