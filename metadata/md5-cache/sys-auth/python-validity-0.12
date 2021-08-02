@@ -1,10 +1,10 @@
-BDEPEND=python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] virtual/pkgconfig
+BDEPEND=python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] virtual/pkgconfig virtual/pkgconfig
 DEFINED_PHASES=compile configure install postinst prepare test
 DEPEND=app-arch/innoextract dev-python/cryptography[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/dbus-python[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pygobject[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pyusb[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pyyaml[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] sys-auth/fprintd-clients sys-auth/open-fprintd
 DESCRIPTION=Validity fingerprint sensor prototype
 EAPI=7
 HOMEPAGE=https://github.com/uunicorn/python-validity
-INHERIT=distutils-r1 systemd
+INHERIT=distutils-r1 systemd udev
 IUSE=systemd python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
@@ -12,5 +12,5 @@ RDEPEND=app-arch/innoextract dev-python/cryptography[python_targets_python3_8(-)
 REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
 SLOT=0
 SRC_URI=https://github.com/uunicorn/python-validity/archive/refs/tags/0.12.tar.gz -> python-validity-0.12.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	2f5967e7ced9abfa71ff7b0ea8d61b3a	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	943c17c3afd0f811ad36a0b5c8dedba9	systemd	c846b9e02ac8293bfc9ca38a195c2a18
-_md5_=f3a2943d963a1cbf9a6cf9b31b392c90
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	2f5967e7ced9abfa71ff7b0ea8d61b3a	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	943c17c3afd0f811ad36a0b5c8dedba9	systemd	c846b9e02ac8293bfc9ca38a195c2a18	udev	26207b5d4f4708920b9fcb7302d94068
+_md5_=1ef8c0ad7b34fabb386a6983c95a277b
