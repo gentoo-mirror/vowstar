@@ -37,9 +37,14 @@ python_install_all() {
 	distutils-r1_python_install_all
 	systemd_dounit "${S}"/debian/python3-validity.service
 	udev_newrules "${S}"/debian/python3-validity.udev 60-python-validity.rules
+	insinto /etc/python-validity
+	doins "${S}"/etc/python-validity/dbus-service.yaml
 }
 
 pkg_postinst() {
 	elog "Sample configurations are available at:"
 	elog "https://github.com/uunicorn/python-validity"
+	elog "To enable this service:"
+	elog "systemctl enable python3-validity"
+	elog "systemctl start python3-validity"
 }
