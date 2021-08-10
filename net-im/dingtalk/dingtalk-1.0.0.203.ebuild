@@ -16,18 +16,7 @@ SLOT="0"
 RESTRICT="strip mirror bindist fetch"
 
 RDEPEND="
-	dev-libs/libsodium
-	dev-libs/libunistring
-	dev-libs/openssl
-	dev-qt/qtcore:5
-	dev-qt/qtdbus:5
-	dev-qt/qtgui:5
-	dev-qt/qtmultimedia:5
-	dev-qt/qtnetwork:5
-	dev-qt/qtwidgets:5
-	media-libs/libjpeg-turbo
-	media-libs/libpng
-	net-libs/libssh2
+	dev-libs/libthai
 	net-nds/openldap
 	sys-libs/glibc
 	sys-libs/zlib
@@ -52,21 +41,6 @@ src_install() {
 	version=$(cat opt/apps/com.alibabainc.dingtalk/files/version)
 	# Use system stdc++
 	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libstdc++* || die
-	# Use system libsodium
-	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libsodium* || die
-	# Use system libunistring
-	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libunistring* || die
-	# Use system openssl
-	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libcrypto* || die
-	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libssl* || die
-	# Use system QT5
-	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libQt5* || die
-	# Use system libjpeg-turbo
-	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libjpeg* || die
-	# Use system libpng
-	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libpng* || die
-	# Use system libssh2
-	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libssh2* || die
 	# Use system glibc
 	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libm.so* || die
 	# Use system zlib
@@ -85,7 +59,7 @@ src_install() {
 	# Fix fcitx5
 	sed -i "s/export XMODIFIERS/#export XMODIFIERS/g" opt/apps/com.alibabainc.dingtalk/files/Elevator.sh || die
 	sed -i "s/export QT_IM_MODULE/#export QT_IM_MODULE/g" opt/apps/com.alibabainc.dingtalk/files/Elevator.sh || die
-	sed -i "s/export QT_QPA_PLATFORM/#export QT_QPA_PLATFORM/g" opt/apps/com.alibabainc.dingtalk/files/Elevator.sh || die
+
 	mkdir -p usr/share/applications || die
 	cp opt/apps/com.alibabainc.dingtalk/entries/applications/com.alibabainc.dingtalk.desktop usr/share/applications/ || die
 }
