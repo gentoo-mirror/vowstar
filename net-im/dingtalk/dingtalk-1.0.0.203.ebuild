@@ -31,7 +31,6 @@ RDEPEND="
 	net-nds/openldap
 	sys-libs/glibc
 	sys-libs/zlib
-	x11-libs/pango
 "
 
 BDEPEND="dev-util/patchelf"
@@ -72,8 +71,7 @@ src_install() {
 	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libm.so* || die
 	# Use system zlib
 	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libz* || die
-	# Use system pango
-	rm opt/apps/com.alibabainc.dingtalk/files/${version}/libpango* || die
+
 	# Set RPATH for preserve-libs handling
 	pushd "opt/apps/com.alibabainc.dingtalk/files/${version}/" || die
 	local x
