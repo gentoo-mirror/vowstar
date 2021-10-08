@@ -65,7 +65,7 @@ sci-mathematics/octave-matgeom 1.2.3: Geometry toolbox for 2D/3D geometric compu
 sci-mathematics/octave-miscellaneous 1.3.0: Miscellaneous tools that don't fit somewhere else
 sci-mathematics/octave-msh 1.0.10: Create and manage triangular and tetrahedral meshes for Finite Element or Finite Volume PDE solvers
 sci-mathematics/octave-mvn 1.1.0: Multivariate normal distribution clustering and utility functions
-sci-mathematics/octave-nan 3.5.3: A statistics and machine learning toolbox for data with and w/o missing values
+sci-mathematics/octave-nan 3.6.0: A statistics and machine learning toolbox for data with and w/o missing values
 sci-mathematics/octave-ncarray 1.0.4: Access a single or a collection of NetCDF files as a multi-dimensional array
 sci-mathematics/octave-netcdf 1.0.14: A NetCDF interface for Octave
 sci-mathematics/octave-nurbs 1.4.3: Collection of routines for the creation, and manipulation of Non-Uniform Rational B-Splines (NURBS), based on the NURBS toolbox by Mark Spink
@@ -84,7 +84,7 @@ sci-mathematics/octave-secs2d 0.0.8: A Drift-Diffusion simulator for 2d semicond
 sci-mathematics/octave-secs3d 0.0.1: A Drift-Diffusion simulator for 3d semiconductor devices
 sci-mathematics/octave-signal 1.4.1: Signal processing tools, including filtering, windowing and display functions
 sci-mathematics/octave-sockets 1.2.1: Socket functions for networking from within octave
-sci-mathematics/octave-sparsersb 1.0.8: Interface to the librsb package implementing the RSB sparse matrix format for fast shared-memory sparse matrix computations
+sci-mathematics/octave-sparsersb 1.0.9: Interface to the librsb package implementing the RSB sparse matrix format for fast shared-memory sparse matrix computations
 sci-mathematics/octave-splines 1.3.4: Additional spline functions
 sci-mathematics/octave-statistics 1.4.2: Additional statistics functions for Octave
 sci-mathematics/octave-stk 2.6.1: The STK is a (not so) Small Toolbox for Kriging
@@ -92,12 +92,12 @@ sci-mathematics/octave-strings 1.2.0: Additional functions for manipulation and 
 sci-mathematics/octave-struct 1.0.17: Additional structure manipulation functions
 sci-mathematics/octave-symbolic 2.9.0: Adds symbolic calculation features to GNU Octave
 sci-mathematics/octave-tisean 0.2.3: Port of TISEAN 3.0.1
-sci-mathematics/octave-tsa 4.6.2: Stochastic concepts and maximum entropy methods for time series analysis
+sci-mathematics/octave-tsa 4.6.3: Stochastic concepts and maximum entropy methods for time series analysis
 sci-mathematics/octave-vibes 0.2.0: The VIBes API allows one to easily display results (boxes, pavings) from interval methods
 sci-mathematics/octave-video 2.0.0: A wrapper for OpenCV's CvCapture_FFMPEG and CvVideoWriter_FFMPEG
 sci-mathematics/octave-vrml 1.0.13: 3D graphics using VRML
 sci-mathematics/octave-windows 1.6.1: Provides COM interface and additional functionality on Windows
-sci-mathematics/octave-zeromq 1.5.2: ZeroMQ bindings for GNU Octave
+sci-mathematics/octave-zeromq 1.5.3: ZeroMQ bindings for GNU Octave
 sys-auth/fprintd-clients 1.90.1: D-Bus clients to access fingerprint readers
 sys-auth/open-fprintd 0.6: D-Bus clients to access fingerprint readers
 sys-auth/python-validity 0.12: Validity fingerprint sensor prototype
