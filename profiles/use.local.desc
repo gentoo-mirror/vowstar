@@ -15,6 +15,7 @@ dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (ns
 dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof) and the related libraries
 dev-util/nvidia-cuda-toolkit:sanitizer - Install compute-sanitizer tool
 dev-util/nvidia-cuda-toolkit:vis-profiler - Install the NVIDIA CUDA visual profiler (nvvp)
+media-video/uxplay:zoomfix - supported mirrored window for screen-sharing applications such as Zoom
 net-wireless/uhd:b100 - support B100 hardware
 net-wireless/uhd:b200 - support B200, B210, B200mini, B205mini hardware
 net-wireless/uhd:e300 - support E300, E310 hardware
