@@ -12,7 +12,7 @@ media-gfx/sane-backends 1.0.31: Scanner Access Now Easy - Backends
 media-libs/codec2 1.0.1-r1: Low bit rate speech codec
 media-video/kikoplay 0.7.2 0.8.0 0.8.1 9999: KikoPlay is a full-featured danmu player
 media-video/uxplay 1.38: AirPlay Unix mirroring server
-net-im/dingtalk 1.0.0.203: dingtalk
+net-im/dingtalk 1.0.0.294: dingtalk
 sci-electronics/bsc 0_pre20210106 0_pre20210124 9999: Bluespec high level hardware design language compiler
 sci-electronics/dsview 1.12-r1 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 10.3-r1 10.3-r2 11.0 9999: A Verilog simulation and synthesis tool
