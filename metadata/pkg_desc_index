@@ -10,6 +10,7 @@ dev-util/nvidia-cuda-toolkit 11.4.0: NVIDIA CUDA Toolkit (compiler and friends)
 media-gfx/oda-file-converter 22.5.0.0-r1: For converting between different versions of .dwg and .dxf
 media-gfx/sane-backends 1.0.31: Scanner Access Now Easy - Backends
 media-libs/codec2 1.0.1-r1: Low bit rate speech codec
+media-video/davinci-resolve-studio 17.4: Professional A/V post-production software suite
 media-video/kikoplay 0.7.2 0.8.0 0.8.1 9999: KikoPlay is a full-featured danmu player
 media-video/uxplay 1.38: AirPlay Unix mirroring server
 net-im/dingtalk 1.0.0.294: dingtalk
