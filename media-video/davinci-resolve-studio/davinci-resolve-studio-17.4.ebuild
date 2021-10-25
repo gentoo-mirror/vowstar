@@ -91,12 +91,19 @@ src_install() {
 	# Use portage manage packages so remove installers
 	rm -rf installer installer* AppRun AppRun* || die
 
+	# Fix permission to all files
+	chmod 0644 -R "${D}/opt/${PKG_NAME}/" || die
+
 	local x
 	for x in $(find) ; do
+		# Fix permission to separate directory
+		[[ -d ${x} ]] || continue
+		chmod 0755 "${x}" || die "failed set permission on ${x}"
+	done
+	for x in $(find) ; do
 		# Fix permission to separate ELF executables and libraries
-		[[ -d ${x} ]] && chmod 0755 "${x}" || die "failed set permission on ${x}"
-		#[[ -f ${x} ]] && chmod 0644 "${x}" || die "failed set permission on ${x}"
-		[[ -f ${x} && $(od -t x1 -N 4 "${x}") == *"7f 45 4c 46"* ]] && chmod 755 "${x}" || die "failed set permission on ${x}"
+		[[ -f ${x} && $(od -t x1 -N 4 "${x}") == *"7f 45 4c 46"* ]] || continue
+		chmod 0755 "${x}" || die "failed set permission on ${x}"
 	done
 	for x in $(find -type f -size -32M) ; do
 		# Use \x7fELF header to separate ELF executables and libraries
@@ -104,7 +111,6 @@ src_install() {
 		patchelf --set-rpath '$ORIGIN' "${x}" || \
 			die "patchelf failed on ${x}"
 	done
-
 	for x in $(find -type f -name *.desktop -o -name *.directory -o -name *.menu) ; do
 		[[ -f ${x} ]] || continue
 		sed -i "s|RESOLVE_INSTALL_LOCATION|/opt/${PKG_NAME}|g" ${x} || die
