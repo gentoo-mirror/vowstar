@@ -13,7 +13,7 @@ else
 fi
 ARC_NAME="${BASE_NAME}.zip"
 
-inherit xdg
+inherit udev xdg
 
 DESCRIPTION="Professional A/V post-production software suite"
 HOMEPAGE="
@@ -51,7 +51,11 @@ DEPEND="
 	${RDEPEND}
 "
 
+BDEPEND="dev-util/patchelf"
+
 S="${WORKDIR}"
+
+QA_PREBUILT="*"
 
 pkg_nofetch() {
 	einfo "Please download"
@@ -71,6 +75,7 @@ src_install() {
 	# xorriso -osirrox on -indev "${BASE_NAME}".run -extract / "${BASE_NAME}" || die
 	chmod u+x ./"${BASE_NAME}".run || die
 	./"${BASE_NAME}".run --appimage-extract || die
+	cp -rf squashfs-root/* "${D}/opt/${PKG_NAME}" || die
 	#./"${BASE_NAME}".run -i -y -n -a -C "${D}"/opt/resolve || die
 
 	find "${D}"/usr/share "${D}"/etc -type f -name *.desktop -o -name *.directory -o -name *.menu | xargs -I {} sed -i "s|RESOLVE_INSTALL_LOCATION|/opt/${PKG_NAME}|g" {} || die
@@ -83,6 +88,17 @@ src_install() {
 
 	# Install launchers and configs
 	pushd "${D}/opt/${PKG_NAME}/" || die
+
+	# Use portage manage packages so remove installers
+	rm -rf installer installer* AppRun AppRun* || die
+
+	local x
+	for x in $(find) ; do
+		# Use \x7fELF header to separate ELF executables and libraries
+		[[ -f ${x} && $(od -t x1 -N 4 "${x}") == *"7f 45 4c 46"* ]] || continue
+		patchelf --set-rpath '$ORIGIN' "${x}" || \
+			die "patchelf failed on ${x}"
+	done
 
 	dodir "/opt/${PKG_NAME}/configs"
 	insinto "/opt/${PKG_NAME}/configs"
