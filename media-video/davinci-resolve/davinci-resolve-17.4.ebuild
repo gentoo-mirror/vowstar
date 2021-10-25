@@ -19,7 +19,7 @@ DESCRIPTION="Professional A/V post-production software suite"
 HOMEPAGE="
 	https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion
 "
-SRC_URI="DaVinci_Resolve_Studio_17.4_Linux.zip"
+SRC_URI="${ARC_NAME}"
 
 LICENSE="all-rights-reserved"
 KEYWORDS="-* ~amd64"
@@ -75,11 +75,11 @@ src_install() {
 	chmod u+x ./"${BASE_NAME}".run || die
 	./"${BASE_NAME}".run --appimage-extract || die
 	cp -rf squashfs-root/* "${D}/opt/${PKG_NAME}" || die
-	pushd squashfs-root/share/panels || die
-	tar -zxvf dvpanel-framework-linux-x86_64.tgz || die
-	mv *.so "${D}/opt/${PKG_NAME}/libs" || die
-	mv lib/* "${D}/opt/${PKG_NAME}/libs" || die
-	popd || die
+	# pushd squashfs-root/share/panels || die
+	# tar -zxvf dvpanel-framework-linux-x86_64.tgz || die
+	# mv *.so "${D}/opt/${PKG_NAME}/libs" || die
+	# mv lib/* "${D}/opt/${PKG_NAME}/libs" || die
+	# popd || die
 	#./"${BASE_NAME}".run -i -y -n -a -C "${D}"/opt/resolve || die
 
 	#find "${D}"/usr/share "${D}"/etc -type f -name *.desktop -o -name *.directory -o -name *.menu | xargs -I {} sed -i "s|RESOLVE_INSTALL_LOCATION|/opt/${PKG_NAME}|g" {} || die
@@ -109,12 +109,12 @@ src_install() {
 		[[ -f ${x} && $(od -t x1 -N 4 "${x}") == *"7f 45 4c 46"* ]] || continue
 		chmod 0755 "${x}" || die "failed set permission on ${x}"
 	done
-	# for x in $(find -type f -size -32M) ; do
-	# 	# Use \x7fELF header to separate ELF executables and libraries
-	# 	[[ -f ${x} && $(od -t x1 -N 4 "${x}") == *"7f 45 4c 46"* ]] || continue
-	# 	patchelf --set-rpath '$ORIGIN:/opt/${PKG_NAME}/libs' "${x}" || \
-	# 		die "patchelf failed on ${x}"
-	# done
+	for x in $(find -type f -size -32M) ; do
+		# Use \x7fELF header to separate ELF executables and libraries
+		[[ -f ${x} && $(od -t x1 -N 4 "${x}") == *"7f 45 4c 46"* ]] || continue
+		patchelf --set-rpath '$ORIGIN' "${x}" || \
+			die "patchelf failed on ${x}"
+	done
 	for x in $(find -type f -name *.desktop -o -name *.directory -o -name *.menu) ; do
 		[[ -f ${x} ]] || continue
 		sed -i "s|RESOLVE_INSTALL_LOCATION|/opt/${PKG_NAME}|g" ${x} || die
