@@ -14,7 +14,7 @@ media-video/davinci-resolve 17.4: Professional A/V post-production software suit
 media-video/davinci-resolve-studio 17.4: Professional A/V post-production software suite
 media-video/kikoplay 0.7.2 0.8.0 0.8.1 9999: KikoPlay is a full-featured danmu player
 media-video/uxplay 1.42: AirPlay Unix mirroring server
-net-im/dingtalk 1.2.0.120: dingtalk
+net-im/dingtalk 1.2.0.140: dingtalk
 sci-electronics/bsc 0_pre20210106 0_pre20210124 9999: Bluespec high level hardware design language compiler
 sci-electronics/dsview 1.12-r1 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 10.3-r1 10.3-r2 11.0 9999: A Verilog simulation and synthesis tool
