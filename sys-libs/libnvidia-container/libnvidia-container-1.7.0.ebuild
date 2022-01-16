@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -46,4 +46,8 @@ PATCHES=(
 	"${FILESDIR}"/${PN}-1.1.1-fix-git.patch
 	"${FILESDIR}"/${PN}-1.1.1-fix-makefile.patch
 	"${FILESDIR}"/${PN}-1.1.1-fix-nvc.patch
+	"${FILESDIR}"/${PN}-1.3.0-fix-nvc-info.patch
+	"${FILESDIR}"/${PN}-1.3.0-fix-nvc-mount.patch
+	"${FILESDIR}"/${PN}-1.3.0-fix-modprobe-utils-c.patch
+	"${FILESDIR}"/${PN}-1.3.0-fix-modprobe-utils-h.patch
 )
