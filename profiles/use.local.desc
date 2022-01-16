@@ -2,10 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-emulation/containerd:apparmor - Support for AppArmor
-app-emulation/containerd:btrfs - Support for BTRFS snapshot driver
-app-emulation/containerd:cri - Support for Kubernetes CRI
-app-emulation/containerd:device-mapper - Support for device mapper snapshot driver
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 dev-libs/cudnn:cuda10-2 - On nVidia CUDA 10.2.
 dev-libs/cudnn:cuda11-1 - On nVidia CUDA 11.1.
