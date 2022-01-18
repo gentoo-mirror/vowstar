@@ -13,7 +13,7 @@ index 0070ada..8643de0 100644
 -WITH_NVCGO   ?= yes
 -WITH_LIBELF  ?= no
 -WITH_TIRPC   ?= no
-+WITH_NVCGO   ?= no
++WITH_NVCGO   ?= yes
 +WITH_LIBELF  ?= yes
 +WITH_TIRPC   ?= yes
  WITH_SECCOMP ?= yes
