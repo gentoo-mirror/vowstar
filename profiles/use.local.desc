@@ -12,13 +12,10 @@ dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof
 dev-util/nvidia-cuda-toolkit:sanitizer - Install compute-sanitizer tool
 dev-util/nvidia-cuda-toolkit:vis-profiler - Install the NVIDIA CUDA visual profiler (nvvp)
 media-video/uxplay:zoomfix - supported mirrored window for screen-sharing applications such as Zoom
-sci-electronics/kicad:github - Add github support into PCB editor
 sci-electronics/kicad:ngspice - Enable circuit simulation
-sci-electronics/kicad:occ - Enable viewing 3D rendering of designs via opencascade
-sci-electronics/kicad:oce - Enable viewing 3D rendering of designs via OCE
-sci-electronics/kicad:python - Enable python scripting support
+sci-electronics/kicad:occ - Enable viewing 3D rendering of designs via sci-libs/opencascade
+sci-electronics/kicad:pcm - Enable plugin content manager
 sci-electronics/kicad-packages3d:occ - Use sci-libs/opencascade for data exchange
-sci-electronics/kicad-packages3d:oce - Use sci-libs/oce for data exchange
 sci-mathematics/cado-nfs:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
 sci-mathematics/cado-nfs:hwloc - Displays the hardware topology in convenient formats
 sci-mathematics/cado-nfs:mpi - Whether to use MPI (Message Passing Interface) or not
