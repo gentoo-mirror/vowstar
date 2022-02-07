@@ -11,6 +11,8 @@ dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (ns
 dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof) and the related libraries
 dev-util/nvidia-cuda-toolkit:sanitizer - Install compute-sanitizer tool
 dev-util/nvidia-cuda-toolkit:vis-profiler - Install the NVIDIA CUDA visual profiler (nvvp)
+games-util/chiaki:cli - Build CLI interface
+games-util/chiaki:gui - Build GUI interface
 media-video/uxplay:zoomfix - supported mirrored window for screen-sharing applications such as Zoom
 net-wireless/gnuradio:analog - enable analog signal processing blocks
 net-wireless/gnuradio:audio - enable blocks to connect to audio sources (mic-in) and sinks (speaker-out) ports on a computer
