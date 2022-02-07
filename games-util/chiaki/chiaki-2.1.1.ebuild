@@ -19,6 +19,8 @@ fi
 
 LICENSE="GPL-3"
 SLOT="0"
+IUSE="+cli +gui test"
+RESTRICT="!test? ( test )"
 
 RDEPEND="
 	dev-libs/jerasure
@@ -43,7 +45,17 @@ src_configure() {
 		-DCMAKE_INSTALL_PREFIX="${EPREFIX}/usr"
 		-DCMAKE_BUILD_TYPE=Release
 		-DCHIAKI_USE_SYSTEM_JERASURE=TRUE
+		-DCHIAKI_ENABLE_TESTS=$(usex test)
+		-DCHIAKI_ENABLE_CLI=$(usex cli)
+		-DCHIAKI_ENABLE_GUI=$(usex gui)
 	)
 
 	cmake_src_configure
+}
+
+src_install() {
+	cmake_src_install
+
+	dolib.so "${BUILD_DIR}"/lib/*.so
+	dolib.so "${BUILD_DIR}"/setsu/*.so
 }
