@@ -9,6 +9,7 @@ dev-util/nvidia-cuda-toolkit 11.4.0: NVIDIA CUDA Toolkit (compiler and friends)
 games-util/chiaki 2.1.1-r1 9999: Client for PlayStation 4 and PlayStation 5 Remote Play
 media-gfx/oda-file-converter 22.5.0.0-r1: For converting between different versions of .dwg and .dxf
 media-gfx/sane-backends 1.0.31: Scanner Access Now Easy - Backends
+media-gfx/zw3d 2022.26.00: CAD/CAM software for 3D design and processing
 media-libs/codec2 1.0.1-r1: Low bit rate speech codec
 media-video/davinci-resolve 17.4: Professional A/V post-production software suite
 media-video/davinci-resolve-studio 17.4: Professional A/V post-production software suite
