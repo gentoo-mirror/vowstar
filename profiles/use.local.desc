@@ -3,6 +3,9 @@
 # * generated automatically using pmaint *
 
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
+app-i18n/fcitx5-chinese-addons:browser - Enable built-in browser using dev-qt/qtwebengine
+app-i18n/fcitx5-chinese-addons:gui - Enable configure gui
+app-i18n/fcitx5-chinese-addons:opencc - Enable support for conversion between Traditional and Simplified Chinese
 dev-libs/cudnn:cuda10-2 - On nVidia CUDA 10.2.
 dev-libs/cudnn:cuda11-1 - On nVidia CUDA 11.1.
 dev-libs/cudnn:cuda11-2 - On nVidia CUDA 11.2.

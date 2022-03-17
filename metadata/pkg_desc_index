@@ -1,5 +1,6 @@
 app-containers/nvidia-container-toolkit 1.5.0 1.7.0 1.8.0_rc1: NVIDIA container runtime toolkit
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
+app-i18n/fcitx5-chinese-addons 5.0.12-r1 9999: Addons related to Chinese, including IME previous bundled inside fcitx4.
 app-i18n/fcitx5-lua 5.0.7 9999: Lua support for fcitx
 dev-libs/cudnn 8.2.0.53: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/libdatrie 0.2.13: Double-Array Trie Library
