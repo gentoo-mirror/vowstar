@@ -1,12 +1,12 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 MY_PGK_NAME="com.alibabainc.dingtalk"
 inherit unpacker xdg
 
-DESCRIPTION="dingtalk"
+DESCRIPTION="Communication platform that supports video and audio conferencing"
 HOMEPAGE="https://gov.dingtalk.com"
 SRC_URI="https://dtapp-pub.dingtalk.com/dingtalk-desktop/xc_dingtalk_update/linux_deb/Release/com.alibabainc.${PN}_${PV}_amd64.deb"
 
