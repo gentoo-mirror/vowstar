@@ -1,6 +1,5 @@
 app-containers/nvidia-container-toolkit 1.5.0 1.7.0 1.8.0_rc1: NVIDIA container runtime toolkit
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
-app-emulation/winetricks 20220328: Easy way to install DLLs needed to work around problems in Wine
 dev-libs/cudnn 8.2.0.53: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/libdatrie 0.2.13: Double-Array Trie Library
 dev-libs/libthai 0.1.28: A a set of Thai language support routines
