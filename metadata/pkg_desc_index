@@ -7,7 +7,7 @@ dev-libs/qhttpengine 1.0.1 1.0.1-r1 9999: HTTP server for Qt applications
 dev-python/daff 1.3.46: The daff can produce and apply tabular diffs
 dev-util/nvidia-cuda-toolkit 11.4.0: NVIDIA CUDA Toolkit (compiler and friends)
 games-util/chiaki 2.1.1-r1 9999: Client for PlayStation 4 and PlayStation 5 Remote Play
-media-gfx/oda-file-converter 22.5.0.0-r1: For converting between different versions of .dwg and .dxf
+media-gfx/oda-file-converter 22.5.0.0-r1 22.10.0.0: For converting between different versions of .dwg and .dxf
 media-gfx/zw3d 2022.26.00: CAD/CAM software for 3D design and processing
 media-libs/codec2 1.0.1-r1: Low bit rate speech codec
 media-video/davinci-resolve 17.4: Professional A/V post-production software suite
@@ -28,7 +28,7 @@ sci-electronics/kicad-packages3d 9999: Electronic Schematic and PCB design tools
 sci-electronics/kicad-symbols 9999: Electronic Schematic and PCB design tools symbol libraries
 sci-electronics/kicad-templates 9999: Electronic Schematic and PCB design tools project templates
 sci-electronics/systemc 2.3.4-r1: A C++ based modeling platform for VLSI and system-level co-design
-sci-electronics/verilator 4.032 4.034 4.036 4.038 4.040 4.100 4.102 4.104 4.106 4.108 4.110 4.200 4.202 4.204 4.210 4.218 9999: The fast free Verilog/SystemVerilog simulator
+sci-electronics/verilator 4.032 4.034 4.036 4.038 4.040 4.100 4.102 4.104 4.106 4.108 4.110 4.200 4.202 4.204 4.210 4.218 4.220 9999: The fast free Verilog/SystemVerilog simulator
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sci-mathematics/mathematica 12.1.1-r1 12.2.0 12.3.0 13.0.0: Wolfram Mathematica
 sci-mathematics/octave-arduino 0.7.0: Basic Octave implementation of the matlab arduino extension, allowing communication to a programmed arduino board to control its hardware
