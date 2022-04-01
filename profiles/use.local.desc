@@ -13,6 +13,10 @@ dev-util/nvidia-cuda-toolkit:sanitizer - Install compute-sanitizer tool
 dev-util/nvidia-cuda-toolkit:vis-profiler - Install the NVIDIA CUDA visual profiler (nvvp)
 games-util/chiaki:cli - Build CLI interface
 media-video/uxplay:zoomfix - supported mirrored window for screen-sharing applications such as Zoom
+net-misc/tigervnc:dri3 - Build with DRI3 support
+net-misc/tigervnc:drm - Build with DRM support
+net-misc/tigervnc:server - Build TigerVNC server
+net-misc/tigervnc:xorgmodule - Build the Xorg module
 net-wireless/gnuradio:analog - enable analog signal processing blocks
 net-wireless/gnuradio:audio - enable blocks to connect to audio sources (mic-in) and sinks (speaker-out) ports on a computer
 net-wireless/gnuradio:channels - enable channel mode blocks
