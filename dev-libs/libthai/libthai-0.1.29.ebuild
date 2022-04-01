@@ -1,7 +1,7 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit autotools
 
@@ -22,10 +22,6 @@ SLOT="0"
 RDEPEND="dev-libs/libdatrie"
 DEPEND="${RDEPEND}"
 BDEPEND="dev-vcs/git"
-
-PATCHES=(
-	"${FILESDIR}/${P}-fix-duplicate-dir.patch" #fix autoconf-2.7
-)
 
 src_prepare() {
 	default
