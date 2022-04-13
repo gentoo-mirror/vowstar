@@ -1,14 +1,14 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install postinst postrm preinst prepare unpack
+DEFINED_PHASES=install postinst postrm preinst prepare
 DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qthelp:5 dev-qt/qtprintsupport:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5
 DESCRIPTION=A open source IP-XACT-based tool
 EAPI=8
 HOMEPAGE=http://funbase.cs.tut.fi https://github.com/kactus2/kactus2dev
 IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
-INHERIT=xdg git-r3
+INHERIT=xdg
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~m68k ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86
 LICENSE=GPL-2
-PROPERTIES=live
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qthelp:5 dev-qt/qtprintsupport:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5
 SLOT=0
-_eclasses_=xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=d69fce71995127d3e4e28cdbd098713c
+SRC_URI=https://github.com/kactus2/kactus2dev/archive/239cc83cb9cd4441174959a58dbadc1b941f76dc.tar.gz -> kactus2-3.9.333.tar.gz
+_eclasses_=xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
+_md5_=be8bdfd1eaec556549949886c3fb0730
