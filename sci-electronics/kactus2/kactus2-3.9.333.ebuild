@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="8"
+RELEASE_HASH="239cc83cb9cd4441174959a58dbadc1b941f76dc"
 
 inherit xdg
 
@@ -15,9 +16,9 @@ if [[ "${PV}" == "9999" ]] ; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/${PN}/${PN}dev.git"
 else
-	SRC_URI="https://github.com/${PN}/${PN}dev/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://github.com/${PN}/${PN}dev/archive/${RELEASE_HASH}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~arm ~arm64 ~hppa ~m68k ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86"
-	S="${WORKDIR}/${PN}dev-${PV}"
+	S="${WORKDIR}/${PN}dev-${RELEASE_HASH}"
 fi
 
 LICENSE="GPL-2"
