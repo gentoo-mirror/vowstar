@@ -30,15 +30,20 @@ bazel_external_uris="
 	https://github.com/grailbio/bazel-compilation-database/archive/ace73b04e76111afa09934f8771a2798847e724e.tar.gz
 	https://github.com/jmillikin/rules_bison/releases/download/v0.2/rules_bison-v0.2.tar.xz
 	https://github.com/jmillikin/rules_flex/releases/download/v0.2/rules_flex-v0.2.tar.xz
+	https://github.com/jmillikin/rules_m4/releases/download/v0.1/m4-gnulib-788db09a9f88abbef73c97e8d7291c40455336d8.tar.xz
 	https://github.com/jmillikin/rules_m4/releases/download/v0.2/rules_m4-v0.2.tar.xz
 	https://github.com/lexxmark/winflexbison/releases/download/v2.5.18/win_flex_bison-2.5.18.zip
 	https://github.com/nlohmann/json/archive/refs/tags/v3.10.2.tar.gz
 	https://github.com/protocolbuffers/protobuf/archive/v3.13.0.zip
 	https://mirror.bazel.build/bazel_coverage_output_generator/releases/coverage_output_generator-v2.5.zip
+	https://mirror.bazel.build/bazel_java_tools/releases/java/v11.6/java_tools_linux-v11.6.zip
 	https://mirror.bazel.build/bazel_java_tools/releases/java/v11.6/java_tools-v11.6.zip
+	https://mirror.bazel.build/ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz
 	https://mirror.bazel.build/github.com/bazelbuild/bazel-skylib/releases/download/1.0.2/bazel-skylib-1.0.2.tar.gz
 	https://mirror.bazel.build/github.com/bazelbuild/rules_java/archive/7cf3cefd652008d0a64a419c34c13bdca6c8f178.zip
 	https://mirror.bazel.build/github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz
+	https://mirror.bazel.build/openjdk/azul-zulu11.50.19-ca-jdk11.0.12/zulu11.50.19-ca-jdk11.0.12-linux_x64.tar.gz
+	https://zlib.net/zlib-1.2.12.tar.gz
 "
 
 SRC_URI="
