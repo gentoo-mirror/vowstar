@@ -34,12 +34,6 @@ bazel_external_uris="
 	https://github.com/lexxmark/winflexbison/releases/download/v2.5.18/win_flex_bison-2.5.18.zip
 	https://github.com/nlohmann/json/archive/refs/tags/v3.10.2.tar.gz
 	https://github.com/protocolbuffers/protobuf/archive/v3.13.0.zip
-	https://github.com/protocolbuffers/protobuf/issues/5918
-	https://mirror.bazel.build/github.com/bazelbuild/bazel-toolchains/releases/download/3.4.0/bazel-toolchains-3.4.0.tar.gz
-	https://mirror.bazel.build/github.com/bazelbuild/rules_python/releases/download/0.2.0/rules_python-0.2.0.tar.gz
-	https://mirror.bazel.build/github.com/protocolbuffers/protobuf/archive/v3.13.0.zip
-	https://zlib.net/fossils/zlib-1.2.12.tar.gz
-	https://zlib.net/zlib-1.2.12.tar.gz
 "
 
 SRC_URI="
@@ -56,7 +50,6 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-	dev-lang/perl
 	sys-libs/zlib
 "
 
