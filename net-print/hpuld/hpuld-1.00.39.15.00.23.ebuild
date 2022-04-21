@@ -49,8 +49,12 @@ src_install() {
 	export PAGER="$(which cat)"
 
 	# Fix install path
-	sed -i 's#"/opt"#"${D}/opt"' noarch/package_utils
-	sed -i 's#"/opt"#"${D}/opt"' noarch/pre_install.sh
+	sed -i "s#\"/opt\"#\"${D}/opt\"#g" noarch/package_utils
+	sed -i "s#\"/opt\"#\"${D}/opt\"#g" noarch/pre_install.sh
+	sed -i "s#\"\$INSTDIR_CUPS_BACKENDS\"#\"${D}/\$INSTDIR_CUPS_BACKENDS\"#g" noarch/printer.pkg
+	sed -i "s#\"\$INSTDIR_CUPS_FILTERS\"#\"${D}/\$INSTDIR_CUPS_FILTERS\"#g" noarch/printer.pkg
+	sed -i "s#\"\$INSTDIR_CUPS_PPD\"#\"${D}/\$INSTDIR_CUPS_PPD\"#g" noarch/printer-script.pkg
+	sed -i "s#\"\$INSTDIR_LSB_PPD\"#\"${D}/\$INSTDIR_LSB_PPD\"#g" noarch/printer-script.pkg
 
 	if use scanner ; then
 		sh ./install.sh || die
