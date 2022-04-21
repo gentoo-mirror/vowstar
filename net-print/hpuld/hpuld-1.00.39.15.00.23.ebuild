@@ -73,9 +73,25 @@ src_install() {
 	sed -i "s#\$(hal_rules)#${D}/\$(hal_rules)#g" noarch/scanner-script.pkg || die
 	sed -i "s#\${USERMAP}#${D}/\${USERMAP}#g" noarch/scanner-script.pkg || die
 	sed -i "s#		trigger_libusbscanner_hotplug##g" noarch/scanner-script.pkg || die
-	mkdir -p ${D}/etc/hotplug/usb || die
+	mkdir -p "${D}"/etc/hotplug/usb || die
 
 	if use scanner ; then
+		local SCDIR="/etc/sane.d"
+
+		if [ -f ${SCDIR}/dll.conf ] ; then
+			cat ${SCDIR}/dll.conf > ${D}/${SCDIR}/dll.conf || die
+			if ! grep -q '^smfp$' ${D}/${SCDIR}/dll.conf ; then
+				echo "smfp" >> ${D}/${SCDIR}/dll.conf || die
+			fi
+			if grep -q '^geniusvp2' ${D}/${SCDIR}/dll.conf ; then
+				# Comment out geniusvp2 backend
+				sed -i 's/geniusvp2/#geniusvp2/' > ${D}/${SCDIR}/dll.conf || die
+			fi
+		else
+			echo "smfp" >> ${D}/${SCDIR}/dll.conf || die
+		fi
+		chmod 664 ${D}/${SCDIR}/dll.conf
+
 		sh ./install.sh || die
 	else
 		sh ./install-printer.sh || die
@@ -88,12 +104,18 @@ pkg_postinst() {
 		ewarn "make sure the smfp is listed in /etc/sane.d/dll.conf."
 		ewarn "If the geniusvp2 is listed in /etc/sane.d/dll.conf,"
 		ewarn "please comment out it."
+
+		ewarn "You should restart cupsd service after installed $P."
+		ewarn "OpenRC: rc-service cupsd restart"
+		ewarn "systemd: systemctl restart cups.service"
 	fi
 }
 
 pkg_postrm() {
 	if use scanner ; then
-		ewarn "If the smfp is listed in /etc/sane.d/dll.conf,"
-		ewarn "please remove it."
+		ewarn "After you removed $P,"
+		ewarn "if the smfp is listed in /etc/sane.d/dll.conf"
+		ewarn "you should remove it to keep clean."
+		ewarn "If you are just reinstalling, ignore this message."
 	fi
 }
