@@ -35,6 +35,14 @@ BDEPEND="
 	app-arch/unzip
 "
 
+QA_FLAGS_IGNORED="
+	/opt/smfp-common/scanner/lib/libsane-smfp.*
+	/opt/smfp-common/printer/bin/pstosecps
+	/opt/smfp-common/printer/bin/rastertospl
+	/opt/smfp-common/printer/bin/smfpnetdiscovery
+"
+QA_PRESTRIPPED="${QA_FLAGS_IGNORED}"
+
 src_unpack() {
 	default
 
@@ -63,7 +71,6 @@ src_install() {
 	sed -i "s#\$(sane_config)#${D}/\$(sane_config)#g" noarch/scanner-script.pkg || die
 	sed -i "s#\$(udev_rules)#${D}/\$(udev_rules)#g" noarch/scanner-script.pkg || die
 	sed -i "s#\$(hal_rules)#${D}/\$(hal_rules)#g" noarch/scanner-script.pkg || die
-	sed -i "s#\${INSTALL_DIR}/share#${D}/\${INSTALL_DIR}/share#g" noarch/scanner-script.pkg || die
 	sed -i "s#\${USERMAP}#${D}/\${USERMAP}#g" noarch/scanner-script.pkg || die
 	sed -i "s#		trigger_libusbscanner_hotplug##g" noarch/scanner-script.pkg || die
 	mkdir -p ${D}/etc/hotplug/usb || die
