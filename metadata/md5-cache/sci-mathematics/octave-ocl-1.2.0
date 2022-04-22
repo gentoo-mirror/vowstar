@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm
+DEPEND=sci-mathematics/octave
+DESCRIPTION=Package using OpenCL for parallelization of (SIMD) computations, selectively using available OpenCL hardware
+EAPI=8
+HOMEPAGE=https://octave.sourceforge.io/ocl
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~riscv ~x86
+LICENSE=GPL-3
+RDEPEND=sci-mathematics/octave
+RESTRICT=test
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/octave/ocl-1.2.0.tar.gz -> octave-ocl-1.2.0.tar.gz
+_md5_=e8493e3d54d7726cf80ea3ad7bed736c
