@@ -109,6 +109,6 @@ sys-auth/open-fprintd 0.6: D-Bus clients to access fingerprint readers
 sys-auth/python-validity 0.12: Validity fingerprint sensor prototype
 sys-libs/libnvidia-container 1.4.0 1.7.0 1.9.0: NVIDIA container runtime library
 sys-power/throttled 0.8 0.9.2 9999: Fix Intel CPU Throttling on Linux
-sys-process/nvtop 1.0.0 1.1.0 1.2.1 1.2.2 2.0.1 9999: NVIDIA GPUs htop like monitoring tool
+sys-process/nvtop 1.0.0 1.1.0 1.2.1 1.2.2 2.0.1-r1 9999: NVIDIA GPUs htop like monitoring tool
 x11-themes/obsidian-icon-theme 4.15-r1 9999: Obsidian Icon Theme is intuitive Faenza-like icon theme
 x11-themes/obsidian2-gtk-theme 2.20 9999: Obsidian Gnome Theme, based upon Adwaita-Maia dark skin
