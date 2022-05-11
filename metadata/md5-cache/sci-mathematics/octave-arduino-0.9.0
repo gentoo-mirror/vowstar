@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/arduino-0.9.0.tar.gz -> octave-arduino-0.9.0.tar.gz
-_md5_=02932722ceae98e554cbae41e2c51c33
+_md5_=1ef7a32ac71b72c096df70a09fd998e5

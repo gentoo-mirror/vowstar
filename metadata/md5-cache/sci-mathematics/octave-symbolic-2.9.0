@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/symbolic-2.9.0.tar.gz -> octave-symbolic-2.9.0.tar.gz
-_md5_=fdd0a4b7991718266db79eef5442891c
+_md5_=91123d91341745e2018ee45837f841e9

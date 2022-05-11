@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/sockets-1.3.0.tar.gz -> octave-sockets-1.3.0.tar.gz
-_md5_=7bacc50b13e33e29022e5ef339998dde
+_md5_=b14ffe883ca4e3b3b0b0504012fbabca

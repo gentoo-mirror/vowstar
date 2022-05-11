@@ -69,6 +69,7 @@ sci-mathematics/octave-lssa 0.1.4: A package implementing tools to compute spect
 sci-mathematics/octave-ltfat 2.3.1: The Large Time/Frequency Analysis Toolbox (LTFAT) is a Matlab/Octave toolbox for working with time-frequency analysis, wavelets and signal processing
 sci-mathematics/octave-mapping 1.4.2: Simple mapping and GIS .shp .dxf and raster file functions
 sci-mathematics/octave-matgeom 1.2.3: Geometry toolbox for 2D/3D geometric computing
+sci-mathematics/octave-meta 20220511: Merge this to pull in all octave forge packages
 sci-mathematics/octave-miscellaneous 1.3.0: Miscellaneous tools that don't fit somewhere else
 sci-mathematics/octave-msh 1.0.10: Create and manage triangular and tetrahedral meshes for Finite Element or Finite Volume PDE solvers
 sci-mathematics/octave-mvn 1.1.0: Multivariate normal distribution clustering and utility functions

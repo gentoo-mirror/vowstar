@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/miscellaneous-1.3.0.tar.gz -> octave-miscellaneous-1.3.0.tar.gz
-_md5_=1859820b443140dbcf9c71bab4d85351
+_md5_=e7f14f46a6fb866a9fddea0c400b9c81
