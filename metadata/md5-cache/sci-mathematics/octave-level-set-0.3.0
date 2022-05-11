@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/level-set-0.3.0.tar.gz -> octave-level-set-0.3.0.tar.gz
-_md5_=1bc7f7ff7b5bbe47f160bbaa2e397fbd
+_md5_=05eff9d8b30868593fc284c173f84e26

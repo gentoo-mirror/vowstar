@@ -34,7 +34,7 @@ sci-electronics/verible 0.0.2135: SystemVerilog parser, style-linter, and format
 sci-electronics/verilator 4.032 4.034 4.036 4.038 4.040 4.100 4.102 4.104 4.106 4.108 4.110 4.200 4.202 4.204 4.210 4.218 4.220 9999: The fast free Verilog/SystemVerilog simulator
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sci-mathematics/mathematica 12.1.1-r1 12.2.0 12.3.0 13.0.0 13.0.1: Wolfram Mathematica
-sci-mathematics/octave-arduino 0.8.0: Basic Octave implementation of the matlab arduino extension, allowing communication to a programmed arduino board to control its hardware
+sci-mathematics/octave-arduino 0.9.0: Basic Octave implementation of the matlab arduino extension, allowing communication to a programmed arduino board to control its hardware
 sci-mathematics/octave-audio 2.0.4: Audio and MIDI Toolbox for GNU Octave
 sci-mathematics/octave-bim 1.1.5: Package for solving Diffusion Advection Reaction (DAR) Partial Differential Equations
 sci-mathematics/octave-bsltl 1.3.1: The BSLTL package is a free collection of OCTAVE/MATLAB routines for working with the biospeckle laser technique
@@ -55,7 +55,7 @@ sci-mathematics/octave-fpl 1.3.5: Collection of routines to export data produced
 sci-mathematics/octave-fuzzy-logic-toolkit 0.4.6: A mostly MATLAB-compatible fuzzy logic toolkit for Octave
 sci-mathematics/octave-ga 0.10.3: Genetic optimization code
 sci-mathematics/octave-general 2.1.2: General tools for Octave
-sci-mathematics/octave-generate_html 0.3.2: This package provides functions for generating HTML pages that contain the help texts for a set of functions
+sci-mathematics/octave-generate_html 0.3.3: This package provides functions for generating HTML pages that contain the help texts for a set of functions
 sci-mathematics/octave-geometry 4.0.0: Library for extending MatGeom functionality
 sci-mathematics/octave-gsl 2.1.1: Octave bindings to the GNU Scientific Library
 sci-mathematics/octave-image 2.14.0: The Octave-forge Image package provides functions for processing images
@@ -89,7 +89,7 @@ sci-mathematics/octave-queueing 1.2.7: The queueing package provides functions f
 sci-mathematics/octave-secs1d 0.0.9: A Drift-Diffusion simulator for 1d semiconductor devices
 sci-mathematics/octave-secs2d 0.0.8: A Drift-Diffusion simulator for 2d semiconductor devices
 sci-mathematics/octave-secs3d 0.0.1: A Drift-Diffusion simulator for 3d semiconductor devices
-sci-mathematics/octave-signal 1.4.1: Signal processing tools, including filtering, windowing and display functions
+sci-mathematics/octave-signal 1.4.2: Signal processing tools, including filtering, windowing and display functions
 sci-mathematics/octave-sockets 1.3.0: Socket functions for networking from within octave
 sci-mathematics/octave-sparsersb 1.0.9: Interface to the librsb package implementing the RSB sparse matrix format for fast shared-memory sparse matrix computations
 sci-mathematics/octave-splines 1.3.4: Additional spline functions
@@ -104,7 +104,7 @@ sci-mathematics/octave-vibes 0.2.0: The VIBes API allows one to easily display r
 sci-mathematics/octave-video 2.0.2: A wrapper for OpenCV's CvCapture_FFMPEG and CvVideoWriter_FFMPEG
 sci-mathematics/octave-vrml 1.0.13: 3D graphics using VRML
 sci-mathematics/octave-windows 1.6.2: Provides COM interface and additional functionality on Windows
-sci-mathematics/octave-zeromq 1.5.3: ZeroMQ bindings for GNU Octave
+sci-mathematics/octave-zeromq 1.5.4: ZeroMQ bindings for GNU Octave
 sys-auth/fprintd-clients 1.90.1: D-Bus clients to access fingerprint readers
 sys-auth/open-fprintd 0.6: D-Bus clients to access fingerprint readers
 sys-auth/python-validity 0.12: Validity fingerprint sensor prototype

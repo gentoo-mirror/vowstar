@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/struct-1.0.18.tar.gz -> octave-struct-1.0.18.tar.gz
-_md5_=ba44d60b45d875b03d9845277ab13493
+_md5_=33f7e93eaf159c0a7aaf4f2a987569f8
