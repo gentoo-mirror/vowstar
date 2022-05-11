@@ -24,14 +24,12 @@ RDEPEND="
 	sci-mathematics/octave-doctest
 	sci-mathematics/octave-econometrics
 	sci-mathematics/octave-financial
-	sci-mathematics/octave-fits
 	sci-mathematics/octave-fpl
 	sci-mathematics/octave-fuzzy-logic-toolkit
 	sci-mathematics/octave-ga
 	sci-mathematics/octave-general
 	sci-mathematics/octave-generate_html
 	sci-mathematics/octave-gsl
-	sci-mathematics/octave-image-acquisition
 	sci-mathematics/octave-instrument-control
 	sci-mathematics/octave-interval
 	sci-mathematics/octave-io
@@ -61,7 +59,6 @@ RDEPEND="
 	sci-mathematics/octave-splines
 	sci-mathematics/octave-statistics
 	sci-mathematics/octave-stk
-	sci-mathematics/octave-strings
 	sci-mathematics/octave-struct
 	sci-mathematics/octave-symbolic
 	sci-mathematics/octave-tsa
@@ -87,14 +84,12 @@ pkg_postinst() {
 	elog "pkg load doctest"
 	elog "pkg load econometrics"
 	elog "pkg load financial"
-	elog "pkg load fits"
 	elog "pkg load fpl"
 	elog "pkg load fuzzy-logic-toolkit"
 	elog "pkg load ga"
 	elog "pkg load general"
 	elog "pkg load generate_html"
 	elog "pkg load gsl"
-	elog "pkg load image-acquisition"
 	elog "pkg load instrument-control"
 	elog "pkg load interval"
 	elog "pkg load io"
@@ -124,7 +119,6 @@ pkg_postinst() {
 	elog "pkg load splines"
 	elog "pkg load statistics"
 	elog "pkg load stk"
-	elog "pkg load strings"
 	elog "pkg load struct"
 	elog "pkg load symbolic"
 	elog "pkg load tsa"
@@ -148,14 +142,12 @@ pkg_postrm() {
 	elog "pkg load doctest"
 	elog "pkg load econometrics"
 	elog "pkg load financial"
-	elog "pkg load fits"
 	elog "pkg load fpl"
 	elog "pkg load fuzzy-logic-toolkit"
 	elog "pkg load ga"
 	elog "pkg load general"
 	elog "pkg load generate_html"
 	elog "pkg load gsl"
-	elog "pkg load image-acquisition"
 	elog "pkg load instrument-control"
 	elog "pkg load interval"
 	elog "pkg load io"
@@ -185,7 +177,6 @@ pkg_postrm() {
 	elog "pkg load splines"
 	elog "pkg load statistics"
 	elog "pkg load stk"
-	elog "pkg load strings"
 	elog "pkg load struct"
 	elog "pkg load symbolic"
 	elog "pkg load tsa"
