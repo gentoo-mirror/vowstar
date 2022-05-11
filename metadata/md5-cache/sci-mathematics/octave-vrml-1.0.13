@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/vrml-1.0.13.tar.gz -> octave-vrml-1.0.13.tar.gz
-_md5_=382e731414c0587df2ebedf7ebd148c5
+_md5_=ee4e6b99c5b3d69c0ed5441473aca18e

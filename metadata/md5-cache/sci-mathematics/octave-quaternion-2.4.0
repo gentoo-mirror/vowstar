@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/quaternion-2.4.0.tar.gz -> octave-quaternion-2.4.0.tar.gz
-_md5_=be1c480cb9230bc8dfb2f36b3cc7ea2f
+_md5_=cc450da7abed85911202fdccb2807f74
