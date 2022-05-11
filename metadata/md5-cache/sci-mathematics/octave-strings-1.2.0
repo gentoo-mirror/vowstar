@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/strings-1.2.0.tar.gz -> octave-strings-1.2.0.tar.gz
-_md5_=67303b0fbc0ec0e9fe156cffe61fb138
+_md5_=02d327d492b678f09074f2f8a2e0ffc3

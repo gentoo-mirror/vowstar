@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/netcdf-1.0.14.tar.gz -> octave-netcdf-1.0.14.tar.gz
-_md5_=01c4f4605695c2f21f0aec97140ad748
+_md5_=b7b2df3e189e36eb4697515ac7506ead

@@ -104,7 +104,6 @@ sci-mathematics/octave-tsa 4.6.3: Stochastic concepts and maximum entropy method
 sci-mathematics/octave-vibes 0.2.0: The VIBes API allows one to easily display results (boxes, pavings) from interval methods
 sci-mathematics/octave-video 2.0.2: A wrapper for OpenCV's CvCapture_FFMPEG and CvVideoWriter_FFMPEG
 sci-mathematics/octave-vrml 1.0.13: 3D graphics using VRML
-sci-mathematics/octave-windows 1.6.2: Provides COM interface and additional functionality on Windows
 sci-mathematics/octave-zeromq 1.5.4: ZeroMQ bindings for GNU Octave
 sys-auth/fprintd-clients 1.90.1: D-Bus clients to access fingerprint readers
 sys-auth/open-fprintd 0.6: D-Bus clients to access fingerprint readers

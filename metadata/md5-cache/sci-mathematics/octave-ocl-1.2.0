@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/ocl-1.2.0.tar.gz -> octave-ocl-1.2.0.tar.gz
-_md5_=b8317b441546fbf494f384d4e49a605c
+_md5_=12d99fc41f66b51367050c56692167ac
