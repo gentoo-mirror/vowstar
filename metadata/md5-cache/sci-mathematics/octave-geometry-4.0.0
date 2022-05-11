@@ -1,13 +1,13 @@
 BDEPEND=virtual/pkgconfig
 DEFINED_PHASES=install postinst postrm
-DEPEND=sci-mathematics/octave
+DEPEND=sci-mathematics/octave sci-mathematics/octave-matgeom
 DESCRIPTION=Library for extending MatGeom functionality
 EAPI=8
 HOMEPAGE=https://octave.sourceforge.io/geometry
 KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~riscv ~x86
 LICENSE=GPL-3
-RDEPEND=sci-mathematics/octave
+RDEPEND=sci-mathematics/octave sci-mathematics/octave-matgeom
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/geometry-4.0.0.tar.gz -> octave-geometry-4.0.0.tar.gz
-_md5_=a258a2bc95908563a5ef8ce74ce3f923
+_md5_=78239a3f5926cc131658af4cff2d922e
