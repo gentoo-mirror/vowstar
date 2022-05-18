@@ -22,7 +22,7 @@ net-wireless/gr-osmosdr 0.2.3-r1 9999: GNU Radio source block for OsmoSDR and rt
 sci-electronics/bsc 0_pre20210106 0_pre20210124 9999: Bluespec high level hardware design language compiler
 sci-electronics/dsview 1.12-r1 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 10.3-r1 11.0 9999: A Verilog simulation and synthesis tool
-sci-electronics/kactus2 3.8.0 3.9.0 3.9.333 9999: A open source IP-XACT-based tool
+sci-electronics/kactus2 3.8.0 3.9.333 9999: A open source IP-XACT-based tool
 sci-electronics/kicad 9999: Electronic Schematic and PCB design tools
 sci-electronics/kicad-footprints 9999: Electronic Schematic and PCB design tools footprint libraries
 sci-electronics/kicad-i18n 9999: Electronic Schematic and PCB design tools GUI translations
