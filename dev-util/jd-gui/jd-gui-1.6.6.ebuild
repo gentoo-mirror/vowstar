@@ -6,7 +6,7 @@ EAPI=8
 MY_PN="jd-gui"
 MY_P="jd-gui-${PV}"
 
-inherit desktop rpm xdg
+inherit edos2unix desktop rpm xdg
 
 DESCRIPTION="A standalone graphical utility that displays Java source codes of .class file"
 HOMEPAGE="http://jd.benow.ca/"
@@ -25,17 +25,25 @@ S="${WORKDIR}/opt/jd-gui"
 src_install() {
 	insinto /opt/"${MY_PN}"
 	dodir /opt/"${MY_PN}"
-	mv jd_*.jar "${MY_P}.jar" || die
+	if [ ! -f "${MY_P}.jar" ]; then
+		mv jd*.jar "${MY_P}.jar" || die
+	fi
 	doins "${MY_P}.jar"
 
 	echo -e "#!/bin/sh\njava -jar /opt/${MY_PN}/${MY_P}.jar >/dev/null 2>&1 &\n" > "${MY_PN}"
 	dobin "${MY_PN}"
 
-	mv jd_*.png "${MY_PN}.png" || die
+	if [ ! -f "${MY_PN}.png" ]; then
+		mv jd*.png "${MY_PN}.png" || die
+	fi
 	doicon -s 128 "${MY_PN}.png"
 
-	mv jd_*.desktop "${MY_PN}.desktop" || die
+	if [ ! -f "${MY_PN}".desktop ]; then
+		mv jd*.desktop "${MY_PN}.desktop" || die
+	fi
 	sed -i "s|Exec=.*$|Exec=java -jar /opt/${MY_PN}/${MY_P}.jar|g" "${MY_PN}".desktop
 	sed -i "s|Icon=.*$|Icon=${MY_PN}|g" "${MY_PN}".desktop
+	# Fix QA: lines should only be separated by a line feed character
+	edos2unix "${MY_PN}".desktop
 	domenu "${MY_PN}".desktop
 }
