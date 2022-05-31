@@ -3,12 +3,12 @@
 
 EAPI=8
 
-MY_PGK_NAME="com.zwsoft.zw3dprofessional"
+MY_PGK_NAME="com.zwsoft.zwcad2022"
 inherit unpacker xdg
 
-DESCRIPTION="CAD/CAM software for 3D design and processing"
-HOMEPAGE="https://www.zwsoft.cn/product/zw3d/linux"
-SRC_URI="https://download.zwcad.com/zw3d/3d_linux/2022/ZW3D-2022-Professional-V1.0_amd64.deb"
+DESCRIPTION="CAD software for 2D drawing, reviewing and printing work"
+HOMEPAGE="https://www.zwsoft.cn/product/zwcad/linux"
+SRC_URI="https://download.zwcad.com/zwcad/cad_linux/2022/SP2/signed_com.zwsoft.zwcad2022_22.2.2.3_amd64.deb"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
@@ -55,7 +55,7 @@ QA_PREBUILT="*"
 src_install() {
 	# Install scalable icons
 	mkdir -p "${S}"/usr/share/icons/hicolor/scalable/apps || die
-	mv "${S}"/opt/apps/${MY_PGK_NAME}/entries/icons/hicolor/scalable/apps/*.svg "${S}"/usr/share/icons/hicolor/scalable/apps || die
+	mv "${S}"/opt/apps/${MY_PGK_NAME}/files/Icons/ZWCAD.svg "${pkgdir}"/usr/share/icons/hicolor/scalable/apps || die
 
 	# Set RPATH for preserve-libs handling
 	pushd "${S}"/opt/apps/${MY_PGK_NAME}/files || die
@@ -92,7 +92,7 @@ sh /opt/apps/${MY_PGK_NAME}/files/zw3drun.sh \$*
 	rm -rf "${S}"/opt/apps/${MY_PGK_NAME}/files/lib3rd/libjpeg* || die
 
 	# Install package and fix permissions
-	insinto /opt/apps
+	insinto /opt/apps/
 	doins -r opt/apps/${MY_PGK_NAME}
 	insinto /usr
 	doins -r usr/*
