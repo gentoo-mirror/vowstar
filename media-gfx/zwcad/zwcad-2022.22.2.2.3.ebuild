@@ -17,31 +17,10 @@ KEYWORDS="-* ~amd64"
 RESTRICT="strip mirror bindist"
 
 RDEPEND="
-	app-arch/bzip2
-	app-arch/xz-utils
-	dev-libs/atk
-	dev-libs/glib:2
-	dev-libs/libpcre
-	dev-libs/libxml2
-	dev-qt/qtsvg:5
-	dev-qt/qtwayland:5
-	media-gfx/imagemagick
+	media-libs/fontconfig
 	media-libs/libglvnd
-	media-libs/libpng
-	media-libs/tiff
+	sys-apps/util-linux
 	sys-libs/zlib
-	x11-libs/cairo
-	x11-libs/gdk-pixbuf:2
-	x11-libs/gtk+:3
-	x11-libs/libX11
-	x11-libs/libxcb
-	x11-libs/libXcomposite
-	x11-libs/libXext
-	x11-libs/libxkbcommon
-	x11-libs/libXmu
-	x11-libs/libXrender
-	x11-libs/libXt
-	x11-libs/pango
 "
 
 DEPEND="${RDEPEND}"
@@ -63,7 +42,7 @@ src_install() {
 		# Use \x7fELF header to separate ELF executables and libraries
 		[[ -f ${x} && $(od -t x1 -N 4 "${x}") == *"7f 45 4c 46"* ]] || continue
 		local RPATH_ROOT="/opt/apps/${MY_PGK_NAME}/files"
-		local RPATH_S="${RPATH_ROOT}/:${RPATH_ROOT}/lib/:${RPATH_ROOT}/plugins/:${RPATH_ROOT}/zh-CN/"
+		local RPATH_S="${RPATH_ROOT}/:${RPATH_ROOT}/lib/:${RPATH_ROOT}/lib/mono/lib/:${RPATH_ROOT}/plugins/:${RPATH_ROOT}/zh-CN/"
 		patchelf --set-rpath "${RPATH_S}" "${x}" || \
 			die "patchelf failed on ${x}"
 	done
