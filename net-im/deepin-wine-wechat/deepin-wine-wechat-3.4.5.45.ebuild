@@ -18,7 +18,7 @@ SRC_URI="
 	${_MIRROR}/appstore/pool/appstore/c/${DEB_PN}/${DEB_PN}_${DP_WECHAT_VER}_i386.deb
 	${_MIRROR_LIB}/o/openldap/libldap-2.4-2_2.4.47+dfsg.4-1+eagle_i386.deb
 	${_MIRROR_LIB}/c/cyrus-sasl2/libsasl2-2_2.1.27.1-1+dde_i386.deb
-	https://github.com/oatiz/lyraile-overlay/releases/download/tempfile/${WECHAT_INSTALLER}-${PV}.exe -> ${P}-${WECHAT_INSTALLER}.exe
+	https://github.com/vufa/deepin-wine-wechat-arch/releases/download/v${PV}-1/${P}-1-x86_64.pkg.tar.zst
 "
 
 LICENSE="Tencent"
@@ -61,10 +61,13 @@ src_prepare() {
 	sed -i "s/run.sh\".*/run.sh\"/" ${app_file} || die
 
 	7z x -aoa "${S}/opt/apps/${DEB_PN}/files/files.7z" -o"${S}/deepinwechatdir" || die
-	rm -r "${S}/deepinwechatdir/drive_c/Program Files/Tencent/WeChat" || die
+	rm -rf "${S}/deepinwechatdir/drive_c/Program Files/Tencent/WeChat" || die
 	patch -p1 -d "${S}/deepinwechatdir/" < "${FILESDIR}/reg.patch" || die
 	ln -sf "/usr/share/fonts/wqy-microhei/wqy-microhei.ttc" "${S}/deepinwechatdir/drive_c/windows/Fonts/wqy-microhei.ttc" || die
-	install -m644 "${DISTDIR}/${P}-${WECHAT_INSTALLER}.exe" "${S}/deepinwechatdir/drive_c/Program Files/Tencent/${WECHAT_INSTALLER}-${PV}.exe" || die
+	if [ -f "${DISTDIR}/${P}-${WECHAT_INSTALLER}.exe" ]; then
+		# User provided ${P}-${WECHAT_INSTALLER}.exe" installer
+		install -m644 "${DISTDIR}/${P}-${WECHAT_INSTALLER}.exe" "${S}/deepinwechatdir/drive_c/Program Files/Tencent/${WECHAT_INSTALLER}-${PV}.exe" || die
+	fi
 	7z a -t7z -r "${S}"/files.7z "${S}"/deepinwechatdir/* || die
 	# Fix to avoid downgrading openldap
 	mkdir -p "${S}/opt/apps/${DEB_PN}/files/lib32" || die
