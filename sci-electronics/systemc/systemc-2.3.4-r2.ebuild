@@ -1,15 +1,15 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 MY_PV="${PV}_pub_rev_20190614"
 
-inherit autotools
+inherit autotools toolchain-funcs
 
 DESCRIPTION="A C++ based modeling platform for VLSI and system-level co-design"
 HOMEPAGE="
-	https://accellera.org/community/systemc
+	https://systemc.org
 	https://github.com/accellera-official/systemc
 "
 
@@ -18,7 +18,7 @@ if [[ "${PV}" == "9999" ]] ; then
 	inherit git-r3
 else
 	SRC_URI="https://github.com/accellera-official/${PN}/archive/${MY_PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~arm ~arm64 ~x86"
+	KEYWORDS="~amd64 ~arm ~arm64 ~riscv ~x86"
 	S="${WORKDIR}/${PN}-${MY_PV}"
 fi
 
@@ -34,7 +34,7 @@ src_prepare() {
 }
 
 src_configure() {
-	econf CXX=$(tc-getCXX) \
+	econf CXX="$(tc-getCXX)" \
 		$(use_enable debug) \
 		$(use_enable static-libs static) \
 		--with-unix-layout
@@ -50,5 +50,9 @@ src_install() {
 		fi
 	else
 		rm -r "${ED}"/usr/share/doc/"${PF}" || die
+	fi
+
+	if ! use static-libs; then
+		find "${ED}" -name "*.la" -delete || die
 	fi
 }
