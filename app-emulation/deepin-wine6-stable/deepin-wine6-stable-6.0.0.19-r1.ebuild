@@ -77,7 +77,6 @@ src_install() {
 
 	fperms 755 -R /opt/"${PN}"/
 	fperms 755 -R /usr/bin/
-
-	# remove executable bit from all *.a files
-	find "${S}" -type f -name "*.a" -exec chmod -x {} +
+	fperms 644 -R /opt/"${PN}"/lib/*.a
+	fperms 644 -R /opt/"${PN}"/lib64/*.a
 }
