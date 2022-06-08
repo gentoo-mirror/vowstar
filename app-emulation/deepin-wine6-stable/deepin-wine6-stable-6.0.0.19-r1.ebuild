@@ -80,8 +80,8 @@ src_install() {
 	for x in $(find) ; do
 		# Use \x7fELF header to separate ELF executables and libraries
 		[[ -f ${x} && $(od -t x1 -N 4 "${x}") == *"7f 45 4c 46"* ]] || continue
-		local RPATH_ROOT="${S}"/opt/"${PN}"/lib
-		local RPATH_S="${RPATH_ROOT}/:\$ORIGIN"
+		local RPATH_ROOT="${EPREFIX}"/opt/"${PN}"/lib
+		local RPATH_S="${RPATH_ROOT}/"
 		patchelf --set-rpath "${RPATH_S}" "${x}" || \
 			die "patchelf failed on ${x}"
 	done
@@ -92,8 +92,8 @@ src_install() {
 	for x in $(find) ; do
 		# Use \x7fELF header to separate ELF executables and libraries
 		[[ -f ${x} && $(od -t x1 -N 4 "${x}") == *"7f 45 4c 46"* ]] || continue
-		local RPATH_ROOT="${S}"/opt/"${PN}"/lib64
-		local RPATH_S="${RPATH_ROOT}/:\$ORIGIN"
+		local RPATH_ROOT="${EPREFIX}"/opt/"${PN}"/lib64
+		local RPATH_S="${RPATH_ROOT}/"
 		patchelf --set-rpath "${RPATH_S}" "${x}" || \
 			die "patchelf failed on ${x}"
 	done
