@@ -9,14 +9,14 @@ INSTALLDIR="/opt/${PN}"
 
 DESCRIPTION="Tools for Segger J-Link JTAG adapters"
 HOMEPAGE="https://www.segger.com/jlink-software.html"
-SRC_URI="https://www.segger.com/downloads/jlink/JLink_Linux_V${PV/./}_x86_64.tgz"
+SRC_URI="JLink_Linux_V${PV/./}_x86_64.tgz"
 LICENSE="SEGGER"
 SLOT="0"
 KEYWORDS="-* amd64"
-IUSE=""
+IUSE="udev"
 QA_PREBUILT="*"
 
-RESTRICT="strip"
+RESTRICT="fetch strip"
 RDEPEND="
 	media-libs/fontconfig
 	media-libs/freetype
@@ -97,5 +97,18 @@ src_install() {
 		ETC \
 		GDBServer
 
-	udev_dorules 99-jlink.rules
+	if use udev ; then
+		udev_dorules 99-jlink.rules
+	fi
+}
+
+pkg_nofetch() {
+	einfo "Please place the ${P} installation file ${SRC_URI}"
+	einfo "in your \$\{DISTDIR\}."
+}
+
+pkg_postinst() {
+	if use udev ; then
+		udev_reload
+	fi
 }
