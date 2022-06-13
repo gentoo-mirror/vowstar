@@ -1,5 +1,5 @@
 BDEPEND=virtual/pkgconfig
-DEFINED_PHASES=install nofetch postinst
+DEFINED_PHASES=install nofetch postinst postrm
 DESCRIPTION=Tools for Segger J-Link JTAG adapters
 EAPI=8
 HOMEPAGE=https://www.segger.com/jlink-software.html
@@ -12,4 +12,4 @@ RESTRICT=fetch strip
 SLOT=0
 SRC_URI=JLink_Linux_V766b_x86_64.tgz
 _eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	udev	f3a0a3964e2028a140c181f00eea9712	wrapper	4a1902f969e5718126434fc35f3a0d9c
-_md5_=576189b5f9785b037dfe2fcc7238215a
+_md5_=cacadae6d25c315668d2810756a736d5
