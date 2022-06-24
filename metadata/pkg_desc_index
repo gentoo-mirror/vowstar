@@ -20,6 +20,7 @@ media-video/davinci-resolve-studio 17.4 17.4.6: Professional A/V post-production
 media-video/kikoplay 0.7.2 0.8.0 0.8.1 0.8.2 9999: KikoPlay is a full-featured danmu player
 media-video/uxplay 1.42 1.50a: AirPlay Unix mirroring server
 net-im/deepin-wine-wechat 3.4.5.45: Tencent WeChat on Deepin Wine(com.qq.weixin.deepin) For Gentoo
+net-im/deepin-wine-wecom 4.0.0.6007: Tencent WeChat on Deepin Wine(com.qq.weixin.work.deepin) For Gentoo
 net-im/dingtalk 1.4.0.20422: Communication platform that supports video and audio conferencing
 net-print/hpuld 1.00.39.15.00.23: HP Unified Linux Driver (for samsung hardware)
 net-wireless/gnuradio 3.10.1.1 9999: Toolkit that provides signal processing blocks to implement software radios
