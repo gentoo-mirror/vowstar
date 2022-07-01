@@ -18,7 +18,6 @@ media-video/davinci-resolve 17.4 17.4.6: Professional A/V post-production softwa
 media-video/davinci-resolve-studio 17.4 17.4.6: Professional A/V post-production software suite
 media-video/kikoplay 0.7.2 0.8.0 0.8.1 0.8.2 9999: KikoPlay is a full-featured danmu player
 media-video/uxplay 1.42 1.50a: AirPlay Unix mirroring server
-net-im/deepin-wine-wechat 3.4.5.45: Tencent WeChat on Deepin Wine(com.qq.weixin.deepin) For Gentoo
 net-im/deepin-wine-wecom 4.0.0.6007: Tencent Wecom on Deepin Wine(com.qq.weixin.work.deepin) For Gentoo
 net-im/dingtalk 1.4.0.20422: Communication platform that supports video and audio conferencing
 net-im/wemeet 2.8.0.3 3.8.0.2: Wemeet - Tencent Video Conferencing
