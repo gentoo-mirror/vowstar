@@ -7,6 +7,7 @@ app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 dev-libs/cudnn:cuda10-2 - On nVidia CUDA 10.2.
 dev-libs/cudnn:cuda11-1 - On nVidia CUDA 11.1.
 dev-libs/cudnn:cuda11-2 - On nVidia CUDA 11.2.
+dev-python/conda:user - use user's home directory as default pkgs and envs prefix
 dev-util/nvidia-cuda-toolkit:debugger - Install the CUDA debugger
 dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (nsight-compute, nsight-systems)
 dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof) and the related libraries
