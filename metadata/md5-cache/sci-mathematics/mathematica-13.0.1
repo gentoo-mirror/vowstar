@@ -1,4 +1,5 @@
 DEFINED_PHASES=install nofetch postinst postrm preinst prepare unpack
+DEPEND=media-libs/freetype virtual/libcrypt
 DESCRIPTION=Wolfram Mathematica
 EAPI=8
 HOMEPAGE=https://www.wolfram.com/mathematica/
@@ -7,9 +8,9 @@ INHERIT=desktop unpacker xdg
 IUSE=+doc
 KEYWORDS=-* ~amd64
 LICENSE=all-rights-reserved
-RDEPEND=media-libs/freetype
+RDEPEND=media-libs/freetype virtual/libcrypt
 RESTRICT=strip mirror bindist fetch
 SLOT=0
 SRC_URI=Mathematica_13.0.1_BNDL_LINUX.sh
 _eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	unpacker	697382d119fd3d195f110b7979184285	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
-_md5_=7c295ae38a1f4afaf49a0612784d288b
+_md5_=2e4323671c243f2b9aed49975754f632
