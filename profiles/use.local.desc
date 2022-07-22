@@ -60,4 +60,5 @@ sci-mathematics/cado-nfs:curl - Support fetching and pushing (requires webdav to
 sci-mathematics/cado-nfs:hwloc - Displays the hardware topology in convenient formats
 sci-mathematics/cado-nfs:mpi - Whether to use MPI (Message Passing Interface) or not
 sci-mathematics/cado-nfs:mysql - Install mysql database to store data
+sci-mathematics/mathematica:R - Enable dev-lang/R backend support
 sci-mathematics/mathematica:cuda - Install with cuda support
