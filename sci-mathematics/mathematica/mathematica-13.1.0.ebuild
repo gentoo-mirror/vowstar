@@ -86,7 +86,7 @@ src_install() {
 
 	# fix world writable file QA problem for files
 	while IFS= read -r -d '' i; do
-		chmod o-w ${i} || die
+		chmod o-w "${i}" || die
 	done < <(find "${S}/${M_TARGET}" -type f -print0)
 
 	einfo 'Removing MacOS- and Windows-specific files'
@@ -170,7 +170,6 @@ src_install() {
 	insinto /usr/share/mime/application
 	for filename in $(find "${ED}/${M_TARGET}/SystemFiles/Installation" -name "application-*.xml"); do
 		basefilename=$(basename "${filename}")
-		sed -e "s|${S}||g" -e 's|^\t\t||g' -i "${filename}" || die
 		mv "${filename}" "${T}/${basefilename#application-}" || die
 		doins "${T}/${basefilename#application-}"
 	done
