@@ -16,7 +16,7 @@ HOMEPAGE="https://www.wolfram.com/mathematica/"
 LICENSE="all-rights-reserved"
 KEYWORDS="-* ~amd64"
 SLOT="0"
-IUSE="cuda +doc ffmpeg R"
+IUSE="cuda doc ffmpeg R"
 
 RESTRICT="strip mirror bindist fetch"
 
@@ -53,7 +53,9 @@ S=${WORKDIR}
 
 src_unpack() {
 	/bin/sh "${DISTDIR}/Mathematica_${PV}_LINUX.sh" --nox11 --keep --target "${S}/unpack_app" -- "-help" || die
-	/bin/sh "${DISTDIR}/WLDocs_${PV}_LINUX.sh" --nox11 --keep --target "${S}/unpack_doc" -- "-help" || die
+	if use doc; then
+		/bin/sh "${DISTDIR}/WLDocs_${PV}_LINUX.sh" --nox11 --keep --target "${S}/unpack_doc" -- "-help" || die
+	fi
 }
 
 src_install() {
@@ -78,9 +80,9 @@ src_install() {
 		/bin/sh "Unix/Installer/MathInstaller" -auto "-targetdir=${S}/temp_doc" "-execdir=${S}/opt/bin" || die
 		popd > /dev/null || die
 		# Merge contents of Mathematica_docs with Mathematica
-		rm -r ${S}/${M_TARGET}/Documentation/English/{SearchIndex,System} || die
-		mv ${S}/temp_doc/Documentation/English/* ${S}/${M_TARGET}/Documentation/English/ || die
-		rm -r ${S}/temp_doc || die
+		rm -r "${S}/${M_TARGET}"/Documentation/English/{SearchIndex,System} || die
+		mv "${S}"/temp_doc/Documentation/English/* "${S}/${M_TARGET}/"Documentation/English/ || die
+		rm -r "${S}"/temp_doc || die
 	fi
 
 	# fix world writable file QA problem for files
@@ -163,7 +165,12 @@ src_install() {
 	done
 
 	# install icons
-	doicon -s scalable "${FILESDIR}/wolfram-mathematica.svg"
+	for iconsize in 16 32 64 128 256; do
+		local iconfile="${ED}/${M_TARGET}/SystemFiles/FrontEnd/SystemResources/X/App-${iconsize}.png"
+		if [ -e "${png_file}" ]; then
+			newicon -s "${iconsize}" "${iconfile}" wolfram-mathematica.png
+		fi
+	done
 
 	# install mime types
 	insinto /usr/share/mime/application
