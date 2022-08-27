@@ -34,6 +34,7 @@ net-wireless/gr-osmosdr 0.2.3-r1 9999: GNU Radio source block for OsmoSDR and rt
 net-wireless/uhd 4.1.0.5 4.2.0.0: Universal Software Radio Peripheral (USRP) Hardware Driver
 sci-electronics/bsc 0_pre20210106 0_pre20210124 9999: Bluespec high level hardware design language compiler
 sci-electronics/chisel-meta 3.5.4: Meta package to run chisel playground
+sci-electronics/circt 1.5.2: The fast free Verilog/SystemVerilog simulator
 sci-electronics/dsview 1.2.0 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 10.3-r1 11.0 9999: A Verilog simulation and synthesis tool
 sci-electronics/kactus2 3.10.0 9999: A open source IP-XACT-based tool
