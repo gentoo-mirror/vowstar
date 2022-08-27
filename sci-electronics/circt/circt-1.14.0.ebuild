@@ -50,19 +50,10 @@ BDEPEND="
 "
 
 DOCS=(
-	"${S_LLVM}/llvm/LICENSE.TXT"
-	"${S_LLVM}/mlir/LICENSE.TXT"
-	"${S_CIRCT}/LICENSE"
+	"${S_LLVM}/llvm/llvm-LICENSE.TXT"
+	"${S_LLVM}/mlir/mlir-LICENSE.TXT"
+	"${S_CIRCT}/circt-LICENSE"
 )
-
-src_prepare() {
-	default
-	if [[ "${PV}" != "9999" ]] ; then
-		rm -r "${S_CIRCT}"/llvm || die
-		cp -rf "${S_LLVM}" "${S_CIRCT}"/llvm || die
-	fi
-	cmake_src_prepare
-}
 
 src_configure() {
 	python_setup
@@ -87,32 +78,13 @@ src_configure() {
 }
 
 src_compile() {
-	CMAKE_USE_DIR="${S_LLVM}/llvm"
-	BUILD_DIR="${CMAKE_USE_DIR}_build"
-	mkdir -p "${BUILD_DIR}" || die
-	pushd "${BUILD_DIR}" || die
-	local mycmakeargs=(
-		-D CMAKE_BUILD_TYPE=Release \
-		-D CMAKE_INSTALL_PREFIX=/usr \
-		-D LLVM_BINUTILS_INCDIR=/usr/include \
-		-D LLVM_ENABLE_PROJECTS=mlir \
-		-D BUILD_SHARED_LIBS=OFF \
-		-D LLVM_STATIC_LINK_CXX_STDLIB=ON \
-		-D LLVM_ENABLE_ASSERTIONS=ON \
-		-D LLVM_BUILD_EXAMPLES=OFF \
-		-D LLVM_ENABLE_BINDINGS=OFF \
-		-D LLVM_ENABLE_OCAMLDOC=OFF \
-		-D LLVM_OPTIMIZED_TABLEGEN=ON \
-		-D LLVM_BUILD_TOOLS=ON
-	)
-	cmake_src_configure
-	cmake_src_build
-	popd
-
-	# eninja -C "${BUILD_DIR}" firtool
+	eninja -C "${BUILD_DIR}" firtool
 }
 
 src_install() {
+	mv "${S_LLVM}/llvm/LICENSE.TXT" "${S_LLVM}/llvm/llvm-LICENSE.TXT" || die
+	mv "${S_LLVM}/mlir/LICENSE.TXT" "${S_LLVM}/mlir/mlir-LICENSE.TXT" || die
+	mv "${S_CIRCT}/LICENSE" "${S_CIRCT}/circt-LICENSE" || die
 	einstalldocs
 	exeinto /usr/bin
 	doexe "${BUILD_DIR}"/bin/firtool
