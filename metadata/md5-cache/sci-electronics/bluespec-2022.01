@@ -4,7 +4,6 @@ DEPEND=dev-haskell/old-time:0= dev-haskell/regex-compat:0= dev-haskell/split:0= 
 DESCRIPTION=Toolchain for the Bluespec Hardware Definition Language
 EAPI=8
 HOMEPAGE=https://github.com/B-Lang-org/bsc
-INHERIT=multiprocessing
 IUSE=doc test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD GPL-3+ MIT
@@ -12,5 +11,4 @@ RDEPEND=dev-haskell/old-time:0= dev-haskell/regex-compat:0= dev-haskell/split:0=
 RESTRICT=!test? ( test )
 SLOT=2022.01
 SRC_URI=https://github.com/B-Lang-org/bsc/archive/refs/tags/2022.01.tar.gz -> bluespec-2022.01.tar.gz https://github.com/SRI-CSL/yices2/archive/refs/tags/Yices-2.6.4.tar.gz -> yices-2.6.4.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730
-_md5_=fc737ea32da25e535926193fe89299fc
+_md5_=755de723333b34f8cf2729d474db71c2
