@@ -12,9 +12,10 @@ if [[ ${PV} == "9999" ]] ; then
 else
 	SRC_URI="
 		https://github.com/B-Lang-org/bsc/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz
-		https://github.com/B-Lang-org/bsc/releases/download/${PV}/yices-src-for-bsc-${PV}.tar.gz
+		https://github.com/SRI-CSL/yices2/archive/refs/tags/Yices-2.6.4.tar.gz -> yices-2.6.4.tar.gz
 	"
-	S="${WORKDIR}/bsc-${EGIT_COMMIT}"
+	S="${WORKDIR}/bsc-${PV}"
+	S_YICES="${WORKDIR}/yices2-Yices-2.6.4"
 	KEYWORDS="~amd64 ~x86"
 fi
 
@@ -67,27 +68,32 @@ PATCHES=(
 
 DOCS=( "README.md" "COPYING" )
 
-src_compile() {
+src_prepare() {
+	if [[ ${PV} != "9999" ]] ; then
+		rm -r ${S}/src/vendor/yices/v2.6/yices2 || die
+		ln -s ${S_YICES} ${S}/src/vendor/yices/v2.6/yices2 || die
+	fi
+
+	default
+}
+
+# The upstream will install while compiling, even if we don't execute
+# make install here, this seems to be an upstream bug.
+src_compile() { :; }
+
+src_install() {
 	# PREFIX="${EPREFIX}"/usr/share/bsc/bsc-"${PV}": https://github.com/B-Lang-org/bsc/blob/main/INSTALL.md
 	# NO_DEPS_CHECKS=1: skip the subrepo check (this deriviation uses yices.src instead of the subrepo)
 	# NOGIT=1: https://github.com/B-Lang-org/bsc/issues/12
 	# LDCONFIG=ldconfig: https://github.com/B-Lang-org/bsc/pull/43
 	# STP_STUB=1: https://github.com/B-Lang-org/bsc/pull/278
-	emake PREFIX="${EPREFIX}"/usr/share/bsc/bsc-"${PV}" \
-		"release" \
-		"NO_DEPS_CHECKS=1" \
-		"NOGIT=1" \
-		"LDCONFIG=ldconfig" \
-		"STP_STUB=1"
-}
-
-src_install() {
 	emake PREFIX="${ED}"/usr/share/bsc/bsc-"${PV}" \
 		"release" \
 		"NO_DEPS_CHECKS=1" \
 		"NOGIT=1" \
 		"LDCONFIG=ldconfig" \
 		"STP_STUB=1" \
+		"NOASCIIDOCTOR=1" \
 		install install-extra
 	einstalldocs
 }
