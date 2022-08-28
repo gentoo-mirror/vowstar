@@ -12,4 +12,4 @@ RDEPEND=dev-haskell/old-time:0= dev-haskell/regex-compat:0= dev-haskell/split:0=
 RESTRICT=!test? ( test )
 SLOT=9999
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=21fce7e4cd44316bb6bfe662e3991233
+_md5_=cdc09b0191354f44bdcb62268a56f723
