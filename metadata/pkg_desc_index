@@ -32,7 +32,7 @@ net-wireless/gqrx 2.15.9 9999: Software defined radio receiver powered by GNU Ra
 net-wireless/gr-iqbal 0.38.2 9999: gnuradio I/Q balancing
 net-wireless/gr-osmosdr 0.2.3-r1 9999: GNU Radio source block for OsmoSDR and rtlsdr and hackrf
 net-wireless/uhd 4.1.0.5 4.2.0.0: Universal Software Radio Peripheral (USRP) Hardware Driver
-sci-electronics/bsc 0_pre20210106 0_pre20210124 9999: Bluespec high level hardware design language compiler
+sci-electronics/bluespec 0_pre20210106 0_pre20210124 9999: Bluespec high level hardware design language compiler
 sci-electronics/chisel-meta 3.5.4: Meta package to run chisel playground
 sci-electronics/circt 1.14.0: The fast free Verilog/SystemVerilog simulator
 sci-electronics/dsview 1.2.0 9999: An open source multi-function instrument
