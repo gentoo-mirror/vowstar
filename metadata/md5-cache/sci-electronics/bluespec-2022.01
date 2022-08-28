@@ -11,4 +11,4 @@ RDEPEND=dev-haskell/old-time:0= dev-haskell/regex-compat:0= dev-haskell/split:0=
 RESTRICT=!test? ( test )
 SLOT=2022.01
 SRC_URI=https://github.com/B-Lang-org/bsc/archive/refs/tags/2022.01.tar.gz -> bluespec-2022.01.tar.gz https://github.com/SRI-CSL/yices2/archive/refs/tags/Yices-2.6.4.tar.gz -> yices-2.6.4.tar.gz
-_md5_=755de723333b34f8cf2729d474db71c2
+_md5_=e8c94645e3d96c18db93ef59159d24f4
