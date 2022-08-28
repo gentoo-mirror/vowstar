@@ -70,8 +70,8 @@ DOCS=( "README.md" "COPYING" )
 
 src_prepare() {
 	if [[ ${PV} != "9999" ]] ; then
-		rm -r ${S}/src/vendor/yices/v2.6/yices2 || die
-		ln -s ${S_YICES} ${S}/src/vendor/yices/v2.6/yices2 || die
+		rm -r "${S}"/src/vendor/yices/v2.6/yices2 || die
+		ln -s "${S_YICES}" "${S}"/src/vendor/yices/v2.6/yices2 || die
 	fi
 
 	default
@@ -94,6 +94,12 @@ src_install() {
 		"LDCONFIG=ldconfig" \
 		"STP_STUB=1" \
 		$(usex doc "" "NOASCIIDOCTOR=1") \
-		install-src install-release install-extra $(usex doc "install-doc" "")
+		$(usex doc "install-doc" "") \
+		$(usex doc "install-release" "") \
+		install-src \
+		$(usex doc "release" "")
+	emake -C src/comp PREFIX="${ED}"/usr/share/bsc/bsc-"${PV}" \
+		install-extra
+
 	einstalldocs
 }
