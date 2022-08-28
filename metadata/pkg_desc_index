@@ -3,6 +3,7 @@ app-editors/imhex 1.21.2: A hex editor for reverse engineers, programmers, and e
 app-editors/qhexedit2 0.8.6_p20190316-r2 0.8.9_p20210525-r2: Hex editor library, Qt application written in C++ with Python bindings
 app-emulation/deepin-wine-helper 5.1.27-r1: Deepin Wine Helper
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
+app-eselect/eselect-bluespec 1.0.0: Manages the /usr/bin/vi symlink
 dev-embedded/jlink 7.66b: Tools for Segger J-Link JTAG adapters
 dev-libs/cudnn 8.2.0.53: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/libdatrie 0.2.13: Double-Array Trie Library
