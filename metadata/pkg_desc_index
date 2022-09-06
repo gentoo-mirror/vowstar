@@ -1,5 +1,5 @@
 app-containers/nvidia-container-toolkit 1.5.0 1.7.0 1.9.0 1.10.0 9999: NVIDIA container runtime toolkit
-app-editors/imhex 1.21.2: A hex editor for reverse engineers, programmers, and eyesight
+app-editors/imhex 1.21.2 1.22.0: A hex editor for reverse engineers, programmers, and eyesight
 app-editors/qhexedit2 0.8.6_p20190316-r2 0.8.9_p20210525-r2: Hex editor library, Qt application written in C++ with Python bindings
 app-emulation/deepin-wine-helper 5.1.27-r1: Deepin Wine Helper
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
@@ -40,7 +40,7 @@ net-wireless/uhd 4.1.0.5 4.2.0.0: Universal Software Radio Peripheral (USRP) Har
 sci-electronics/bluespec 2022.01 9999: Toolchain for the Bluespec Hardware Definition Language
 sci-electronics/chisel-meta 3.5.4: Meta package to run chisel playground
 sci-electronics/circt 1.14.0: The fast free Verilog/SystemVerilog simulator
-sci-electronics/dsview 1.2.0 9999: An open source multi-function instrument
+sci-electronics/dsview 1.2.1 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 10.3-r1 11.0 9999: A Verilog simulation and synthesis tool
 sci-electronics/kactus2 3.10.0 9999: A open source IP-XACT-based tool
 sci-electronics/kicad 9999: Electronic Schematic and PCB design tools
