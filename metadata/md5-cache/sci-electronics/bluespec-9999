@@ -12,4 +12,4 @@ RDEPEND=app-eselect/eselect-bluespec app-shells/tcsh dev-haskell/old-time:0= dev
 RESTRICT=!test? ( test )
 SLOT=9999
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=21a6721f01be77eb69ed838e1d7f831d
+_md5_=57937f51ff6af46241d4903b4bd20fa2
