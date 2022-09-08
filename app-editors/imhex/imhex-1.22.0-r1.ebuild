@@ -51,6 +51,17 @@ BDEPEND="
 	sys-devel/llvm
 "
 
+src_prepare() {
+	default
+	# Due to network sandboxing, we can't do network test here.
+	sed -i \
+		-e 's/StoreAPI$/#StoreAPI/' \
+		-e 's/TipsAPI$/#TipsAPI/' \
+		-e 's/ContentAPI$/#ContentAPI/' \
+		"${S}/tests/helpers/CMakeLists.txt" || die
+	cmake_src_prepare
+}
+
 src_configure() {
 	use python && python_setup
 
