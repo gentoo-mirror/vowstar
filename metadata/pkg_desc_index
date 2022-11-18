@@ -97,7 +97,6 @@ media-gfx/zw3d 2022.0.3.1: CAD/CAM software for 3D design and processing
 media-gfx/zwcad 2022.22.2.2.3 2023.23.0.3.4: CAD software for 2D drawing, reviewing and printing work
 media-libs/codec2 1.0.5: Low bit rate speech codec
 media-libs/vst3sdk 3.7.6: VST 3 Plug-In SDK
-media-sound/audacity 3.2.1: Free crossplatform audio editor
 media-video/davinci-resolve 17.4 17.4.6: Professional A/V post-production software suite
 media-video/davinci-resolve-studio 17.4 17.4.6: Professional A/V post-production software suite
 media-video/kikoplay 0.7.2 0.8.0 0.8.1 0.8.2 9999: KikoPlay is a full-featured danmu player
@@ -137,5 +136,6 @@ sys-auth/python-validity 0.12: Validity fingerprint sensor prototype
 sys-libs/libnvidia-container 1.4.0 1.7.0 1.9.0 1.10.0: NVIDIA container runtime library
 sys-power/throttled 0.8 0.9.2 9999: Fix Intel CPU Throttling on Linux
 sys-process/nvtop 2.0.3 9999: NVIDIA GPUs htop like monitoring tool
+x11-libs/wxGTK 3.2.1-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-themes/obsidian-icon-theme 4.15-r1 9999: Obsidian Icon Theme is intuitive Faenza-like icon theme
 x11-themes/obsidian2-gtk-theme 2.20 9999: Obsidian Gnome Theme, based upon Adwaita-Maia dark skin
