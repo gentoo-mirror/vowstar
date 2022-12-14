@@ -97,8 +97,8 @@ media-gfx/zw3d 2022.0.3.1: CAD/CAM software for 3D design and processing
 media-gfx/zwcad 2022.22.2.2.3 2023.23.0.3.4: CAD software for 2D drawing, reviewing and printing work
 media-libs/codec2 1.0.5: Low bit rate speech codec
 media-libs/vst3sdk 3.7.6: VST 3 Plug-In SDK
-media-video/davinci-resolve 17.4 17.4.6: Professional A/V post-production software suite
-media-video/davinci-resolve-studio 17.4 17.4.6: Professional A/V post-production software suite
+media-video/davinci-resolve 17.4.6-r1: Professional A/V post-production software suite
+media-video/davinci-resolve-studio 17.4.6-r1: Professional A/V post-production software suite
 media-video/kikoplay 0.7.2 0.8.0 0.8.1 0.8.2 9999: KikoPlay is a full-featured danmu player
 media-video/uxplay 1.54: AirPlay Unix mirroring server
 net-im/deepin-wine-wecom 4.0.0.6007: Tencent Wecom on Deepin Wine(com.qq.weixin.work.deepin) For Gentoo
