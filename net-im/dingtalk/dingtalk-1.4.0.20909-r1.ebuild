@@ -4,7 +4,7 @@
 EAPI=8
 
 MY_PGK_NAME="com.alibabainc.dingtalk"
-inherit unpacker xdg
+inherit desktop unpacker xdg
 
 DESCRIPTION="Communication platform that supports video and audio conferencing"
 HOMEPAGE="https://gov.dingtalk.com"
@@ -22,10 +22,11 @@ RESTRICT="strip mirror bindist"
 RDEPEND="
 	dev-libs/libthai
 	dev-qt/qtgui
-	net-nds/openldap
+	|| ( <media-libs/tiff-4.5.0 media-libs/tiff-compat:4 )
 	media-sound/pulseaudio
 	media-video/rtmpdump
 	net-misc/curl
+	net-nds/openldap
 	sys-libs/zlib
 	sys-process/procps
 	x11-libs/gtk+:2
@@ -43,8 +44,7 @@ QA_PREBUILT="*"
 
 src_install() {
 	# Install scalable icon
-	mkdir -p "${S}"/usr/share/icons/hicolor/scalable/apps || die
-	cp "${FILESDIR}"/dingtalk.svg "${S}"/usr/share/icons/hicolor/scalable/apps || die
+	doicon -s scalable "${FILESDIR}"/dingtalk.svg
 	# Remove the libraries that break compatibility in modern systems
 	# Dingtalk will use the system libs instead
 	MY_VERSION=$(cat "${S}"/opt/apps/"${MY_PGK_NAME}"/files/version)
