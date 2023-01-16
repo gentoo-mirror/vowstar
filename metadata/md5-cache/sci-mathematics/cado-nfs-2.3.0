@@ -1,0 +1,16 @@
+BDEPEND=sys-devel/make >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-util/cmake python_targets_python3_9? ( >=dev-lang/python-3.9.16:3.9[sqlite] ) python_targets_python3_10? ( >=dev-lang/python-3.10.9:3.10[sqlite] ) python_targets_python3_11? ( >=dev-lang/python-3.11.1:3.11[sqlite] ) !sci-mathematics/ggnfs mpi? ( virtual/mpi ) mysql? ( virtual/mysql ) curl? ( net-misc/curl ) hwloc? ( >=sys-apps/hwloc-2.0.0 ) dev-libs/gmp:0=
+DESCRIPTION=Number Field Sieve (NFS) implementation for factoring integers
+EAPI=8
+HOMEPAGE=http://cado-nfs.gforge.inria.fr
+INHERIT=cmake python-r1
+IUSE=mpi mysql +curl +hwloc python_targets_python3_9 python_targets_python3_10 python_targets_python3_11
+KEYWORDS=~amd64 ~arm64 ~riscv ~x86
+LICENSE=LGPL-2.1
+RDEPEND=python_targets_python3_9? ( >=dev-lang/python-3.9.16:3.9[sqlite] ) python_targets_python3_10? ( >=dev-lang/python-3.10.9:3.10[sqlite] ) python_targets_python3_11? ( >=dev-lang/python-3.11.1:3.11[sqlite] ) !sci-mathematics/ggnfs mpi? ( virtual/mpi ) mysql? ( virtual/mysql ) curl? ( net-misc/curl ) hwloc? ( >=sys-apps/hwloc-2.0.0 ) dev-libs/gmp:0=
+REQUIRED_USE=|| ( python_targets_python3_9 python_targets_python3_10 python_targets_python3_11 )
+SLOT=0
+SRC_URI=https://gitlab.inria.fr/cado-nfs/cado-nfs/-/archive/2.3.0/cado-nfs-2.3.0.tar.gz
+_eclasses_=toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	449b4785acace35308fe747fc939bde1	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	python-utils-r1	a1a985ddd8795a8634b4b7f820b93143	python-r1	666be58f658d6b32affe30f80e39a49e
+_md5_=7c1e6c7d636f1c553308cc274d52c198
