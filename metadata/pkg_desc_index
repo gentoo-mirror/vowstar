@@ -115,6 +115,7 @@ sci-electronics/chisel-meta 3.5.4: Meta package to run chisel playground
 sci-electronics/circt 1.14.0: The fast free Verilog/SystemVerilog simulator
 sci-electronics/dsview 1.2.1 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 10.3-r1 11.0 9999: A Verilog simulation and synthesis tool
+sci-electronics/jlc-assistant-bin 5.0.69: JLC Order Assistant (binary package)
 sci-electronics/kactus2 3.10.0 9999: A open source IP-XACT-based tool
 sci-electronics/kicad 9999: Electronic Schematic and PCB design tools
 sci-electronics/kicad-footprints 9999: Electronic Schematic and PCB design tools footprint libraries
