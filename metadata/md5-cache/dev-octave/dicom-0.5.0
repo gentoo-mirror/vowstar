@@ -10,4 +10,4 @@ RDEPEND=sci-libs/gdcm sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/dicom-0.5.0.tar.gz -> dicom-0.5.0.tar.gz
-_md5_=5878981854fe8360e5a77ae2d539e214
+_md5_=f8bfa1fe3b61cfbc71d13143c5235654

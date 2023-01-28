@@ -10,4 +10,4 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-libs/libusb net-print/cups scanner? ( media-gfx/sane-backends )
 SLOT=0
 SRC_URI=https://ftp.ext.hp.com/pub/softlib/software13/printers/LaserJet/M437_M443/ULDLINUX_HewlettPackard_V1.00.39.15_00.23.zip
-_md5_=7c47e1436a6d0f1387458f0c2ee48667
+_md5_=baeb026dfdbf5582d6564b60545ea226

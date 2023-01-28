@@ -11,4 +11,4 @@ REQUIRED_USE=^^ ( cuda10-2 cuda11-1 cuda11-2 )
 RESTRICT=fetch
 SLOT=0/8
 SRC_URI=cuda11-1? ( cudnn-11.3-linux-x64-v8.2.0.53.tgz ) cuda11-2? ( cudnn-11.3-linux-x64-v8.2.0.53.tgz ) cuda10-2? ( cudnn-10.2-linux-x64-v8.2.0.53.tgz )
-_md5_=67f9ae2afbca9494aab3e3b72f2795a8
+_md5_=fb594491a473f92a91326e6d06c5f29f

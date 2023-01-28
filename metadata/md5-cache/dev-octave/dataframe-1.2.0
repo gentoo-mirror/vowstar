@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/dataframe-1.2.0.tar.gz -> dataframe-1.2.0.tar.gz
-_md5_=82449e5f009a0c76f90b9465f70bed1d
+_md5_=485d9b65668aedde5be197f6d595e881

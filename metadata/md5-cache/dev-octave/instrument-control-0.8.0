@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/instrument-control-0.8.0.tar.gz -> instrument-control-0.8.0.tar.gz
-_md5_=0c6eb0f840a7b14032644cac2aff274f
+_md5_=349dd1dbcd4fc76d3ecff098d63da152
