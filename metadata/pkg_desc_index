@@ -127,7 +127,7 @@ sci-electronics/klayout 0.27.7 9999: Viewer and editor for GDS and OASIS integra
 sci-electronics/slang 1.0 2.0 9999: SystemVerilog compiler and language services
 sci-electronics/systemc 2.3.4-r2: A C++ based modeling platform for VLSI and system-level co-design
 sci-electronics/verible 0.0.2275: SystemVerilog parser, style-linter, and formatter
-sci-electronics/verilator 4.032 4.034 4.036 4.038 4.040 4.100 4.102 4.104 4.106 4.108 4.110 4.200 4.202 4.204 4.210 4.218 4.220 4.222 4.224 4.226 4.228 5.002 5.004 5.006 9999: The fast free Verilog/SystemVerilog simulator
+sci-electronics/verilator 4.106 5.006 9999: The fast free Verilog/SystemVerilog simulator
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sci-mathematics/mathematica 12.1.1-r1 12.2.0 12.3.0 13.0.0 13.0.1 13.1.0: Wolfram Mathematica
 sci-mathematics/octave-meta 20221117: Merge this to pull in all octave forge packages
