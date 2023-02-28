@@ -91,7 +91,7 @@ dev-ruby/prawn-templates 0.1.2-r1: Provides support for templates in Prawn
 dev-util/ghidra 10.1.5-r1: A software reverse engineering framework
 dev-util/jd-gui 1.6.6: A standalone graphical utility that displays Java source codes of .class file
 dev-util/nvidia-cuda-toolkit 11.4.0: NVIDIA CUDA Toolkit (compiler and friends)
-games-util/chiaki 2.1.1-r1 9999: Client for PlayStation 4 and PlayStation 5 Remote Play
+games-util/chiaki 2.1.1-r2 9999: Client for PlayStation 4 and PlayStation 5 Remote Play
 media-gfx/oda-file-converter 23.5.0.0: For converting between different versions of .dwg and .dxf
 media-gfx/zw3d 2022.0.3.1-r2: CAD/CAM software for 3D design and processing
 media-gfx/zwcad 2023.23.0.3.4-r1: CAD software for 2D drawing, reviewing and printing work
