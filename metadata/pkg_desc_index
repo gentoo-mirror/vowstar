@@ -1,6 +1,6 @@
 app-containers/nvidia-container-toolkit 1.5.0 1.7.0 1.9.0 1.10.0 9999: NVIDIA container runtime toolkit
 app-editors/imhex 1.22.0-r1 1.26.2-r1: A hex editor for reverse engineers, programmers, and eyesight
-app-editors/qhexedit2 0.8.6_p20190316-r2 0.8.9_p20210525-r2: Hex editor library, Qt application written in C++ with Python bindings
+app-editors/qhexedit2 0.8.6_p20190316-r2 0.8.9_p20210525-r3: Hex editor library, Qt application written in C++ with Python bindings
 app-emulation/deepin-wine-helper 5.1.27-r1: Deepin Wine Helper
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
 app-eselect/eselect-bluespec 1.0.1: Manages the /usr/bin/vi symlink
