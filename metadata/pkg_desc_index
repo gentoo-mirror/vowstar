@@ -104,7 +104,7 @@ media-video/uxplay 1.54: AirPlay Unix mirroring server
 net-im/deepin-wine-wechat 3.8.1.26: Tencent WeChat on Deepin Wine(com.qq.weixin.deepin) For Gentoo
 net-im/deepin-wine-wecom 4.0.0.6007: Tencent Wecom on Deepin Wine(com.qq.weixin.work.deepin) For Gentoo
 net-im/dingtalk 1.4.0.20909-r1: Communication platform that supports video and audio conferencing
-net-im/wemeet 3.12.0.400-r2: Wemeet - Tencent Video Conferencing
+net-im/wemeet 3.12.0.400-r2 3.14.0.401: Wemeet - Tencent Video Conferencing
 net-print/hpuld 1.00.39.15.00.23-r1: HP Unified Linux Driver (for samsung hardware)
 net-wireless/gnuradio 3.10.3.0 9999: Toolkit that provides signal processing blocks to implement software radios
 net-wireless/gqrx 2.15.9 9999: Software defined radio receiver powered by GNU Radio and Qt
