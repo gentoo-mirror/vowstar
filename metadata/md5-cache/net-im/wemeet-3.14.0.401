@@ -13,4 +13,4 @@ RESTRICT=bindist test
 SLOT=0
 SRC_URI=amd64? ( mirror+https://updatecdn.meeting.qq.com/cos/c62a1d83f5b1a2f4a4f2d189960fc02c/TencentMeeting_0300000000_3.14.0.401_arm64_default.publish.deb -> wemeet-3.14.0.401_amd64.deb ) arm64? ( mirror+https://updatecdn.meeting.qq.com/cos/1b001ef75914a1d6948decb8c2550b47/TencentMeeting_0300000000_3.14.0.401_x86_64_default.publish.deb -> wemeet-3.14.0.401_arm64.deb )
 _eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	unpacker	fdd15d854bf5e84f82d35524ab8ca6ba	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
-_md5_=488e95c84401e75f84bdae050800ef33
+_md5_=56de47e41f36f907f2e276b9eea39832
