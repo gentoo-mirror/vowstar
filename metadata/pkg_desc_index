@@ -118,12 +118,12 @@ sci-electronics/dsview 1.2.1 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 10.3-r1 11.0 9999: A Verilog simulation and synthesis tool
 sci-electronics/jlc-assistant-bin 5.0.69: JLC Order Assistant (binary package)
 sci-electronics/kactus2 3.10.0 9999: A open source IP-XACT-based tool
-sci-electronics/kicad 9999: Electronic Schematic and PCB design tools
-sci-electronics/kicad-footprints 9999: Electronic Schematic and PCB design tools footprint libraries
+sci-electronics/kicad 7.0.1 9999: Electronic Schematic and PCB design tools
+sci-electronics/kicad-footprints 7.0.1 9999: Electronic Schematic and PCB design tools footprint libraries
 sci-electronics/kicad-i18n 9999: Electronic Schematic and PCB design tools GUI translations
-sci-electronics/kicad-packages3d 9999: Electronic Schematic and PCB design tools 3D package libraries
-sci-electronics/kicad-symbols 9999: Electronic Schematic and PCB design tools symbol libraries
-sci-electronics/kicad-templates 9999: Electronic Schematic and PCB design tools project templates
+sci-electronics/kicad-packages3d 7.0.1 9999: Electronic Schematic and PCB design tools 3D package libraries
+sci-electronics/kicad-symbols 7.0.1 9999: Electronic Schematic and PCB design tools symbol libraries
+sci-electronics/kicad-templates 7.0.1 9999: Electronic Schematic and PCB design tools project templates
 sci-electronics/klayout 0.27.7 9999: Viewer and editor for GDS and OASIS integrated circuit layouts
 sci-electronics/slang 1.0 2.0 9999: SystemVerilog compiler and language services
 sci-electronics/systemc 2.3.4-r2: A C++ based modeling platform for VLSI and system-level co-design
