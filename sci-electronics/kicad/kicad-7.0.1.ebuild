@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..10} )
+PYTHON_COMPAT=( python3_{9..11} )
 WX_GTK_VER="3.2-gtk3"
 
 inherit check-reqs cmake optfeature python-single-r1 toolchain-funcs wxwidgets xdg-utils
@@ -73,13 +73,6 @@ if [[ ${PV} == 9999 ]] ; then
 fi
 
 CHECKREQS_DISK_BUILD="900M"
-
-PATCHES=(
-	# https://bugs.gentoo.org/895188
-	"${FILESDIR}"/${PN}-7.0.0-wxwidgets-version.patch
-
-	"${FILESDIR}"/${PN}-7.0.0-werror.patch
-)
 
 pkg_setup() {
 	[[ ${MERGE_TYPE} != binary ]] && use openmp && tc-check-openmp
