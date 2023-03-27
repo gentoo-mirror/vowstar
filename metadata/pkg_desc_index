@@ -95,7 +95,7 @@ dev-ruby/brass 1.2.1-r1: BRASS is a very basic assertions framework for Ruby
 dev-ruby/citeproc 1.0.10: A cite processor interface for Citation Style Language (CSL)
 dev-ruby/citeproc-ruby 1.1.14 2.0.0: A cite processor interface for Citation Style Language (CSL)
 dev-ruby/csl 1.6.0 2.0.0: Citation Style Language (CSL) API for Ruby
-dev-ruby/csl-styles 1.0.1.9 2.0.1: CSL styles and locales as a RubyGem
+dev-ruby/csl-styles 1.0.1.11 2.0.1: CSL styles and locales as a RubyGem
 dev-ruby/css_parser 1.14.0: Sass-based Stylesheet Framework
 dev-ruby/hashery 2.1.2-r1: The Hashery is a tight collection of Hash-like classes
 dev-ruby/latex-decode 0.4.0: Converts LaTeX to Unicode
