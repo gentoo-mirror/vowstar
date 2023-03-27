@@ -11,7 +11,7 @@ RUBY_FAKEGEM_EXTRADOC="CHANGELOG.adoc LICENSE.txt README.adoc"
 
 RUBY_FAKEGEM_GEMSPEC="${PN}.gemspec"
 
-inherit multilib ruby-fakegem
+inherit ruby-fakegem
 
 DESCRIPTION="A set of Asciidoctor extensions that enable you to add diagrams"
 HOMEPAGE="https://github.com/asciidoctor/asciidoctor-diagram"
@@ -32,6 +32,8 @@ DEPEND+=" test? (
 	sci-visualization/gnuplot
 )"
 ruby_add_rdepend ">=dev-ruby/asciidoctor-1.5.7 <dev-ruby/asciidoctor-3
+	~dev-ruby/asciidoctor-diagram-ditaamini-1.0.3
+	~dev-ruby/asciidoctor-diagram-plantuml-1.2023.4
 	dev-ruby/rexml"
 
 all_ruby_prepare() {
