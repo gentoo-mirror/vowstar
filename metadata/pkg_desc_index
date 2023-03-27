@@ -89,7 +89,9 @@ dev-ruby/afm 0.2.2-r2: A very simple library to read Adobe Font Metrics files
 dev-ruby/ansi 1.5.0-r1: The Ruby ANSI project is collection of ANSI escape codes for Ruby
 dev-ruby/ascii85 1.1.0: Methods for encoding/decoding Adobe's binary-to-text encoding of the same name
 dev-ruby/asciidoctor-bibtex 0.8.0: Add bibtex citation support for asciidoc documents
-dev-ruby/asciidoctor-diagram 2.2.1: A set of Asciidoctor extensions that enable you to add diagrams
+dev-ruby/asciidoctor-diagram 2.2.6: A set of Asciidoctor extensions that enable you to add diagrams
+dev-ruby/asciidoctor-diagram-ditaamini 1.0.3: A set of Asciidoctor extensions that enable you to add diagrams
+dev-ruby/asciidoctor-diagram-plantuml 1.2023.4: A set of Asciidoctor extensions that enable you to add diagrams
 dev-ruby/asciidoctor-pdf 2.3.4: A native PDF converter for AsciiDoc based on Asciidoctor and Prawn
 dev-ruby/bibtex-ruby 5.1.7 6.0.0: A BibTeX library, parser, and converter for Ruby
 dev-ruby/brass 1.2.1-r1: BRASS is a very basic assertions framework for Ruby
