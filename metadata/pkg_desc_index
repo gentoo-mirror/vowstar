@@ -88,11 +88,14 @@ dev-ruby/ae 1.8.2-r1: Assertive Expressive is an assertions library designed for
 dev-ruby/afm 0.2.2-r2: A very simple library to read Adobe Font Metrics files
 dev-ruby/ansi 1.5.0-r1: The Ruby ANSI project is collection of ANSI escape codes for Ruby
 dev-ruby/ascii85 1.1.0: Methods for encoding/decoding Adobe's binary-to-text encoding of the same name
+dev-ruby/asciidoctor-bibtex 0.8.0: Add bibtex citation support for asciidoc documents
 dev-ruby/asciidoctor-pdf 2.3.4: A native PDF converter for AsciiDoc based on Asciidoctor and Prawn
 dev-ruby/bibtex-ruby 6.0.0: A BibTeX library, parser, and converter for Ruby
 dev-ruby/brass 1.2.1-r1: BRASS is a very basic assertions framework for Ruby
 dev-ruby/citeproc 1.0.10: A cite processor interface for Citation Style Language (CSL)
+dev-ruby/citeproc-ruby 2.0.0: A cite processor interface for Citation Style Language (CSL)
 dev-ruby/csl 2.0.0: Citation Style Language (CSL) API for Ruby
+dev-ruby/csl-styles 2.0.1: CSL styles and locales as a RubyGem
 dev-ruby/css_parser 1.14.0: Sass-based Stylesheet Framework
 dev-ruby/hashery 2.1.2-r1: The Hashery is a tight collection of Hash-like classes
 dev-ruby/latex-decode 0.4.0: Converts LaTeX to Unicode
