@@ -90,7 +90,7 @@ dev-ruby/ansi 1.5.0-r1: The Ruby ANSI project is collection of ANSI escape codes
 dev-ruby/ascii85 1.1.0: Methods for encoding/decoding Adobe's binary-to-text encoding of the same name
 dev-ruby/asciidoctor-bibtex 0.8.0: Add bibtex citation support for asciidoc documents
 dev-ruby/asciidoctor-pdf 2.3.4: A native PDF converter for AsciiDoc based on Asciidoctor and Prawn
-dev-ruby/bibtex-ruby 6.0.0: A BibTeX library, parser, and converter for Ruby
+dev-ruby/bibtex-ruby 5.1.7 6.0.0: A BibTeX library, parser, and converter for Ruby
 dev-ruby/brass 1.2.1-r1: BRASS is a very basic assertions framework for Ruby
 dev-ruby/citeproc 1.0.10: A cite processor interface for Citation Style Language (CSL)
 dev-ruby/citeproc-ruby 2.0.0: A cite processor interface for Citation Style Language (CSL)
