@@ -91,6 +91,7 @@ dev-ruby/ascii85 1.1.0: Methods for encoding/decoding Adobe's binary-to-text enc
 dev-ruby/asciidoctor-pdf 2.3.4: A native PDF converter for AsciiDoc based on Asciidoctor and Prawn
 dev-ruby/bibtex-ruby 6.0.0: A BibTeX library, parser, and converter for Ruby
 dev-ruby/brass 1.2.1-r1: BRASS is a very basic assertions framework for Ruby
+dev-ruby/citeproc 1.0.10: A cite processor interface for Citation Style Language (CSL)
 dev-ruby/csl 2.0.0: Citation Style Language (CSL) API for Ruby
 dev-ruby/css_parser 1.14.0: Sass-based Stylesheet Framework
 dev-ruby/hashery 2.1.2-r1: The Hashery is a tight collection of Hash-like classes
