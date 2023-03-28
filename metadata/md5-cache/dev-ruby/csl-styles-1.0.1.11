@@ -14,4 +14,4 @@ RESTRICT=!test? ( test ) !test? ( test ) !test? ( test )
 SLOT=0
 SRC_URI=https://github.com/inukshuk/csl-styles/archive/ec26358947824de26ec8b13c63436d1e3122c1a6.tar.gz -> csl-styles-1.0.1.11.tar.gz https://github.com/citation-style-language/locales/archive/bd8d2dbc85713b192d426fb02749475df30f0d2c.tar.gz -> csl-styles-locales-bd8d2dbc85713b192d426fb02749475df30f0d2c.tar.gz https://github.com/citation-style-language/styles/archive/f8524f9b9df60e94e98f824f242a1fb27cc9fc59.tar.gz -> csl-styles-styles-f8524f9b9df60e94e98f824f242a1fb27cc9fc59.tar.gz
 _eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	ruby-utils	2412b1152083f1e866ae6df229d51d30	ruby-ng	378d61ff0c0fe75e24cc380111c71424	ruby-fakegem	b3d68f90713fe925c1833722c17f6ef8
-_md5_=4e231f1d8be3b1c7b6cb10dfa4d34017
+_md5_=3a9194d458075dd9c93cdde36758aff4
