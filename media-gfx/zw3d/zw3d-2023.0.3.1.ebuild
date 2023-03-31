@@ -64,10 +64,9 @@ S=${WORKDIR}
 QA_PREBUILT="*"
 
 src_install() {
-	# Install scalable icons
-	mkdir -p "${S}"/usr/share/icons/hicolor/scalable/apps || die
-	mv "${S}"/opt/apps/${MY_PGK_NAME}/entries/icons/hicolor/scalable/apps/*.svg \
-		"${S}"/usr/share/icons/hicolor/scalable/apps || die
+	# Install scalable icons, desktop files, mimes
+	mkdir -p "${S}"/usr/share || die
+	mv "${S}"/opt/apps/${MY_PGK_NAME}/entries/* "${S}"/usr/share || die
 
 	# Set RPATH for preserve-libs handling
 	pushd "${S}"/opt/apps/${MY_PGK_NAME}/files || die
