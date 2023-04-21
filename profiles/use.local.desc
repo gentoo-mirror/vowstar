@@ -12,6 +12,9 @@ dev-util/nvidia-cuda-toolkit:sanitizer - Install compute-sanitizer tool
 dev-util/nvidia-cuda-toolkit:vis-profiler - Install the NVIDIA CUDA visual profiler (nvvp)
 games-util/chiaki:cli - Build CLI interface
 media-video/uxplay:zoomfix - supported mirrored window for screen-sharing applications such as Zoom
+net-im/deepin-wine-wechat:fake-simsun - Use fake_simsun font
+net-im/deepin-wine-wechat:reg-patch - Disable wechat-{player,app,appex,browser} plugin
+net-im/deepin-wine-wechat:wqy-microhei - Use wqy-microhei font
 net-print/hpuld:scanner - Enable scanner on multifunction devices which support it
 net-wireless/gnuradio:analog - enable analog signal processing blocks
 net-wireless/gnuradio:audio - enable blocks to connect to audio sources (mic-in) and sinks (speaker-out) ports on a computer
