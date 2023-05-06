@@ -7,7 +7,7 @@ MY_PN="${PN//-/.}"
 inherit udev unpacker
 
 DESCRIPTION="The Adept Runtime to communicate with Digilent's devices"
-HOMEPAGE="https://lp.digilent.com/complete-adept-runtime-download"
+HOMEPAGE="https://digilent.com/shop/software/digilent-adept"
 SRC_URI="
 	amd64? ( https://digilent.s3.amazonaws.com/Software/Adept2+Runtime/${PV}/${MY_PN}_${PV}-amd64.deb )
 	arm64? ( https://digilent.s3.amazonaws.com/Software/Adept2+Runtime/${PV}/${MY_PN}_${PV}-arm64.deb )
@@ -36,11 +36,13 @@ src_install() {
 	mv "${S}/etc/udev" "${T}" || die
 	mv "${S}/usr/share/doc" "${T}" || die
 	mv "${S}/usr/sbin" "${T}" || die
+	gunzip "${T}"/doc/${MY_PN}/*.gz || die
 	insinto /
 	doins -r "${S}/usr"
 	doins -r "${S}/etc"
 	udev_dorules "${T}"/udev/rules.d/*.rules
 	dosbin "${T}"/sbin/*
+	dodoc "${T}"/doc/${MY_PN}/*
 }
 
 pkg_postinst() {

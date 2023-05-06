@@ -6,8 +6,9 @@
 		<name>Huang Rui</name>
 	</maintainer>
 	<longdescription lang="en">
-	The Adept Runtime consists of the shared libraries, firmware images, and
-	configuration files necessary to communicate with Digilent's devices.
+	Digilent Adept is a unique and powerful solution which allows you to
+	communicate with Digilent system boards and a wide assortment of logic
+	devices.
 	Features:
 	Configure Xilinx® logic devices. Initialize a scan chain, program FPGAs,
 	CPLDs, and PROMs, organize and keep track of your configuration files.
