@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm unpack
+DEPEND=dev-libs/libusb
+DESCRIPTION=The Adept Runtime to communicate with Digilent's devices
+EAPI=8
+HOMEPAGE=https://lp.digilent.com/complete-adept-runtime-download
+INHERIT=udev unpacker
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-libs/libusb
+RESTRICT=mirror strip test
+SLOT=0
+SRC_URI=amd64? ( https://digilent.s3.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-amd64.deb ) arm64? ( https://digilent.s3.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-arm64.deb ) arm? ( https://digilent.s3.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-armhf.deb ) x86? ( https://digilent.s3.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-i386.deb )
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	udev	eec0bbab06977f1cfc5597269c1fa152	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	unpacker	aa6a4e924009232d8b78b31e932c30b5
+_md5_=1e29c25d6ccc40a9d368b3d63d0d4460
