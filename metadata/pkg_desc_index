@@ -157,6 +157,7 @@ net-wireless/uhd 4.1.0.5 4.2.0.0: Universal Software Radio Peripheral (USRP) Har
 sci-electronics/bluespec 2022.01-r1 2023.01 9999: Toolchain for the Bluespec Hardware Definition Language
 sci-electronics/chisel-meta 3.5.4: Meta package to run chisel playground
 sci-electronics/circt 1.14.0 1.37.0: The fast free Verilog/SystemVerilog simulator
+sci-electronics/coil64 2.1.27: Coil64 is inductance coil calculator
 sci-electronics/digilent-adept-runtime 2.27.9: The Adept Runtime to communicate with Digilent's devices
 sci-electronics/digilent-adept-utilities 2.7.1: The Adept Utilities to communicate with Digilent's devices
 sci-electronics/dsview 1.2.1 9999: An open source multi-function instrument
