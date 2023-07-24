@@ -140,10 +140,12 @@ media-gfx/flameshot 12.1.0-r2: Powerful yet simple to use screenshot software
 media-gfx/oda-file-converter 23.5.0.0: For converting between different versions of .dwg and .dxf
 media-gfx/zw3d 2022.0.3.1-r3 2023.0.3.1: CAD/CAM software for 3D design and processing
 media-gfx/zwcad 2023.23.0.3.4-r1: CAD software for 2D drawing, reviewing and printing work
+media-libs/amf-headers 1.4.30: The Advanced Media Framework (AMF) SDK
 media-libs/codec2 1.0.5: Low bit rate speech codec
 media-libs/vst3sdk 3.7.6: VST 3 Plug-In SDK
 media-video/davinci-resolve 18.1.1-r1: Professional A/V post-production software suite
 media-video/davinci-resolve-studio 18.1.1-r1: Professional A/V post-production software suite
+media-video/ffmpeg 6.0-r3: Complete solution to record/convert/stream audio and video. Includes libavcodec
 media-video/kikoplay 0.7.2 0.8.0 0.8.1 0.8.2 9999: KikoPlay is a full-featured danmu player
 media-video/uxplay 1.54: AirPlay Unix mirroring server
 net-im/deepin-wine-wechat 3.9.0.28-r3: Tencent WeChat on Deepin Wine For Gentoo
