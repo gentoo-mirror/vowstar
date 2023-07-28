@@ -175,6 +175,11 @@ sci-electronics/kicad:ngspice - Enable circuit simulation
 sci-electronics/kicad:occ - Enable viewing 3D rendering of designs via sci-libs/opencascade
 sci-electronics/kicad:pcm - Enable plugin content manager
 sci-electronics/kicad-packages3d:occ - Use sci-libs/opencascade for data exchange
+sci-libs/libsigrok:ftdi - Enable drivers that need dev-embedded/libftdi
+sci-libs/libsigrok:hidapi - Enable drivers that need dev-libs/hidapi
+sci-libs/libsigrok:nettle - Enable drivers that need dev-libs/nettle
+sci-libs/libsigrok:parport - Enable drivers that are parallel (IEEE1284) based
+sci-libs/libsigrok:serial - Enable drivers that are serial (RS232) based
 sci-mathematics/cado-nfs:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
 sci-mathematics/cado-nfs:hwloc - Displays the hardware topology in convenient formats
 sci-mathematics/cado-nfs:mpi - Whether to use MPI (Message Passing Interface) or not

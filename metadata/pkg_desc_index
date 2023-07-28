@@ -181,6 +181,8 @@ sci-electronics/verible 0.0.2275 0.0.3124: SystemVerilog parser, style-linter, a
 sci-electronics/verilator 4.106 5.008 9999: The fast free Verilog/SystemVerilog simulator
 sci-electronics/wavedrom-cli 3.1.1: WaveDrom command-line interface
 sci-electronics/wavedrom-editor-bin 2.9.1: Digital timing diagram editor
+sci-libs/libsigrok 0.6.0: Basic hardware drivers for logic analyzers and input/output file format support
+sci-libs/libsigrokdecode 0.6.0: Provide (streaming) protocol decoding functionality
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sci-mathematics/mathematica 12.1.1-r1 12.2.0 12.3.0 13.0.0 13.0.1 13.1.0: Wolfram Mathematica
 sci-mathematics/octave-meta 20221117: Merge this to pull in all octave forge packages
