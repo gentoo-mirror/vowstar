@@ -4,7 +4,8 @@ DEPEND=>=dev-libs/glib-2.32.0 >=dev-libs/libzip-0.8:= bluetooth? ( >=net-wireles
 DESCRIPTION=Basic hardware drivers for logic analyzers and input/output file format support
 EAPI=8
 HOMEPAGE=https://sigrok.org/wiki/Libsigrok
-INHERIT=autotools python-r1 java-pkg-opt-2 udev xdg-utils
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=autotools python-r1 java-pkg-opt-2 udev xdg
 IUSE=bluetooth +cxx ftdi hidapi java nettle parport python serial static-libs test +udev usb python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 java
 KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=GPL-3
@@ -13,5 +14,5 @@ REQUIRED_USE=java? ( cxx ) python? ( cxx || ( python_targets_python3_10 python_t
 RESTRICT=!test? ( test )
 SLOT=0/4
 SRC_URI=http://sigrok.org/gitweb/?p=libsigrok.git;a=snapshot;h=f6d0f7a;sf=zip -> libsigrok-f6d0f7a.zip
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	7661dc585f75dd1f81eccefe37bef093	python-r1	b3f874304c1bda6ffc3450ebb4ae5169	java-utils-2	8c72ea36a4935f626b13a30141d0d39c	java-pkg-opt-2	4d26f2efd4c5ec82b66d1e8816f421b2	udev	eec0bbab06977f1cfc5597269c1fa152	xdg-utils	baea6080dd821f5562d715887954c9d3
-_md5_=6bbc009aa6f447f7dc386d17a905885d
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	7661dc585f75dd1f81eccefe37bef093	python-r1	b3f874304c1bda6ffc3450ebb4ae5169	java-utils-2	8c72ea36a4935f626b13a30141d0d39c	java-pkg-opt-2	4d26f2efd4c5ec82b66d1e8816f421b2	udev	eec0bbab06977f1cfc5597269c1fa152	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
+_md5_=06027f21512b0904dd4488fe971edb5f
