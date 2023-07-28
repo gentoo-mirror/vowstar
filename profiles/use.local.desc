@@ -175,6 +175,7 @@ sci-electronics/kicad:ngspice - Enable circuit simulation
 sci-electronics/kicad:occ - Enable viewing 3D rendering of designs via sci-libs/opencascade
 sci-electronics/kicad:pcm - Enable plugin content manager
 sci-electronics/kicad-packages3d:occ - Use sci-libs/opencascade for data exchange
+sci-electronics/pulseview:decode - Enable decoding of protocols while capturing
 sci-libs/libsigrok:ftdi - Enable drivers that need dev-embedded/libftdi
 sci-libs/libsigrok:hidapi - Enable drivers that need dev-libs/hidapi
 sci-libs/libsigrok:nettle - Enable drivers that need dev-libs/nettle
