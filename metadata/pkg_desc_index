@@ -6,7 +6,7 @@ app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows 
 app-eselect/eselect-bluespec 1.0.1: Manages the /usr/bin/vi symlink
 dev-embedded/jlink 7.66b: Tools for Segger J-Link JTAG adapters
 dev-embedded/libftd2xx 1.4.27: Library that allows a direct access to a USB device
-dev-embedded/urjtag 2021.03: Tool for communicating over JTAG with flash chips, CPUs, and many more
+dev-embedded/urjtag 2021.03 9999: Tool for communicating over JTAG with flash chips, CPUs, and many more
 dev-libs/cudnn 8.8.0.121: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/libdatrie 0.2.13: Double-Array Trie Library
 dev-libs/libthai 0.1.28 0.1.29: A a set of Thai language support routines
