@@ -5,6 +5,7 @@ app-emulation/deepin-wine-helper 5.1.27-r1: Deepin Wine Helper
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
 app-eselect/eselect-bluespec 1.0.1: Manages the /usr/bin/vi symlink
 dev-embedded/jlink 7.66b: Tools for Segger J-Link JTAG adapters
+dev-embedded/libftd2xx 1.4.27: Library that allows a direct access to a USB device
 dev-embedded/urjtag 2021.03: Tool for communicating over JTAG with flash chips, CPUs, and many more
 dev-libs/cudnn 8.8.0.121: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/libdatrie 0.2.13: Double-Array Trie Library
