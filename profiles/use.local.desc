@@ -126,7 +126,6 @@ media-video/ffmpeg:x265 - Enables HEVC encoding with media-libs/x265.
 media-video/ffmpeg:zeromq - Enables net-libs/zeromq support with the zmq/azmq filters.
 media-video/ffmpeg:zimg - Enables media-libs/zimg based scale filter.
 media-video/ffmpeg:zvbi - Enables media-libs/zvbi based teletext decoder.
-media-video/uxplay:zoomfix - supported mirrored window for screen-sharing applications such as Zoom
 net-im/deepin-wine-wechat:fake-simsun - Use fake_simsun font
 net-im/deepin-wine-wechat:reg-patch - Disable wechat-{player,app,appex,browser} plugin
 net-im/deepin-wine-wechat:wqy-microhei - Use wqy-microhei font
