@@ -184,6 +184,7 @@ sci-electronics/verible 0.0.2275 0.0.3124: SystemVerilog parser, style-linter, a
 sci-electronics/verilator 4.106 5.014 9999: The fast free Verilog/SystemVerilog simulator
 sci-electronics/wavedrom-cli 3.1.1: WaveDrom command-line interface
 sci-electronics/wavedrom-editor-bin 2.9.1: Digital timing diagram editor
+sci-electronics/yosys 0.32: framework for Verilog RTL synthesis
 sci-libs/libsigrok 0.6.0: Basic hardware drivers for logic analyzers and input/output file format support
 sci-libs/libsigrokdecode 0.6.0: Provide (streaming) protocol decoding functionality
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
