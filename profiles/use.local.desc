@@ -187,3 +187,5 @@ sci-mathematics/cado-nfs:mysql - Install mysql database to store data
 sci-mathematics/mathematica:R - Enable dev-lang/R backend support
 sci-mathematics/mathematica:cuda - Install with cuda support
 sci-mathematics/mathematica:ffmpeg - Enable media-video/ffmpeg backend support
+sys-fs/sanoid:cron - Installs cron file
+sys-fs/sanoid:systemd - Installs systemd units
