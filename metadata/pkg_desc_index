@@ -132,6 +132,7 @@ dev-ruby/rubytest 0.8.1-r1: Ruby Test is a universal test harness for Ruby
 dev-ruby/rubytest-cli 0.2.0-r1: Rubytest CLI is a command-line interface for Rubytest
 dev-ruby/test-unit-rr 1.0.5-r1: RR adapter for Test::Unit
 dev-ruby/ttfunk 1.7.0-r1: A TrueType font parser written in pure ruby
+dev-util/android-tools 34.0.1: Android platform tools (adb, fastboot, and mkbootimg)
 dev-util/ghidra 10.1.5-r1: A software reverse engineering framework
 dev-util/jd-gui 1.6.6: A standalone graphical utility that displays Java source codes of .class file
 dev-util/nvidia-cuda-toolkit 11.4.0: NVIDIA CUDA Toolkit (compiler and friends)
