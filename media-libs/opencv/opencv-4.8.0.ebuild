@@ -290,7 +290,6 @@ PATCHES=(
 	"${FILESDIR}"/${PN}-4.1.2-opencl-license.patch
 	"${FILESDIR}"/${PN}-4.4.0-disable-native-cpuflag-detect.patch
 	"${FILESDIR}"/${PN}-4.5.0-link-with-cblas-for-lapack.patch
-	"${FILESDIR}"/${PN}-4.6.0-fix-build-examples.patch # bug 830163, pending upstream PR #22245
 	"${FILESDIR}"/${PN}-4.8.0-fix-protobuf.patch
 )
 
@@ -348,6 +347,7 @@ multilib_src_configure() {
 	# ===================================================
 		-DENABLE_DOWNLOAD=$(usex download)
 		-DWITH_QUIRC=OFF # Do not have dependencies
+		-DWITH_FLATBUFFERS=OFF # Requires removed third party component
 		-DWITH_1394=$(usex ieee1394)
 	#	-DWITH_AVFOUNDATION=OFF # IOS
 		-DWITH_VTK=$(multilib_native_usex vtk)
@@ -472,10 +472,8 @@ multilib_src_configure() {
 	# ===================================================
 	# Not building protobuf but update files bug #631418
 	# ===================================================
-		-DWITH_PROTOBUF=ON
 		-DBUILD_PROTOBUF=OFF
 		-DPROTOBUF_UPDATE_FILES=ON
-		-Dprotobuf_MODULE_COMPATIBLE=ON
 	# ===================================================
 	# things we want to be hard enabled not worth useflag
 	# ===================================================
