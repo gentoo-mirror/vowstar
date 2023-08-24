@@ -132,7 +132,6 @@ dev-ruby/rubytest 0.8.1-r1: Ruby Test is a universal test harness for Ruby
 dev-ruby/rubytest-cli 0.2.0-r1: Rubytest CLI is a command-line interface for Rubytest
 dev-ruby/test-unit-rr 1.0.5-r1: RR adapter for Test::Unit
 dev-ruby/ttfunk 1.7.0-r1: A TrueType font parser written in pure ruby
-dev-util/android-tools 34.0.1: Android platform tools (adb, fastboot, and mkbootimg)
 dev-util/ghidra 10.1.5-r1: A software reverse engineering framework
 dev-util/jd-gui 1.6.6: A standalone graphical utility that displays Java source codes of .class file
 dev-util/nvidia-cuda-toolkit 11.4.0: NVIDIA CUDA Toolkit (compiler and friends)
@@ -142,7 +141,7 @@ gnome-extra/gnome-shell-extension-desktop-icons-ng 47.0.3: Fork from the desktop
 media-gfx/flameshot 12.1.0-r2: Powerful yet simple to use screenshot software
 media-gfx/oda-file-converter 23.5.0.0: For converting between different versions of .dwg and .dxf
 media-gfx/zw3d 2022.0.3.1-r3 2023.0.3.1: CAD/CAM software for 3D design and processing
-media-gfx/zwcad 2023.23.0.3.4-r1: CAD software for 2D drawing, reviewing and printing work
+media-gfx/zwcad 2023.23.0.3.4-r2: CAD software for 2D drawing, reviewing and printing work
 media-libs/amf-headers 1.4.30: The Advanced Media Framework (AMF) SDK
 media-libs/codec2 1.0.5: Low bit rate speech codec
 media-libs/vst3sdk 3.7.6: VST 3 Plug-In SDK
