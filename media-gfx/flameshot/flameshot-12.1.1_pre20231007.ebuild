@@ -48,6 +48,7 @@ src_configure() {
 		-DENABLE_CACHE=0
 		-DUSE_WAYLAND_CLIPBOARD=$(usex wayland)
 		-DUSE_WAYLAND_GRIM=$(usex wayland)
+		-DUSE_WAYLAND_GNOME=$(usex wayland)
 		-DDISABLE_UPDATE_CHECKER=1
 	)
 
