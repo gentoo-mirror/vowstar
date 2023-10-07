@@ -48,8 +48,7 @@ src_configure() {
 		-DENABLE_CACHE=0
 		-DUSE_WAYLAND_CLIPBOARD=$(usex wayland)
 		-DUSE_WAYLAND_GNOME=$(usex wayland)
-		-DUSE_WAYLAND_GRIM=$(usex wayland)
-		-DFLAMESHOT_GIT_HASH="${GIT_COMMIT:0:7}"
+		-DDISABLE_UPDATE_CHECKER=1
 	)
 
 	cmake_src_configure
