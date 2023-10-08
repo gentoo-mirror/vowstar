@@ -9,6 +9,7 @@ dev-embedded/libftd2xx 1.4.27: Library that allows a direct access to a USB devi
 dev-embedded/urjtag 2021.03 9999: Tool for communicating over JTAG with flash chips, CPUs, and many more
 dev-libs/cudnn 8.8.0.121: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/flatbuffers 23.5.26: Memory efficient serialization library
+dev-libs/gpds 1.6.0 1.7.0: A general purpose data serializer
 dev-libs/libdatrie 0.2.13: Double-Array Trie Library
 dev-libs/libthai 0.1.28 0.1.29: A a set of Thai language support routines
 dev-libs/marisa 0.2.6 9999: Matching Algorithm with Recursively Implemented StorAge
