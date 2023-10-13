@@ -3,14 +3,14 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..11} )
+PYTHON_COMPAT=( python3_{8..12} )
 inherit python-single-r1 unpacker
 
 DESCRIPTION="Deepin Wine Helper"
 HOMEPAGE="https://www.deepin.org"
 
 COMMON_URI="https://home-store-packages.uniontech.com/appstore/pool/appstore/d"
-SRC_URI="${COMMON_URI}/${PN}/${PN}_${PV}-${PR/r/}_i386.deb"
+SRC_URI="${COMMON_URI}/${PN}/${PN}_${PV}-1_i386.deb"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
@@ -21,7 +21,6 @@ RESTRICT="test"
 
 RDEPEND="
 	${PYTHON_DEPS}
-	app-emulation/deepin-wine-plugin[virtual-pkg]
 "
 DEPEND="${RDEPEND}"
 
@@ -36,5 +35,5 @@ src_install() {
 	insinto /
 	doins -r opt
 
-	fperms 755 -R /opt/deepinwine/tools/
+	fperms +x -R /opt/deepinwine/tools/
 }
