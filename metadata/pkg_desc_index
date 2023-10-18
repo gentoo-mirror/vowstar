@@ -143,7 +143,7 @@ dev-util/wxformbuilder 3.10.1-r1: A wxWidgets GUI Builder
 games-util/chiaki 2.1.1-r2 9999: Client for PlayStation 4 and PlayStation 5 Remote Play
 gnome-extra/gnome-shell-extension-desktop-icons-ng 47.0.3: Fork from the desktop-icons project, with several enhancements like Drag'n'Drop
 gui-apps/xwaylandvideobridge 0_pre20230919: Screenshare Wayland windows to XWayland apps
-media-fonts/lxgw-neozhisong 0.113: An open-source Chinese font derived from Fontworks' Klee One
+media-fonts/lxgw-neozhisong 0.113: An open-source Chinese font derived from IPAmj Mincho
 media-gfx/flameshot 12.1.1_pre20231007: Powerful yet simple to use screenshot software
 media-gfx/oda-file-converter 23.5.0.0: For converting between different versions of .dwg and .dxf
 media-gfx/zw3d 2022.0.3.1-r3 2023.0.3.1: CAD/CAM software for 3D design and processing
