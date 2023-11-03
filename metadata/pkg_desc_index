@@ -187,7 +187,7 @@ sci-electronics/pulseview 0.5.0: Qt based logic analyzer GUI for sigrok
 sci-electronics/slang 1.0 2.0-r2 3.0 4.0 9999: SystemVerilog compiler and language services
 sci-electronics/systemc 2.3.4-r2: A C++ based modeling platform for VLSI and system-level co-design
 sci-electronics/verible 0.0.3420: SystemVerilog parser, style-linter, and formatter
-sci-electronics/verilator 4.106 5.014 9999: The fast free Verilog/SystemVerilog simulator
+sci-electronics/verilator 4.106 5.014 5.018 9999: The fast free Verilog/SystemVerilog simulator
 sci-electronics/wavedrom-cli 3.1.1: WaveDrom command-line interface
 sci-electronics/wavedrom-editor-bin 2.9.1: Digital timing diagram editor
 sci-electronics/yosys 0.32: framework for Verilog RTL synthesis
