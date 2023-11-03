@@ -5,7 +5,7 @@ app-emulation/deepin-udis86 1.72-r4: Disassembler library for x86 (32-bit shared
 app-emulation/deepin-wine-helper 5.1.45: Deepin Wine Helper
 app-emulation/deepin-wine6-stable 6.0.0.52: Deepin wine6 stable
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
-app-eselect/eselect-bluespec 1.0.1: Manages the /usr/bin/vi symlink
+app-eselect/eselect-bluespec 1.0.2: Manages the /usr/bin/vi symlink
 dev-embedded/jlink 7.66b: Tools for Segger J-Link JTAG adapters
 dev-embedded/libftd2xx 1.4.27: Library that allows a direct access to a USB device
 dev-embedded/squareline-studio 1.3.2: Visual drag-and-drop UI editor for LVGL
