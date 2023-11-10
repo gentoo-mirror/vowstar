@@ -10,5 +10,5 @@ RDEPEND=<sys-devel/gcc-11_pre[cxx] >=x11-drivers/nvidia-drivers-470.42.01 debugg
 RESTRICT=bindist mirror
 SLOT=0/11.4.0
 SRC_URI=https://developer.download.nvidia.com/compute/cuda/11.4.0/local_installers/cuda_11.4.0_470.42.01_linux.run
-_eclasses_=check-reqs	02ac7654b64f7acc7a8b1a35ad9d6ddc	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	baa4d385108ac87993edac956a916a36	cuda	a7ac8c78a0b64b58207dc6fda3ad9c7d	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	unpacker	aa6a4e924009232d8b78b31e932c30b5
+_eclasses_=check-reqs	02ac7654b64f7acc7a8b1a35ad9d6ddc	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	baa4d385108ac87993edac956a916a36	cuda	283d0f298f6c196c755a0f8d50daca85	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	unpacker	aa6a4e924009232d8b78b31e932c30b5
 _md5_=f0926d745c251ffcdcff1bcfb9aa7b5f
