@@ -6,6 +6,7 @@ app-editors/qhexedit2:gui - Install Qt5 hex editor
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
+dev-libs/gpds:spdlog - Enable spdlog sink feature
 dev-qt/qt-creator:clang - Build clang-based plugins for C/C++ development (code model, formatting, static analysis)
 dev-qt/qt-creator:designer - Enable designer for QtWidgets-based UIs
 dev-qt/qt-creator:help - Enable the integrated dev-qt/qt-docs viewer (also needed for examples)
