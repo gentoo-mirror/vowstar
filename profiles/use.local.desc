@@ -15,11 +15,6 @@ dev-qt/qt-creator:qmldesigner - Build QmlDesigner and related plugins (Insight, 
 dev-qt/qt-creator:serialterminal - Build the serial terminal plugin
 dev-qt/qt-creator:tracing - Build plugins requiring tracing capabilities (CtfVisualizer, PerfProfiler, QmlProfiler)
 dev-qt/qt-creator:webengine - Use dev-qt/qtwebengine with the help USE rather than bundled litehtml
-dev-util/nvidia-cuda-toolkit:debugger - Install the CUDA debugger
-dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (nsight-compute, nsight-systems)
-dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof) and the related libraries
-dev-util/nvidia-cuda-toolkit:sanitizer - Install compute-sanitizer tool
-dev-util/nvidia-cuda-toolkit:vis-profiler - Install the NVIDIA CUDA visual profiler (nvvp)
 games-util/chiaki:cli - Build CLI interface
 media-video/ffmpeg:amf - Enables support for AMD's Advanced Media Framework (AMF)
 media-video/ffmpeg:amr - Enables Adaptive Multi-Rate Audio support
