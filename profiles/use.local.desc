@@ -8,6 +8,9 @@ dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
 dev-libs/gpds:spdlog - Enable spdlog sink feature
 dev-libs/qschematic:qt6 - Build with Qt6 support
+dev-python/shiboken6:docstrings - Expose documentation as Python docstrings (recommended)
+dev-python/shiboken6:numpy - Implicitly convert passed NumPy arrays to Qt lists
+dev-python/shiboken6:vulkan - Generate "QSurface::VulkanSurface" bindings
 dev-qt/qt-creator:clang - Build clang-based plugins for C/C++ development (code model, formatting, static analysis)
 dev-qt/qt-creator:designer - Enable designer for QtWidgets-based UIs
 dev-qt/qt-creator:help - Enable the integrated dev-qt/qt-docs viewer (also needed for examples)
