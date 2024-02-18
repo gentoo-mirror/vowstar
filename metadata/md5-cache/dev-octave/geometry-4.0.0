@@ -10,4 +10,4 @@ RDEPEND=dev-octave/matgeom sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/geometry-4.0.0.tar.gz -> geometry-4.0.0.tar.gz
-_md5_=b45369476a20cf1cbfcaa595308c8e1d
+_md5_=fdfc018a4a8e9f9a457d080dca43c667

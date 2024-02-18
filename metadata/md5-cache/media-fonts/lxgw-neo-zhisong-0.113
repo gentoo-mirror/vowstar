@@ -10,4 +10,4 @@ LICENSE=IPAfont
 SLOT=0
 SRC_URI=https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v0.113/LXGWNeoZhiSongCHS.ttf https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v0.113/LXGWHeartSerifCHS.ttf
 _eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
-_md5_=80e4c5a8e4f857b669fe8871c625dd10
+_md5_=7dbe459f35c1f1c45b020bcad1098942

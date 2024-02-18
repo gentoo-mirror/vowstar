@@ -10,4 +10,4 @@ RDEPEND=sci-calculators/units sci-mathematics/octave sys-libs/libtermcap-compat 
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/miscellaneous-1.3.0.tar.gz -> miscellaneous-1.3.0.tar.gz
-_md5_=04da232325802567ab030001daec9943
+_md5_=ca75a0cf4db4bea2b8e289791dd4cefc

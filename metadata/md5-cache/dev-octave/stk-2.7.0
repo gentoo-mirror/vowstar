@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/stk-2.7.0.tar.gz -> stk-2.7.0.tar.gz
-_md5_=2c17f80a4a2d6ec532b59a25757ff4f1
+_md5_=5ef9d9d80f0c0aa70e170dea685d82f5

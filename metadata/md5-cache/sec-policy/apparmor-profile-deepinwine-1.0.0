@@ -8,4 +8,4 @@ LICENSE=MIT
 RDEPEND=sec-policy/apparmor-profiles
 RESTRICT=test
 SLOT=0
-_md5_=a557c41d3d6ae8da785576dd35f6b57d
+_md5_=e4b0417c4d1850317bcd30a7e39623e5

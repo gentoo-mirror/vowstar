@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/vibes-0.2.0.tar.gz -> vibes-0.2.0.tar.gz
-_md5_=71427b94a88b626d7b8b09df70defce7
+_md5_=d34de90c882d4f3410099ccd01b5f08c

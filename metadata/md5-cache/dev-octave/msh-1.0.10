@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/msh-1.0.10.tar.gz -> msh-1.0.10.tar.gz
-_md5_=e4285a884639f0cc1debe15aea942f0d
+_md5_=58a9cceb1ee2f5cf6c56bb769bfe13df

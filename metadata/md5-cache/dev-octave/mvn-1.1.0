@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/mvn-1.1.0.tar.gz -> mvn-1.1.0.tar.gz
-_md5_=99c47623688625e3b75d1b4253d0b14c
+_md5_=f299b1a9c495b806c1a3543a15b67ecc

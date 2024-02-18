@@ -10,4 +10,4 @@ RDEPEND=sci-mathematics/octave
 RESTRICT=test
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/octave/doctest-0.7.0.tar.gz -> doctest-0.7.0.tar.gz
-_md5_=d2070d59f5333a65df3d021d7f1b9de3
+_md5_=26d061e38addf39b4f023b3998c67837
