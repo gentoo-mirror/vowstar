@@ -2,6 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-doc/kicad-doc:html - Generate documentation in HTML format
+app-doc/kicad-doc:pdf - Generate documentation in PDF format
 app-editors/qhexedit2:gui - Install Qt5 hex editor
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
@@ -160,6 +162,7 @@ net-wireless/uhd:x300 - support X300, X310 hardware
 sci-electronics/kicad:ngspice - Enable circuit simulation
 sci-electronics/kicad:occ - Enable viewing 3D rendering of designs via sci-libs/opencascade
 sci-electronics/kicad:pcm - Enable plugin content manager
+sci-electronics/kicad-meta:minimal - Do not install extra data like 3D packages and templates.
 sci-electronics/kicad-packages3d:occ - Use sci-libs/opencascade for data exchange
 sci-electronics/pulseview:decode - Enable decoding of protocols while capturing
 sci-libs/libsigrok:ftdi - Enable drivers that need dev-embedded/libftdi
