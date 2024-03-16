@@ -202,6 +202,7 @@ sci-electronics/wavedrom-editor-bin 2.9.1: Digital timing diagram editor
 sci-electronics/yosys 0.32: framework for Verilog RTL synthesis
 sci-libs/libsigrok 0.6.0: Basic hardware drivers for logic analyzers and input/output file format support
 sci-libs/libsigrokdecode 0.6.0: Provide (streaming) protocol decoding functionality
+sci-libs/opencascade 7.8.0: Development platform for CAD/CAE, 3D surface/solid modeling and data exchange
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sci-mathematics/cgal 5.6: C++ library for geometric algorithms and data structures
 sci-mathematics/mathematica 12.1.1-r1 12.2.0 12.3.0 13.0.0 13.0.1 13.1.0: Wolfram Mathematica
