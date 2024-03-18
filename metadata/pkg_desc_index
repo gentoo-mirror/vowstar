@@ -153,6 +153,7 @@ media-fonts/dseg 0.46: An open-source Chinese font derived from IPAmj Mincho
 media-fonts/lxgw-neo-zhisong 0.113: An open-source Chinese font derived from IPAmj Mincho
 media-gfx/bambustudio-bin 01.08.00.57: Bambu Studio is a cutting-edge, feature-rich slicing software
 media-gfx/flameshot 12.1.1_pre20231007: Powerful yet simple to use screenshot software
+media-gfx/freecad 0.21.2-r2: QT based Computer Aided Design application
 media-gfx/oda-file-converter 23.5.0.0: For converting between different versions of .dwg and .dxf
 media-gfx/zw3d 2022.0.3.1-r3 2023.0.3.1: CAD/CAM software for 3D design and processing
 media-gfx/zwcad 2023.23.0.3.4-r2: CAD software for 2D drawing, reviewing and printing work
