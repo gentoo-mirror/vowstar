@@ -31,8 +31,6 @@ fi
 LICENSE="Apache-2.0"
 SLOT="0"
 
-IUSE=""
-
 RDEPEND="
 	sys-libs/libnvidia-container
 "
@@ -41,7 +39,7 @@ DEPEND="${RDEPEND}"
 
 BDEPEND="
 	app-arch/unzip
-	sys-devel/make
+	dev-build/make
 "
 
 src_compile() {
