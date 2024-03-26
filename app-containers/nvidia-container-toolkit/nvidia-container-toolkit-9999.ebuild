@@ -26,13 +26,14 @@ else
 	"
 	S="${WORKDIR}/${PN}-${PV/_rc/-rc.}"
 	KEYWORDS="~amd64"
+	RESTRICT="mirror"
 fi
 
 LICENSE="Apache-2.0"
-SLOT="0"
+SLOT="0/${PV}"
 
 RDEPEND="
-	sys-libs/libnvidia-container
+	sys-libs/libnvidia-container:0/${PV}
 "
 
 DEPEND="${RDEPEND}"
