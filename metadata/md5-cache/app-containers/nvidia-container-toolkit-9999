@@ -1,14 +1,14 @@
 BDEPEND=app-arch/unzip dev-build/make >=dev-lang/go-1.20:= app-arch/unzip >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sys-libs/libnvidia-container
+DEPEND=sys-libs/libnvidia-container:0/9999
 DESCRIPTION=NVIDIA container runtime toolkit
 EAPI=8
 HOMEPAGE=https://github.com/NVIDIA/nvidia-container-toolkit
 INHERIT=go-module git-r3
 LICENSE=Apache-2.0
 PROPERTIES=live
-RDEPEND=sys-libs/libnvidia-container
+RDEPEND=sys-libs/libnvidia-container:0/9999
 RESTRICT=strip
-SLOT=0
+SLOT=0/9999
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	24c947ff5f858625cf0b33c15eed4425	go-env	14f8f70fe58c14d7ab44fff15a05ac47	go-module	83fd3ed1657cfc316c93d6a37018290d	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=32a9b9bcd85e6a62ce69760af269a059
+_md5_=2fb11fd5d52a87f2cad620a158c8b6a6
