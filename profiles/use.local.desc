@@ -8,6 +8,8 @@ app-editors/qhexedit2:gui - Install Qt5 hex editor
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
+dev-lang/lazarus:extras - Build a lot of extra packages, including lhelp chm viewer program.
+dev-lang/lazarus:gui - Build GUI IDE.
 dev-libs/gpds:spdlog - Enable spdlog sink feature
 dev-libs/qschematic:qt6 - Build with Qt6 support
 dev-python/pyside6:3d - Build Qt3DCore, Qt3DAnimation, Qt3DExtras, Qt3DInput, Qt3DLogic, and Qt3DRender modules
