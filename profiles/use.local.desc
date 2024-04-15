@@ -8,8 +8,6 @@ app-editors/qhexedit2:gui - Install Qt5 hex editor
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
-dev-lang/lazarus:extras - Build a lot of extra packages, including lhelp chm viewer program.
-dev-lang/lazarus:gui - Build GUI IDE.
 dev-libs/gpds:spdlog - Enable spdlog sink feature
 dev-libs/qschematic:qt6 - Build with Qt6 support
 dev-python/pyside6:3d - Build Qt3DCore, Qt3DAnimation, Qt3DExtras, Qt3DInput, Qt3DLogic, and Qt3DRender modules
@@ -209,15 +207,6 @@ sci-libs/libsigrok:hidapi - Enable drivers that need dev-libs/hidapi
 sci-libs/libsigrok:nettle - Enable drivers that need dev-libs/nettle
 sci-libs/libsigrok:parport - Enable drivers that are parallel (IEEE1284) based
 sci-libs/libsigrok:serial - Enable drivers that are serial (RS232) based
-sci-libs/opencascade:eigen - Enable support for eigenvalues through the header-only dev-cpp/eigen package.
-sci-libs/opencascade:freeimage - Enable support for image i/o via media-libs/freeimage
-sci-libs/opencascade:freetype - Enable media-libs/freetype support
-sci-libs/opencascade:jemalloc - Enable jemalloc allocator support via dev-libs/jemalloc
-sci-libs/opencascade:json - Enable JSON support through dev-libs/rapidjson
-sci-libs/opencascade:optimize - Don't clear allocated memory. Use optimized memory manager unlesstbb USE flag is set.
-sci-libs/opencascade:tbb - Enable multithreading with the Intel Threads Building Block dev-cpp/tbb
-sci-libs/opencascade:testprograms - Indicates whether non-regression OCCT test scripts should be installed
-sci-libs/opencascade:vtk - Enable Visualization Toolkit support via sci-libs/vtk
 sci-mathematics/cado-nfs:curl - Support fetching and pushing (requires webdav too) over http:// and https:// protocols
 sci-mathematics/cado-nfs:hwloc - Displays the hardware topology in convenient formats
 sci-mathematics/cado-nfs:mpi - Whether to use MPI (Message Passing Interface) or not
