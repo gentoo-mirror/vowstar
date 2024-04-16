@@ -1,16 +1,16 @@
 BDEPEND=dev-build/make >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-util/cmake python_targets_python3_10? ( dev-lang/python:3.10[sqlite] ) python_targets_python3_11? ( dev-lang/python:3.11[sqlite] ) !sci-mathematics/ggnfs mpi? ( virtual/mpi ) mysql? ( virtual/mysql ) curl? ( net-misc/curl ) hwloc? ( >=sys-apps/hwloc-2.0.0 ) dev-libs/gmp:0=
+DEPEND=dev-util/cmake python_targets_python3_10? ( dev-lang/python:3.10[sqlite] ) python_targets_python3_11? ( dev-lang/python:3.11[sqlite] ) python_targets_python3_12? ( dev-lang/python:3.12[sqlite] ) !sci-mathematics/ggnfs mpi? ( virtual/mpi ) mysql? ( virtual/mysql ) curl? ( net-misc/curl ) hwloc? ( >=sys-apps/hwloc-2.0.0 ) dev-libs/gmp:0=
 DESCRIPTION=Number Field Sieve (NFS) implementation for factoring integers
 EAPI=8
 HOMEPAGE=http://cado-nfs.gforge.inria.fr
 INHERIT=cmake python-r1
-IUSE=mpi mysql +curl +hwloc python_targets_python3_10 python_targets_python3_11
+IUSE=mpi mysql +curl +hwloc python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
 KEYWORDS=~amd64 ~arm64 ~riscv ~x86
 LICENSE=LGPL-2.1
-RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10[sqlite] ) python_targets_python3_11? ( dev-lang/python:3.11[sqlite] ) !sci-mathematics/ggnfs mpi? ( virtual/mpi ) mysql? ( virtual/mysql ) curl? ( net-misc/curl ) hwloc? ( >=sys-apps/hwloc-2.0.0 ) dev-libs/gmp:0=
-REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
+RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10[sqlite] ) python_targets_python3_11? ( dev-lang/python:3.11[sqlite] ) python_targets_python3_12? ( dev-lang/python:3.12[sqlite] ) !sci-mathematics/ggnfs mpi? ( virtual/mpi ) mysql? ( virtual/mysql ) curl? ( net-misc/curl ) hwloc? ( >=sys-apps/hwloc-2.0.0 ) dev-libs/gmp:0=
+REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
 SLOT=0
 SRC_URI=https://gitlab.inria.fr/cado-nfs/cado-nfs/-/archive/2.3.0/cado-nfs-2.3.0.tar.bz2
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	c7c9a62d6232cac66d4ea32d575c3e7c	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	python-utils-r1	a1229a86bd0db058e474a2d7d9191cca	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f
-_md5_=dffc52d8c52281e0f7659fe022165e57
+_md5_=a7403e4324bccf4872950d83918826b6
