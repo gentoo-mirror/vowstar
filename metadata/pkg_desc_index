@@ -153,7 +153,6 @@ media-libs/vst3sdk 3.7.6: VST 3 Plug-In SDK
 media-sound/audacity 3.4.2: Free crossplatform audio editor
 media-video/davinci-resolve 18.6.2: Professional A/V post-production software suite
 media-video/davinci-resolve-studio 18.6.2: Professional A/V post-production software suite
-media-video/ffmpeg 6.0-r3: Complete solution to record/convert/stream audio and video. Includes libavcodec
 media-video/kikoplay 0.9.3 9999: KikoPlay is a full-featured danmu player
 media-video/uxplay 1.65.3: AirPlay Unix mirroring server
 net-im/dingtalk 1.4.0.20909-r1: Communication platform that supports video and audio conferencing
