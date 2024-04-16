@@ -6,52 +6,11 @@ app-doc/kicad-doc:html - Generate documentation in HTML format
 app-doc/kicad-doc:pdf - Generate documentation in PDF format
 app-editors/qhexedit2:gui - Install Qt5 hex editor
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
+dev-build/bazel:tools - Install extra bazel tools to build from sources
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
 dev-libs/gpds:spdlog - Enable spdlog sink feature
 dev-libs/qschematic:qt6 - Build with Qt6 support
-dev-python/pyside6:3d - Build Qt3DCore, Qt3DAnimation, Qt3DExtras, Qt3DInput, Qt3DLogic, and Qt3DRender modules
-dev-python/pyside6:bluetooth - Build QtBluetooth module
-dev-python/pyside6:charts - Build QtCharts module
-dev-python/pyside6:concurrent - Build QtConcurrent module
-dev-python/pyside6:designer - Build QtDesigner and QtUiTools modules
-dev-python/pyside6:gles2-only - Build QtGui "QOpenGL*" classes
-dev-python/pyside6:gui - Build QtGui module
-dev-python/pyside6:help - Build QtHelp module
-dev-python/pyside6:location - Build QtLocation module
-dev-python/pyside6:multimedia - Build QtMultimedia and QtMultimediaWidgets modules
-dev-python/pyside6:network - Build QtNetwork module
-dev-python/pyside6:network-auth - Build QtNetworkAuth module
-dev-python/pyside6:nfc - Build QtNfc module
-dev-python/pyside6:pdfium - Build QtPdf module
-dev-python/pyside6:positioning - Build QtPositioning module
-dev-python/pyside6:printsupport - Build QtPrintSupport module
-dev-python/pyside6:qml - Build QtQml module
-dev-python/pyside6:quick - Build QtQuick and QtQuickWidgets modules
-dev-python/pyside6:quick3d - Build QtQuick3D and QtQuickWidgets modules
-dev-python/pyside6:scxml - Build QtScxml module
-dev-python/pyside6:sensors - Build QtSensors module
-dev-python/pyside6:serialport - Build QtSerialPort modules
-dev-python/pyside6:spatialaudio - Build QtSpatialAudio module
-dev-python/pyside6:speech - Build QtTextToSpeech module
-dev-python/pyside6:sql - Build QtSql module
-dev-python/pyside6:svg - Build QtSvg module
-dev-python/pyside6:testlib - Build QtTest module
-dev-python/pyside6:webchannel - Build QtWebChannel module
-dev-python/pyside6:webengine - Build QtWebEngine and QtWebEngineWidgets modules
-dev-python/pyside6:websockets - Build QtWebSockets module
-dev-python/pyside6:widgets - Build QtWidgets module
-dev-python/pyside6:xml - Build QtXml module
-dev-python/shiboken6:docstrings - Expose documentation as Python docstrings (recommended)
-dev-python/shiboken6:numpy - Implicitly convert passed NumPy arrays to Qt lists
-dev-python/shiboken6:vulkan - Generate "QSurface::VulkanSurface" bindings
-dev-qt/qt-creator:clang - Build clang-based plugins for C/C++ development (code model, formatting, static analysis)
-dev-qt/qt-creator:designer - Enable designer for QtWidgets-based UIs
-dev-qt/qt-creator:help - Enable the integrated dev-qt/qt-docs viewer (also needed for examples)
-dev-qt/qt-creator:qmldesigner - Build QmlDesigner and related plugins (Insight, StudioWelcome)
-dev-qt/qt-creator:serialterminal - Build the serial terminal plugin
-dev-qt/qt-creator:tracing - Build plugins requiring tracing capabilities (CtfVisualizer, PerfProfiler, QmlProfiler)
-dev-qt/qt-creator:webengine - Use dev-qt/qtwebengine with the help USE rather than bundled litehtml
 dev-util/nvidia-cuda-toolkit:debugger - Install the CUDA debugger
 dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (nsight-compute, nsight-systems)
 dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof) and the related libraries
@@ -156,50 +115,7 @@ media-video/ffmpeg:x265 - Enables HEVC encoding with media-libs/x265.
 media-video/ffmpeg:zeromq - Enables net-libs/zeromq support with the zmq/azmq filters.
 media-video/ffmpeg:zimg - Enables media-libs/zimg based scale filter.
 media-video/ffmpeg:zvbi - Enables media-libs/zvbi based teletext decoder.
-net-im/deepin-wine-wechat:fake-simsun - Use fake_simsun font
-net-im/deepin-wine-wechat:reg-patch - Disable wechat-{player,app,appex,browser} plugin
-net-im/deepin-wine-wechat:wqy-microhei - Use wqy-microhei font
 net-print/hpuld:scanner - Enable scanner on multifunction devices which support it
-net-wireless/gnuradio:analog - enable analog signal processing blocks
-net-wireless/gnuradio:audio - enable blocks to connect to audio sources (mic-in) and sinks (speaker-out) ports on a computer
-net-wireless/gnuradio:channels - enable channel mode blocks
-net-wireless/gnuradio:ctrlport - enable control port interface
-net-wireless/gnuradio:digital - enable digital signal processing blocks
-net-wireless/gnuradio:dtv - enable digital tv signal processing blocks
-net-wireless/gnuradio:fec - enable block for convolutional encoding using the CCSDS standard polynomial ("Voyager")
-net-wireless/gnuradio:filter - enable filter signal processing blocks
-net-wireless/gnuradio:grc - enable GNU Radio Companion graphical tool to design signal processing flow graphs
-net-wireless/gnuradio:iio - enable enable support for IIO devices
-net-wireless/gnuradio:modtool - enable modtool for editing GNU Radio modules and components
-net-wireless/gnuradio:network - enable block for networking support
-net-wireless/gnuradio:performance-counters - enable block performance counters
-net-wireless/gnuradio:soapy - enable support for SoapySDR blocks
-net-wireless/gnuradio:trellis - enable trellis blocks for FSM
-net-wireless/gnuradio:uhd - install UHD source and sink blocks
-net-wireless/gnuradio:utils - install scripts to enable viewing and analysis of files produced by flow graphs
-net-wireless/gnuradio:vocoder - enable blocks for audio voice encoders
-net-wireless/gnuradio:wavelet - enable wavelet signal processing blocks
-net-wireless/gnuradio:zeromq - enable zeromq message passing blocks
-net-wireless/gqrx:gr-audio - Use audio support from net-wireless/gnuradio
-net-wireless/gr-osmosdr:airspy - Build with Airspy support
-net-wireless/gr-osmosdr:bladerf - Build with Nuand BladeRF support
-net-wireless/gr-osmosdr:hackrf - Build with Great Scott Gadgets HackRF support
-net-wireless/gr-osmosdr:iqbalance - Enable support for I/Q balancing using gr-iqbal
-net-wireless/gr-osmosdr:rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
-net-wireless/gr-osmosdr:sdrplay - Enable support for SDRplay devices through net-wireless/sdrplay
-net-wireless/gr-osmosdr:soapy - Build with SoapySDR support
-net-wireless/gr-osmosdr:uhd - Build with Ettus Research USRP Hardware Driver support
-net-wireless/gr-osmosdr:xtrx - Build with xtrx Hardware Driver support
-net-wireless/uhd:b100 - support B100 hardware
-net-wireless/uhd:b200 - support B200, B210, B200mini, B205mini hardware
-net-wireless/uhd:e300 - support E300, E310 hardware
-net-wireless/uhd:mpmd - support N300, N310 hardware
-net-wireless/uhd:n230 - support N230 harware
-net-wireless/uhd:octoclock - Octoclock Network Support
-net-wireless/uhd:usrp1 - support USRP1 hardware
-net-wireless/uhd:usrp2 - support USRP2, N200, N210 hardware
-net-wireless/uhd:utils - utilities needed to list, query, calibrate, or update FPGA/Firmware
-net-wireless/uhd:x300 - support X300, X310 hardware
 sci-electronics/kicad-meta:minimal - Do not install extra data like 3D packages and templates.
 sci-electronics/pulseview:decode - Enable decoding of protocols while capturing
 sci-libs/libsigrok:ftdi - Enable drivers that need dev-embedded/libftdi
