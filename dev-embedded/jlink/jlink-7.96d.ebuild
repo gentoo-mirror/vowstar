@@ -9,10 +9,15 @@ INSTALLDIR="/opt/${PN}"
 
 DESCRIPTION="Tools for Segger J-Link JTAG adapters"
 HOMEPAGE="https://www.segger.com/jlink-software.html"
-SRC_URI="JLink_Linux_V${PV/./}_x86_64.tgz"
+SRC_URI="
+	amd64? ( JLink_Linux_V${PV/./}_x86_64.tgz )
+	arm? ( JLink_Linux_V${PV/./}_arm.tgz )
+	arm64? ( JLink_Linux_V${PV/./}_arm64.tgz )
+	x86? ( JLink_Linux_V${PV/./}_i386.tgz )
+"
 LICENSE="SEGGER"
 SLOT="0"
-KEYWORDS="-* amd64"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 IUSE="udev"
 QA_PREBUILT="*"
 
