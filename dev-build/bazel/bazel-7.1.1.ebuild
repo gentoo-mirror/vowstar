@@ -30,8 +30,8 @@ pkg_setup() {
 	fi
 	java-pkg-2_pkg_setup
 
-	if [[ ${MERGE_TYPE} != binary ]] && tc-is-gcc && ver_test $(gcc-version) -ge 13 ; then
-		eerror "Bazel 6 needs <=gcc-12 to compile."
+	if [[ ${MERGE_TYPE} != binary ]] && tc-is-gcc && ver_test $(gcc-version) -ge 14 ; then
+		eerror "Bazel 7 needs <=gcc-13 to compile."
 		eerror "Please run 'eselect gcc' and set correct gcc version."
 		die "GCC version is too new to compile Bazel!"
 	fi
