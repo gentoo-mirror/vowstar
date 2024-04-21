@@ -15,6 +15,8 @@ SRC_URI="
 	arm64? ( JLink_Linux_V${PV/./}_arm64.tgz )
 	x86? ( JLink_Linux_V${PV/./}_i386.tgz )
 "
+S="${WORKDIR}/JLink_Linux_V${PV/./}_x86_64"
+
 LICENSE="SEGGER"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86"
@@ -26,7 +28,6 @@ RDEPEND="
 	media-libs/fontconfig
 	media-libs/freetype
 	sys-devel/gcc
-	sys-libs/glibc
 	x11-libs/libICE
 	x11-libs/libSM
 	x11-libs/libX11
@@ -35,8 +36,6 @@ RDEPEND="
 	x11-libs/libXfixes
 	x11-libs/libXrandr
 "
-
-S="${WORKDIR}/JLink_Linux_V${PV/./}_x86_64"
 
 pkg_nofetch() {
 	einfo "Segger requires you to accept their license agreement before downloading."
@@ -48,25 +47,38 @@ pkg_nofetch() {
 
 src_install() {
 	local bins=(
+		DDConditionerExe
+		DevProExe
 		JFlashExe
 		JFlashLiteExe
 		JFlashSPI_CL
+		JFlashSPICLExe
 		JFlashSPIExe
 		JLinkConfigExe
 		JLinkExe
-		JLinkGDBServerCLExe
 		JLinkGDBServer
+		JLinkGDBServerCLExe
+		JLinkGDBServerExe
 		JLinkGUIServerExe
 		JLinkLicenseManager
+		JLinkLicenseManagerExe
 		JLinkRegistration
-		JLinkRemoteServerCLExe
+		JLinkRegistrationExe
 		JLinkRemoteServer
+		JLinkRemoteServerCLExe
+		JLinkRemoteServerExe
 		JLinkRTTClient
+		JLinkRTTClientExe
 		JLinkRTTLogger
+		JLinkRTTLoggerExe
 		JLinkRTTViewerExe
 		JLinkSTM32
-		JLinkSWOViewerCLExe
+		JLinkSTM32Exe
 		JLinkSWOViewer
+		JLinkSWOViewerCLExe
+		JLinkSWOViewerExe
+		JLinkUSBWebServerExe
+		JLinkXVCDServerExe
 		JMemExe
 		JRunExe
 		JTAGLoadExe
@@ -97,12 +109,14 @@ src_install() {
 	done
 
 	doins -r \
-		README.txt \
 		Doc \
-		Samples \
-		Devices \
 		ETC \
-		GDBServer
+		Firmwares \
+		GDBServer \
+		Samples \
+		Script \
+		x86 \
+		README.txt
 
 	if use udev ; then
 		udev_dorules 99-jlink.rules
