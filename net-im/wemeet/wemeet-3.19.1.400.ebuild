@@ -9,11 +9,14 @@ DESCRIPTION="Wemeet - Tencent Video Conferencing"
 HOMEPAGE="https://wemeet.qq.com"
 
 SRC_URI="
-	amd64? ( mirror+https://updatecdn.meeting.qq.com/cos/\
-a05d53f96ab7331d2b2d245981f055d0/TencentMeeting_0300000000_${PV}_x86_64_default.publish.deb -> ${P}_amd64.deb )
-	arm64? ( mirror+https://updatecdn.meeting.qq.com/cos/\
-87439695193afbf8b1faa23202ce7306/TencentMeeting_0300000000_3.15.1.402_arm64_default.publish.deb -> ${P}_arm64.deb )
+	amd64? ( mirror+https://updatecdn.meeting.qq.com/cos/fcdc2a010a25561a4d23e168b677b493\
+/TencentMeeting_0300000000_${PV}_x86_64_default.publish.deb -> ${P}_amd64.deb )
+	arm64? ( mirror+https://updatecdn.meeting.qq.com/cos/206c30da5545dba38a29ccbc752dec94\
+/TencentMeeting_0300000000_3.19.1.401_arm64_default.publish.deb -> ${P}_arm64.deb )
+	loong? ( mirror+https://updatecdn.meeting.qq.com/cos/23810840e7e8bb38536b2a59ae811343\
+/TencentMeeting_0300000000_3.19.1.401_loongarch64_default.publish.deb -> ${P}_loong.deb )
 "
+S="${WORKDIR}"
 
 LICENSE="wemeet_license"
 SLOT="0"
@@ -30,6 +33,7 @@ DEPEND="
 	dev-qt/qtnetwork:5
 	dev-qt/qtpositioning:5
 	dev-qt/qtprintsupport:5
+	dev-qt/qtwayland:5[compositor(+)]
 	dev-qt/qtwebchannel:5
 	dev-qt/qtwebengine:5
 	dev-qt/qtwebsockets:5
@@ -45,7 +49,6 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND="dev-util/patchelf"
 
-S="${WORKDIR}"
 QA_PREBUILT="opt/${PN}/*"
 
 src_install() {
@@ -120,7 +123,7 @@ fi;
 	for i in 16 32 64 128 256; do
 		png_file="opt/${PN}/icons/hicolor/${i}x${i}/mimetypes/wemeetapp.png"
 		if [ -e "${png_file}" ]; then
-			newicon -s "${i}" "${png_file}" "wemeetapp.png"
+			newicon -s "${i}" -c mimetypes "${png_file}" "wemeetapp.png"
 		fi
 	done
 }
