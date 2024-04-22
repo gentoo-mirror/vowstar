@@ -132,7 +132,7 @@ src_install() {
 	install_tool openocd-esp32
 
 	mkdir -p "${WORKDIR}"/esp-rom-elfs/bin || die
-	mv "${WORKDIR}"/*.elf esp-rom-elfs/bin || die
+	mv "${WORKDIR}"/*.elf "${WORKDIR}"/esp-rom-elfs/bin || die
 	install_tool esp-rom-elfs
 
 	# Remove unsupported python versions
