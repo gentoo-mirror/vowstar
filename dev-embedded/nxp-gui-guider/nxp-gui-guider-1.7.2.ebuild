@@ -59,7 +59,7 @@ src_install() {
 		patchelf --set-rpath \
 "/opt/Gui-Guider/environment/LinkServer/linux/binaries:\
 /opt/Gui-Guider/environment/LinkServer/linux/dist:\
-/opt/Gui-Guider/environment/LinkServer/linux/MCU-LINK_installer/bin:
+/opt/Gui-Guider/environment/LinkServer/linux/MCU-LINK_installer/bin:\
 /opt/Gui-Guider/environment/LinkServer/linux/dist/lib-dynload" \
 			"${f}" || die "patchelf failed on ${f}"
 	done
