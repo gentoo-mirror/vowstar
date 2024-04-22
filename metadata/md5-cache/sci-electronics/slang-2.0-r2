@@ -1,6 +1,6 @@
-BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
+BDEPEND=>=dev-libs/libfmt-9.1.0 >=dev-libs/unordered_dense-2.0.0 <dev-libs/unordered_dense-2.0.1 test? ( >=dev-cpp/catch-3.0.1 ) app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare setup test
-DEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) >=dev-cpp/catch-3.0.1 >=dev-libs/libfmt-9.1.0 >=dev-libs/unordered_dense-2.0.0 <dev-libs/unordered_dense-2.0.1 python_single_target_python3_10? ( >=dev-python/pybind11-2.10[python_targets_python3_10(-)] ) python_single_target_python3_11? ( >=dev-python/pybind11-2.10[python_targets_python3_11(-)] ) python_single_target_python3_12? ( >=dev-python/pybind11-2.10[python_targets_python3_12(-)] )
+DEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_10? ( >=dev-python/pybind11-2.10[python_targets_python3_10(-)] ) python_single_target_python3_11? ( >=dev-python/pybind11-2.10[python_targets_python3_11(-)] ) python_single_target_python3_12? ( >=dev-python/pybind11-2.10[python_targets_python3_12(-)] )
 DESCRIPTION=SystemVerilog compiler and language services
 EAPI=8
 HOMEPAGE=https://sv-lang.com https://github.com/MikePopoloski/slang
@@ -8,10 +8,10 @@ INHERIT=cmake python-single-r1
 IUSE=python test python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12
 KEYWORDS=~amd64 ~arm64 ~riscv ~x86
 LICENSE=MIT
-RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) >=dev-cpp/catch-3.0.1 >=dev-libs/libfmt-9.1.0 >=dev-libs/unordered_dense-2.0.0 <dev-libs/unordered_dense-2.0.1 python_single_target_python3_10? ( >=dev-python/pybind11-2.10[python_targets_python3_10(-)] ) python_single_target_python3_11? ( >=dev-python/pybind11-2.10[python_targets_python3_11(-)] ) python_single_target_python3_12? ( >=dev-python/pybind11-2.10[python_targets_python3_12(-)] )
+RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_10? ( >=dev-python/pybind11-2.10[python_targets_python3_10(-)] ) python_single_target_python3_11? ( >=dev-python/pybind11-2.10[python_targets_python3_11(-)] ) python_single_target_python3_12? ( >=dev-python/pybind11-2.10[python_targets_python3_12(-)] )
 REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/MikePopoloski/slang/archive/v2.0.tar.gz -> slang-2.0.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	c7c9a62d6232cac66d4ea32d575c3e7c	python-utils-r1	a1229a86bd0db058e474a2d7d9191cca	python-single-r1	75118e916668a74c660a13b0ecb22562
-_md5_=f226a654d43f6b2dfebc086d514cc77a
+_md5_=05e10cb934169ed6c1fce398c690ce92
