@@ -7,6 +7,10 @@ app-doc/kicad-doc:pdf - Generate documentation in PDF format
 app-editors/qhexedit2:gui - Install Qt5 hex editor
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 dev-build/bazel:tools - Install extra bazel tools to build from sources
+dev-embedded/esp-idf:esp32 - Enable support for esp32
+dev-embedded/esp-idf:esp32s2 - Enable support for esp32s2
+dev-embedded/esp-idf:esp32s3 - Enable support for esp32s3
+dev-embedded/esp-idf:riscv32 - Enable support for riscv32
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
 dev-libs/gpds:spdlog - Enable spdlog sink feature
