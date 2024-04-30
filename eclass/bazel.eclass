@@ -69,6 +69,47 @@ bazel_get_flags() {
 	echo "${fs[*]}"
 }
 
+# @FUNCTION: _bazel_fullversion
+# @RETURN: Internal func. Extracts and expands the bazel version info.
+_bazel_fullversion() {
+    local ver="$1"; shift
+    # Extracts the version number from the bazel version output
+    local version_output=$("${BAZEL_BINARY}" --version)
+    local version=$(echo "$version_output" | grep -oP 'bazel \K[\d\.]+')
+    IFS='.' read -ra VER_ARR <<< "$version"
+    eval echo "${ver}"
+}
+
+# @FUNCTION: bazel-fullversion
+# @RETURN: full Bazel version (major.minor.micro: [7.1.1])
+bazel-fullversion() {
+    _bazel_fullversion '$1.$2.$3' "${VER_ARR[@]}"
+}
+
+# @FUNCTION: bazel-version
+# @RETURN: Bazel version excluding micro version (major.minor: [7.1])
+bazel-version() {
+    _bazel_fullversion '$1.$2' "${VER_ARR[@]}"
+}
+
+# @FUNCTION: bazel-major-version
+# @RETURN: major Bazel version (major: [7])
+bazel-major-version() {
+    _bazel_fullversion '$1' "${VER_ARR[@]}"
+}
+
+# @FUNCTION: bazel-minor-version
+# @RETURN: minor Bazel version (minor: [1])
+bazel-minor-version() {
+    _bazel_fullversion '$2' "${VER_ARR[@]}"
+}
+
+# @FUNCTION: bazel-micro-version
+# @RETURN: micro Bazel version (micro: [1])
+bazel-micro-version() {
+    _bazel_fullversion '$3' "${VER_ARR[@]}"
+}
+
 # @FUNCTION: bazel_setup_bazelrc
 # @DESCRIPTION:
 # Creates the bazelrc with common options that will be passed
@@ -120,10 +161,12 @@ bazel_setup_bazelrc() {
 		build --define=INCLUDEDIR=\$(PREFIX)/include
 		EOF
 
-	if tc-is-cross-compiler; then
-		echo "build --distinct_host_configuration" >> "${T}/bazelrc" || die
-	else
-		echo "build --nodistinct_host_configuration" >> "${T}/bazelrc" || die
+	if [ $(bazel-major-version) -lt 7 ]; then
+		if tc-is-cross-compiler; then
+			echo "build --distinct_host_configuration=true" >> "${T}/bazelrc" || die
+		else
+			echo "build --distinct_host_configuration=false" >> "${T}/bazelrc" || die
+		fi
 	fi
 }
 
