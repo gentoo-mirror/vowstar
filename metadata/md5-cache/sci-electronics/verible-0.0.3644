@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=sys-libs/zlib
+DESCRIPTION=SystemVerilog parser, style-linter, and formatter
+EAPI=8
+HOMEPAGE=https://chipsalliance.github.io/verible/ https://github.com/chipsalliance/verible
+KEYWORDS=~amd64 ~arm64
+LICENSE=Apache-2.0
+RDEPEND=sys-libs/zlib
+SLOT=0
+SRC_URI=amd64? ( https://github.com/chipsalliance/verible/releases/download/v0.0-3644-g6882622d/verible-v0.0-3644-g6882622d-linux-static-x86_64.tar.gz ) arm64? ( https://github.com/chipsalliance/verible/releases/download/v0.0-3644-g6882622d/verible-v0.0-3644-g6882622d-linux-static-arm64.tar.gz )
+_md5_=6495148d75edd53d710beb1c43cf98fe
