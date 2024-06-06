@@ -5,6 +5,7 @@ app-editors/qhexedit2 0.8.6_p20190316-r2 0.8.9_p20210525-r3: Hex editor library,
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
 app-eselect/eselect-bluespec 1.0.2: Manages the /usr/bin/bsc (bluespec) symlink
 app-text/typst 0.9.0: A markup-based typesetting system for the sciences
+dev-build/autoconf-archive 2023.02.20: GNU Autoconf Macro Archive
 dev-build/bazel 3.7.2-r1 4.2.2 5.0.0 5.1.1 5.3.0 6.2.0 6.4.0 6.5.0 7.1.1: Fast and correct automated build system
 dev-embedded/esp-coredump 1.7.0 1.10.0: Utility that helps users to retrieve and analyse core dumps
 dev-embedded/esp-idf 5.2.1: Espressif IoT Development Framework
