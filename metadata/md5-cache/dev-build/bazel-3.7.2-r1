@@ -11,5 +11,5 @@ RDEPEND=>=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3
 RESTRICT=strip test
 SLOT=0
 SRC_URI=https://github.com/bazelbuild/bazel/releases/download/3.7.2/bazel-3.7.2-dist.zip
-_eclasses_=toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	java-utils-2	b2e92a8220dc7b1bd2062ca11774798a	java-pkg-2	b6d755b4f6afabfd933932be28b46368	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe
+_eclasses_=toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	java-utils-2	b2e92a8220dc7b1bd2062ca11774798a	java-pkg-2	b6d755b4f6afabfd933932be28b46368	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe
 _md5_=eafdd557bca0aada3edafd05db560437
