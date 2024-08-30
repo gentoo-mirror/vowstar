@@ -98,7 +98,7 @@ dev-ruby/asciidoctor-diagram 2.2.6: A set of Asciidoctor extensions that enable 
 dev-ruby/asciidoctor-diagram-ditaamini 1.0.3: A set of Asciidoctor extensions that enable you to add diagrams
 dev-ruby/asciidoctor-diagram-plantuml 1.2023.4: A set of Asciidoctor extensions that enable you to add diagrams
 dev-ruby/asciidoctor-mathematical 0.3.5: Alternative stem processor for asciidoctor based on Mathematical
-dev-ruby/asciidoctor-pdf 2.3.4: A native PDF converter for AsciiDoc based on Asciidoctor and Prawn
+dev-ruby/asciidoctor-pdf 2.3.18: A native PDF converter for AsciiDoc based on Asciidoctor and Prawn
 dev-ruby/bibtex-ruby 5.1.7 6.0.0: A BibTeX library, parser, and converter for Ruby
 dev-ruby/brass 1.2.1-r1: BRASS is a very basic assertions framework for Ruby
 dev-ruby/byebug 11.1.3: a Ruby 2 debugger
@@ -119,7 +119,7 @@ dev-ruby/pdf-reader 1.4.1-r4 2.11.0: PDF parser conforming as much as possible t
 dev-ruby/polyglot 0.3.5-r1: Polyglot provides support for fully-custom DSLs
 dev-ruby/prawn 2.4.0-r1: Fast, Nimble PDF Generation For Ruby
 dev-ruby/prawn-icon 3.1.0: Provides support for icons in Prawn
-dev-ruby/prawn-svg 0.32.0: Provides support for SVG in Prawn
+dev-ruby/prawn-svg 0.35.1: Provides support for SVG in Prawn
 dev-ruby/prawn-table 0.2.2-r2: Provides support for tables in Prawn
 dev-ruby/prawn-templates 0.1.2-r1: Provides support for templates in Prawn
 dev-ruby/pry-byebug 3.9.0: Step-by-step debugging and stack navigation in Pry
