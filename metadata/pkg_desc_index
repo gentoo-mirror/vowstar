@@ -199,4 +199,4 @@ sys-libs/libnvidia-container 1.14.6 9999: NVIDIA container runtime library
 sys-power/throttled 0.8 0.9.2 9999: Fix Intel CPU Throttling on Linux
 sys-process/nvtop 2.0.3 3.0.1 9999: NVIDIA GPUs htop like monitoring tool
 x11-themes/obsidian-icon-theme 4.15-r1 9999: Obsidian Icon Theme is intuitive Faenza-like icon theme
-x11-themes/obsidian2-gtk-theme 2.22 9999: Obsidian Gnome Theme, based upon Adwaita-Maia dark skin
+x11-themes/obsidian2-gtk-theme 2.22 2.24 9999: Obsidian Gnome Theme, based upon Adwaita-Maia dark skin
