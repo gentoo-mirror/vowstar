@@ -12,5 +12,5 @@ RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 python? ( python_targe
 REQUIRED_USE=python? ( || ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 ) )
 SLOT=0
 SRC_URI=https://github.com/lancos/qhexedit2/archive/ba5af8616b3a6c916e718914225a483267c01356.tar.gz -> qhexedit2-0.8.6_p20190316.tar.gz
-_eclasses_=out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	python-utils-r1	c356a67b8e93889de6efff7d50599102	python-r1	29d0f02945a76b891430bbda185a5574	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81
+_eclasses_=out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	python-utils-r1	2fee95c11e5f883024588d4837db6802	python-r1	2def7a4ce233dfa344f613025c619a23	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81
 _md5_=01cec158e55d5e88f0d880f96b5369ed
