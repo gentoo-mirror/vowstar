@@ -158,7 +158,7 @@ media-sound/audacity 3.4.2: Free crossplatform audio editor
 media-video/davinci-resolve 18.6.2: Professional A/V post-production software suite
 media-video/davinci-resolve-studio 18.6.2: Professional A/V post-production software suite
 media-video/kikoplay 0.9.3 9999: KikoPlay is a full-featured danmu player
-media-video/uxplay 1.66 1.67 1.68.3: AirPlay Unix mirroring server
+media-video/uxplay 1.66 1.67 1.68.3 1.70: AirPlay Unix mirroring server
 net-im/dingtalk 1.4.0.20909-r1: Communication platform that supports video and audio conferencing
 net-im/wemeet 3.19.0.401: Wemeet - Tencent Video Conferencing
 net-misc/baidunetdisk 4.17.7: Baidu Net Disk is a cloud storage client (Linux Version)
