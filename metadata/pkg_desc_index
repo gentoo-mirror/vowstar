@@ -136,6 +136,7 @@ dev-tex/ninecolors 2022.02.13: Select colors with proper WCAG color contrast
 dev-tex/tabularray 2023.03.01: Typeset tabulars and arrays with LATEX3
 dev-util/ghidra 10.1.5-r1 11.1.2: A software reverse engineering framework
 dev-util/jd-gui 1.6.6: A standalone graphical utility that displays Java source codes of .class file
+dev-util/mamba 1.5.10: The Fast Cross-Platform Package Manager
 dev-util/nvidia-cuda-toolkit 12.4.0: NVIDIA CUDA Toolkit (compiler and friends)
 dev-util/wxformbuilder 3.10.1-r1: A wxWidgets GUI Builder
 games-util/chiaki 2.1.1-r2 9999: Client for PlayStation 4 and PlayStation 5 Remote Play
