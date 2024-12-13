@@ -83,3 +83,4 @@ sci-mathematics/mathematica:cuda - Install with cuda support
 sci-mathematics/mathematica:ffmpeg - Enable media-video/ffmpeg backend support
 sys-fs/sanoid:cron - Installs cron file
 sys-fs/sanoid:systemd - Installs systemd units
+sys-process/nvtop:unicode - Enable support for ncurses Unicode choice
