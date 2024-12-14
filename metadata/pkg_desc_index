@@ -1,6 +1,5 @@
 app-containers/nvidia-container-toolkit 1.14.6 9999: NVIDIA container runtime toolkit
 app-doc/kicad-doc 8.0.1: Electronic Schematic and PCB design tools manuals
-app-editors/imhex 1.22.0-r1 1.26.2-r1 1.28.0: A hex editor for reverse engineers, programmers, and eyesight
 app-editors/qhexedit2 0.8.6_p20190316-r2 0.8.9_p20210525-r3: Hex editor library, Qt application written in C++ with Python bindings
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
 app-eselect/eselect-bluespec 1.0.2: Manages the /usr/bin/bsc (bluespec) symlink
