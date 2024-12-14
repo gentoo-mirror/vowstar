@@ -21,10 +21,11 @@ HOMEPAGE="
 	https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion
 "
 SRC_URI="${ARC_NAME}"
+S="${WORKDIR}"
 
 LICENSE="all-rights-reserved"
-KEYWORDS="-* ~amd64"
 SLOT="0"
+KEYWORDS="-* ~amd64"
 IUSE="doc udev"
 
 RESTRICT="strip mirror bindist fetch"
@@ -43,7 +44,7 @@ RDEPEND="
 	media-libs/libpng
 	|| ( media-libs/tiff:0/6 media-libs/tiff-compat:4 )
 	sys-fs/fuse
-	sys-libs/libcxx
+	llvm-runtimes/libcxx
 	sys-libs/libxcrypt
 	udev? ( virtual/udev )
 	virtual/glu
@@ -61,8 +62,6 @@ BDEPEND="
 	app-arch/unzip
 	dev-util/patchelf
 "
-
-S="${WORKDIR}"
 
 QA_PREBUILT="*"
 
