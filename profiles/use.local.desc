@@ -67,6 +67,15 @@ media-sound/audacity:twolame - Enables twolame support (MPEG Audio Layer 2 encod
 media-sound/audacity:vamp - Enables vamp plugins support (Audio analysing plugins)
 media-sound/audacity:vst - Enable VST plugin support
 net-print/hpuld:scanner - Enable scanner on multifunction devices which support it
+net-wireless/uhd:b100 - support B100 hardware
+net-wireless/uhd:b200 - support B200, B210, B200mini, B205mini hardware
+net-wireless/uhd:e300 - support E300, E310 hardware
+net-wireless/uhd:mpmd - support N300, N310 hardware
+net-wireless/uhd:octoclock - Octoclock Network Support
+net-wireless/uhd:usrp1 - support USRP1 hardware
+net-wireless/uhd:usrp2 - support USRP2, N200, N210 hardware
+net-wireless/uhd:utils - utilities needed to list, query, calibrate, or update FPGA/Firmware
+net-wireless/uhd:x300 - support X300, X310 hardware
 sci-electronics/kicad-meta:minimal - Do not install extra data like 3D packages and templates.
 sci-electronics/pulseview:decode - Enable decoding of protocols while capturing
 sci-libs/libsigrok:ftdi - Enable drivers that need dev-embedded/libftdi

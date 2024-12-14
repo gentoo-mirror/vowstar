@@ -163,6 +163,7 @@ net-im/dingtalk 1.4.0.20909-r1: Communication platform that supports video and a
 net-im/wemeet 3.19.0.401: Wemeet - Tencent Video Conferencing
 net-misc/baidunetdisk 4.17.7: Baidu Net Disk is a cloud storage client (Linux Version)
 net-print/hpuld 1.00.39.15.00.23-r1: HP Unified Linux Driver (for samsung hardware)
+net-wireless/uhd 4.7.0.0: Universal Software Radio Peripheral (USRP) Hardware Driver
 sci-electronics/bluespec 2022.01-r1 2023.01 2023.07 9999: Toolchain for the Bluespec Hardware Definition Language
 sci-electronics/chisel-meta 3.5.4: Meta package to run chisel playground
 sci-electronics/circt 1.14.0 1.37.0: The fast free Verilog/SystemVerilog simulator
