@@ -1,12 +1,11 @@
-From d33027525ca69557b8f4bee21eac567efb629b1e Mon Sep 17 00:00:00 2001
+From 2e588a9341e3b81910986119b0b797526498d481 Mon Sep 17 00:00:00 2001
 From: Huang Rui <vowstar@gmail.com>
 Date: Thu, 23 Jan 2025 23:06:14 +0800
 Subject: [PATCH] Add PyQt6 support with backward compatibility
 
 - Implement Qt version checks in C++ for Q_UNREACHABLE compatibility
 - Add dynamic PyQt version detection (4/5/6) in build system
-- Remove hardcoded PyQt5 dependency from project metadata
-- Bump version to 0.8.10 and update documentation examples
+- Bump pyproject.toml version to 0.8.10 and update documentation examples
 - Fix missing include `<optional>` in `example/main.cpp
 
 Closes: https://github.com/Simsys/qhexedit2/issues/154
@@ -19,8 +18,8 @@ Signed-off-by: Huang Rui <vowstar@gmail.com>
  python/python3_pyqt6/mainwindow.py | 23 ++++++++++
  readme.md                          |  8 ++--
  setup.py                           | 72 ++++++++++++++++++++++--------
- src/qhexedit.sip                   |  4 +-
- 7 files changed, 119 insertions(+), 32 deletions(-)
+ src/qhexedit.sip                   |  2 +
+ 7 files changed, 118 insertions(+), 31 deletions(-)
  create mode 100644 python/python3_pyqt6/mainwindow.py
 
 diff --git a/example/main.cpp b/example/main.cpp
@@ -302,21 +301,18 @@ index 1906a07261f6..89622e8c3b8a 100644
 -            
 +
 diff --git a/src/qhexedit.sip b/src/qhexedit.sip
-index a7ef4e75db5d..fe93ab885cf3 100644
+index a7ef4e75db5d..c76fa088867e 100644
 --- a/src/qhexedit.sip
 +++ b/src/qhexedit.sip
-@@ -3,8 +3,10 @@
+@@ -3,6 +3,8 @@
  %Import QtCore/QtCoremod.sip
  %Import QtGui/QtGuimod.sip
  
 +%Timeline {Qt_4_0_0 Qt_5_0_0 Qt_6_0_0}
 +
  %If (Qt_5_0_0 -)
--%Import QtWidgets/QtWidgetsmod.sip
-+    %Import QtWidgets/QtWidgetsmod.sip
+ %Import QtWidgets/QtWidgetsmod.sip
  %End
- 
- class QHexEdit : QAbstractScrollArea
 -- 
 2.48.1
 
