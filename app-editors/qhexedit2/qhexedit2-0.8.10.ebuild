@@ -10,7 +10,6 @@ DESCRIPTION="Hex editor library, Qt application written in C++ with Python bindi
 HOMEPAGE="https://github.com/Simsys/qhexedit2/"
 SRC_URI="https://github.com/Simsys/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
-S="${WORKDIR}/${PN}-${PV}"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~riscv ~x86"
@@ -48,7 +47,7 @@ src_configure() {
 	QHEXEDIT_DESTDIR="${S}" eqmake6 src/qhexedit.pro
 
 	if use gui; then
-		pushd example || die "can't cd example"
+		pushd example || die "can't pushd example"
 		eqmake6 qhexedit.pro
 	fi
 }
@@ -68,7 +67,7 @@ src_compile() {
 }
 
 src_test() {
-	cd test || die "can't cd test"
+	pushd test || die "can't pushd test"
 	mkdir logs || die "can't create logs dir"
 	eqmake6 chunks.pro
 	emake
