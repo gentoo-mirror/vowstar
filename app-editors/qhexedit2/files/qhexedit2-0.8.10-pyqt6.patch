@@ -1,4 +1,4 @@
-From 2e588a9341e3b81910986119b0b797526498d481 Mon Sep 17 00:00:00 2001
+From 8628c83b09caa76825d1504c366f0388d3890987 Mon Sep 17 00:00:00 2001
 From: Huang Rui <vowstar@gmail.com>
 Date: Thu, 23 Jan 2025 23:06:14 +0800
 Subject: [PATCH] Add PyQt6 support with backward compatibility
@@ -7,19 +7,21 @@ Subject: [PATCH] Add PyQt6 support with backward compatibility
 - Add dynamic PyQt version detection (4/5/6) in build system
 - Bump pyproject.toml version to 0.8.10 and update documentation examples
 - Fix missing include `<optional>` in `example/main.cpp
+- Fix unix install path allows users to specify environment var in qmake
 
 Closes: https://github.com/Simsys/qhexedit2/issues/154
 Closes: https://github.com/Simsys/qhexedit2/issues/155
 Signed-off-by: Huang Rui <vowstar@gmail.com>
 ---
  example/main.cpp                   | 18 ++++++--
- project.py                         | 24 ++++++++--
- pyproject.toml                     |  2 +-
+ project.py                         | 27 +++++++++--
+ pyproject.toml                     |  4 +-
  python/python3_pyqt6/mainwindow.py | 23 ++++++++++
  readme.md                          |  8 ++--
  setup.py                           | 72 ++++++++++++++++++++++--------
+ src/qhexedit.pro                   |  6 ++-
  src/qhexedit.sip                   |  2 +
- 7 files changed, 118 insertions(+), 31 deletions(-)
+ 8 files changed, 127 insertions(+), 33 deletions(-)
  create mode 100644 python/python3_pyqt6/mainwindow.py
 
 diff --git a/example/main.cpp b/example/main.cpp
@@ -63,7 +65,7 @@ index e09f89192707..76a5ecf74ca8 100644
  
      if (query.hasFile)
 diff --git a/project.py b/project.py
-index c9ee67f7788b..7f63a8f4daf8 100644
+index c9ee67f7788b..807e92ac7a9e 100644
 --- a/project.py
 +++ b/project.py
 @@ -4,8 +4,23 @@ import os
@@ -91,26 +93,33 @@ index c9ee67f7788b..7f63a8f4daf8 100644
  
  class QHexEditProject(PyQtProject):
      """The QHexEdit Project class."""
-@@ -15,9 +30,12 @@ class QHexEditProject(PyQtProject):
+@@ -15,9 +30,15 @@ class QHexEditProject(PyQtProject):
          self.bindings_factories = [QHexEditBindings]
  
      def update(self, tool):
 -        """Allows SIP to find PyQt5 .sip files."""
-+        """Allows SIP to find PyQt5/PyQt6 .sip files."""
++        """Allows SIP to find PyQt .sip files."""
          super().update(tool)
 -        self.sip_include_dirs.append(join(PyQt5.__path__[0], 'bindings'))
 +        if PyQt_Version == 'PyQt6':
 +            self.sip_include_dirs.append(join(PyQt6.__path__[0], 'bindings'))
 +        elif PyQt_Version == 'PyQt5':
 +            self.sip_include_dirs.append(join(PyQt5.__path__[0], 'bindings'))
++        else:
++            # unexpected and not supported here
++            raise ValueError(f"Unsupported PyQt version: {PyQt_Version}.")
  
  
  class QHexEditBindings(PyQtBindings):
 diff --git a/pyproject.toml b/pyproject.toml
-index b5edaa495c31..8ce4fc29bcf4 100644
+index b5edaa495c31..3724f89027e6 100644
 --- a/pyproject.toml
 +++ b/pyproject.toml
-@@ -4,7 +4,7 @@ build-backend = "sipbuild.api"
+@@ -1,10 +1,10 @@
+ [build-system]
+-requires = ["sip >=5", "PyQt-builder", "PyQt5"]
++requires = ["sip >=5", "PyQt-builder", "PyQt6"]
+ build-backend = "sipbuild.api"
  
  [tool.sip.metadata]
  name = "QHexEdit"
@@ -300,6 +309,21 @@ index 1906a07261f6..89622e8c3b8a 100644
  )
 -            
 +
+diff --git a/src/qhexedit.pro b/src/qhexedit.pro
+index 2a940163d0e6..994a86b151bb 100644
+--- a/src/qhexedit.pro
++++ b/src/qhexedit.pro
+@@ -23,5 +23,9 @@ Release:TARGET = qhexedit
+ Debug:TARGET = qhexeditd
+ 
+ 
+-unix:DESTDIR = /usr/lib
++unix {
++    # Allows users to specify parameters when running qmake
++    DESTDIR = $$(QHEXEDIT_DESTDIR)
++    isEmpty(DESTDIR): DESTDIR = $$[QT_INSTALL_LIBS]
++}
+ win32:DESTDIR = ../lib
 diff --git a/src/qhexedit.sip b/src/qhexedit.sip
 index a7ef4e75db5d..c76fa088867e 100644
 --- a/src/qhexedit.sip
