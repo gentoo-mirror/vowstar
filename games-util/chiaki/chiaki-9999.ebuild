@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 inherit cmake python-single-r1 xdg
 
 DESCRIPTION="Client for PlayStation 4 and PlayStation 5 Remote Play"
@@ -33,6 +33,7 @@ RDEPEND="
 	dev-qt/qtgui:5
 	dev-qt/qtconcurrent:5
 	dev-qt/qtmultimedia:5
+	dev-qt/qtopengl:5
 	dev-qt/qtsvg:5
 	dev-qt/qtwidgets:5
 	media-libs/libsdl2
@@ -44,7 +45,7 @@ DEPEND="${RDEPEND}"
 
 BDEPEND="
 	${PYTHON_DEPS}
-	$(python_gen_cond_dep 'dev-python/protobuf-python[${PYTHON_USEDEP}]')
+	$(python_gen_cond_dep 'dev-python/protobuf[${PYTHON_USEDEP}]')
 	dev-libs/protobuf
 	virtual/pkgconfig
 "

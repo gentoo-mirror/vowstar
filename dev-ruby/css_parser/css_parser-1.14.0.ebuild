@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-USE_RUBY="ruby27 ruby30 ruby31 ruby32"
+USE_RUBY="ruby27 ruby30 ruby31 ruby32 ruby33"
 
 RUBY_FAKEGEM_DOC_DIR="doc"
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md README.md "
@@ -15,12 +15,12 @@ inherit ruby-fakegem
 
 DESCRIPTION="Sass-based Stylesheet Framework"
 HOMEPAGE="https://github.com/premailer/css_parser/"
-LICENSE="MIT"
-
 SRC_URI="https://github.com/${GITHUB_USER}/${GITHUB_PROJECT}/archive/v${PV}.tar.gz -> ${GITHUB_PROJECT}-${PV}.tar.gz"
 
+LICENSE="MIT"
+
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ppc ~ppc64 ~riscv ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~hppa ~ppc ~ppc64 ~riscv ~sparc ~x86"
 IUSE="doc test"
 
 ruby_add_rdepend "dev-ruby/addressable
