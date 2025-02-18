@@ -24,6 +24,10 @@ games-util/chiaki:mbedtls - Use mbedtls instead of OpenSSL as part of Chiaki lib
 games-util/chiaki:sdl - Add support for touchpad and sensor handling via SDL. Adds support for any controller supported by SDL
 games-util/chiaki:system-jerasure - Use system-provided jerasure instead of submodule
 games-util/chiaki:system-nanopb - Use system-provided nanopb instead of submodule
+games-util/chiaki-ng:cli - Build CLI interface
+games-util/chiaki-ng:gui - Build Qt GUI interface
+games-util/chiaki-ng:mbedtls - Use mbedtls instead of OpenSSL as part of Chiaki lib
+games-util/chiaki-ng:sdl - Add support for touchpad and sensor handling via SDL. Adds support for any controller supported by SDL
 media-libs/freetype-wps:adobe-cff - Use Adobe CFF as default font-renderer
 media-libs/freetype-wps:bzip2 - Support bzip2 compressed PCF fonts.
 media-libs/freetype-wps:cleartype-hinting - Bytecode hinting mode for TrueType fonts that activates subpixel hinting (a.k.a. ClearType hinting) by default
