@@ -10,6 +10,7 @@ dev-build/bazel:tools - Install extra bazel tools to build from sources
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
 dev-libs/gpds:spdlog - Enable spdlog sink feature
+dev-libs/nanopb:pb-malloc - Enable dynamic allocation support in the decoder
 dev-libs/qschematic:qt6 - Build with Qt6 support
 dev-util/nvidia-cuda-toolkit:debugger - Install the CUDA debugger
 dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (nsight-compute, nsight-systems)
@@ -18,6 +19,11 @@ dev-util/nvidia-cuda-toolkit:rdma - Enable infiniband support via sys-cluster/rd
 dev-util/nvidia-cuda-toolkit:sanitizer - Install compute-sanitizer tool
 dev-util/nvidia-cuda-toolkit:vis-profiler - Install the NVIDIA CUDA visual profiler (nvvp)
 games-util/chiaki:cli - Build CLI interface
+games-util/chiaki:gui - Build Qt GUI interface
+games-util/chiaki:mbedtls - Use mbedtls instead of OpenSSL as part of Chiaki lib
+games-util/chiaki:sdl - Add support for touchpad and sensor handling via SDL. Adds support for any controller supported by SDL
+games-util/chiaki:system-jerasure - Use system-provided jerasure instead of submodule
+games-util/chiaki:system-nanopb - Use system-provided nanopb instead of submodule
 media-libs/freetype-wps:adobe-cff - Use Adobe CFF as default font-renderer
 media-libs/freetype-wps:bzip2 - Support bzip2 compressed PCF fonts.
 media-libs/freetype-wps:cleartype-hinting - Bytecode hinting mode for TrueType fonts that activates subpixel hinting (a.k.a. ClearType hinting) by default
