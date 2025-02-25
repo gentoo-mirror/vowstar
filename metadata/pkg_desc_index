@@ -139,6 +139,7 @@ dev-util/ghidra 10.1.5-r1 11.1.2 11.2.1: A software reverse engineering framewor
 dev-util/jd-gui 1.6.6: A standalone graphical utility that displays Java source codes of .class file
 dev-util/nvidia-cuda-toolkit 12.4.0: NVIDIA CUDA Toolkit (compiler and friends)
 dev-util/wxformbuilder 3.10.1-r1: A wxWidgets GUI Builder
+dev-vcs/gptcommit 0.5.17: A git prepare-commit-msg hook for summarizing commits with LLMs
 games-util/chiaki-ng 1.9.5 9999: Client for PlayStation 4 and PlayStation 5 Remote Play
 media-fonts/dseg 0.46: An open-source Chinese font derived from IPAmj Mincho
 media-fonts/lxgw-neo-zhisong 0.113: An open-source Chinese font derived from IPAmj Mincho
