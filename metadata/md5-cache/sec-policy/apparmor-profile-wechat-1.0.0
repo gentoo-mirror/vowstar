@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=sec-policy/apparmor-profiles
+DESCRIPTION=A collection of AppArmor profiles for wechat
+EAPI=8
+HOMEPAGE=https://github.com/vowstar/vowstar-overlay
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=sec-policy/apparmor-profiles
+RESTRICT=test
+SLOT=0
+_md5_=565df107a3b05bb1d69eda937cd197b3

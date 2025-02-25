@@ -142,7 +142,7 @@ dev-util/wxformbuilder 3.10.1-r1: A wxWidgets GUI Builder
 games-util/chiaki-ng 1.9.5 9999: Client for PlayStation 4 and PlayStation 5 Remote Play
 media-fonts/dseg 0.46: An open-source Chinese font derived from IPAmj Mincho
 media-fonts/lxgw-neo-zhisong 0.113: An open-source Chinese font derived from IPAmj Mincho
-media-gfx/bambustudio-bin 01.10.01.50 01.10.02.75: Bambu Studio is a cutting-edge, feature-rich slicing software
+media-gfx/bambustudio-bin 01.10.02.75: Bambu Studio is a cutting-edge, feature-rich slicing software
 media-gfx/flameshot 12.1.1_pre20231007: Powerful yet simple to use screenshot software
 media-gfx/oda-file-converter 23.5.0.0: For converting between different versions of .dwg and .dxf
 media-gfx/weasis-bin 4.5.1: A DICOM viewer available as a desktop application or as a web-based application.
@@ -193,6 +193,7 @@ sci-mathematics/cgal 5.6: C++ library for geometric algorithms and data structur
 sci-mathematics/mathematica 12.1.1-r1 12.2.0 12.3.0 13.0.0 13.0.1 13.1.0: Wolfram Mathematica
 sci-mathematics/octave-meta 20221117: Merge this to pull in all octave forge packages
 sec-policy/apparmor-profile-deepinwine 1.0.0: A collection of AppArmor profiles for Deepinwine6
+sec-policy/apparmor-profile-wechat 1.0.0: A collection of AppArmor profiles for wechat
 sys-fs/sanoid 2.2.0: Policy-driven snapshot management and replication tools.
 sys-fs/zfs-auto-utils 1.0.0: ZFS Automatic Scrub/Trim for Linux
 sys-libs/libnvidia-container 1.17.4 9999: NVIDIA container runtime library
