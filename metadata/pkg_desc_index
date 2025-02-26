@@ -143,7 +143,7 @@ dev-vcs/gptcommit 0.5.17: A git prepare-commit-msg hook for summarizing commits 
 games-util/chiaki-ng 1.9.5 9999: Client for PlayStation 4 and PlayStation 5 Remote Play
 media-fonts/dseg 0.46: An open-source Chinese font derived from IPAmj Mincho
 media-fonts/lxgw-neo-zhisong 0.113: An open-source Chinese font derived from IPAmj Mincho
-media-gfx/bambustudio-bin 01.10.02.75: Bambu Studio is a cutting-edge, feature-rich slicing software
+media-gfx/bambustudio-bin 01.10.02.76: Bambu Studio is a cutting-edge, feature-rich slicing software
 media-gfx/flameshot 12.1.1_pre20231007: Powerful yet simple to use screenshot software
 media-gfx/oda-file-converter 23.5.0.0: For converting between different versions of .dwg and .dxf
 media-gfx/weasis-bin 4.5.1: A DICOM viewer available as a desktop application or as a web-based application.
