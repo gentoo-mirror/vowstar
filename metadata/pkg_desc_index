@@ -162,7 +162,7 @@ media-video/uxplay 1.66 1.67 1.68.3 1.70: AirPlay Unix mirroring server
 net-print/hpuld 1.00.39.15.00.23-r1: HP Unified Linux Driver (for samsung hardware)
 net-wireless/uhd 4.7.0.0: Universal Software Radio Peripheral (USRP) Hardware Driver
 sci-electronics/bender 0.28.1-r1: A dependency management tool for hardware projects
-sci-electronics/bluespec 2022.01-r1 2023.01 2023.07 9999: Toolchain for the Bluespec Hardware Definition Language
+sci-electronics/bluespec 2022.01-r1 2023.01 2023.07 2024.01 2024.07 2025.01 2025.01.1 9999: Toolchain for the Bluespec Hardware Definition Language
 sci-electronics/chisel-meta 3.5.4: Meta package to run chisel playground
 sci-electronics/circt 1.14.0 1.37.0: The fast free Verilog/SystemVerilog simulator
 sci-electronics/coil64 2.1.27: Coil64 is inductance coil calculator
