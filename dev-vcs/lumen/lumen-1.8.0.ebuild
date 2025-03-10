@@ -31,6 +31,7 @@ CRATES="
 	colored@2.1.0
 	core-foundation-sys@0.8.7
 	core-foundation@0.9.4
+	dirs@6.0.0
 	encoding_rs@0.8.35
 	equivalent@1.0.1
 	errno@0.3.9
@@ -165,7 +166,7 @@ CRATES="
 
 inherit cargo
 
-DESCRIPTION="lumen is a command-line tool that uses AI to generate commit messages, summarise git diffs or past commits"
+DESCRIPTION="A CLI tool uses AI to generate commit messages, summarise git diffs"
 HOMEPAGE="https://github.com/jnsahaj/lumen"
 SRC_URI="
 	https://github.com/jnsahaj/${PN}/archive/v${PV}/${P}.tar.gz
