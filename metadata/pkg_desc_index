@@ -179,6 +179,7 @@ sci-electronics/bluespec 2022.01-r1 2023.01 2023.07 2024.01 2024.07 2025.01 2025
 sci-electronics/chisel-meta 3.5.4: Meta package to run chisel playground
 sci-electronics/circt 1.14.0 1.37.0 1.76.0 1.110.0: The fast free Verilog/SystemVerilog simulator
 sci-electronics/cocotb 1.9.2: Python-based chip (RTL) verification
+sci-electronics/cocotb-bus 0.2.1: Reusable testbenching tools and bus interfaces for cocotb
 sci-electronics/coil64 2.1.27: Coil64 is inductance coil calculator
 sci-electronics/digilent-adept-runtime 2.27.9: The Adept Runtime to communicate with Digilent's devices
 sci-electronics/digilent-adept-utilities 2.7.1: The Adept Utilities to communicate with Digilent's devices
