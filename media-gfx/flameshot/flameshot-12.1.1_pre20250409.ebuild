@@ -3,7 +3,7 @@
 
 EAPI=8
 
-GIT_COMMIT="ad390603230e424c5c47690d09c4a6bf46d8c5f0"
+GIT_COMMIT="63a4ab669bba83bdde878963df80a3c4e9331e21"
 inherit cmake flag-o-matic xdg
 
 DESCRIPTION="Powerful yet simple to use screenshot software"
