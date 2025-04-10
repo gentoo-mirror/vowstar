@@ -6,6 +6,7 @@ app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows 
 app-eselect/eselect-bluespec 1.0.2: Manages the /usr/bin/bsc (bluespec) symlink
 app-text/typst 0.12.0: A markup-based typesetting system for the sciences
 app-text/typstyle 0.12.12: A beautiful and reliable code formatter for Typst
+app-text/xan 0.48.0: The CSV magician
 dev-build/bazel 3.7.2-r1 4.2.2 5.0.0 5.1.1 5.3.0 6.2.0 6.4.0 6.5.0 7.1.1: Fast and correct automated build system
 dev-embedded/jlink 7.66b 7.96d: Tools for Segger J-Link JTAG adapters
 dev-embedded/libftd2xx 1.4.27: Library that allows a direct access to a USB device
