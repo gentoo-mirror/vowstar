@@ -1,17 +1,17 @@
-BDEPEND=test? ( ruby_targets_ruby31? ( >=dev-ruby/csl-1.0[ruby_targets_ruby31(-)] <dev-ruby/csl-2[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( >=dev-ruby/csl-1.0[ruby_targets_ruby32(-)] <dev-ruby/csl-2[ruby_targets_ruby32(-)] ) ) ruby_targets_ruby31? ( dev-lang/ruby:3.1 ) ruby_targets_ruby32? ( dev-lang/ruby:3.2 ) ruby_targets_ruby31? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby31(-)] ) ) ruby_targets_ruby32? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby32(-)] ) ) ruby_targets_ruby31? ( test? ( dev-ruby/rspec:3[ruby_targets_ruby31(-)] ) ) ruby_targets_ruby32? ( test? ( dev-ruby/rspec:3[ruby_targets_ruby32(-)] ) ) ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] ) test? ( ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] ) )
+BDEPEND=test? ( ruby_targets_ruby32? ( >=dev-ruby/csl-1.0[ruby_targets_ruby32(-)] <dev-ruby/csl-2[ruby_targets_ruby32(-)] ) ) ruby_targets_ruby32? ( dev-lang/ruby:3.2 ) ruby_targets_ruby32? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby32(-)] ) ) ruby_targets_ruby32? ( test? ( dev-ruby/rspec:3[ruby_targets_ruby32(-)] ) ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] ) test? ( ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] ) )
 DEFINED_PHASES=compile configure install prepare setup test unpack
-DEPEND=ruby_targets_ruby31? ( dev-lang/ruby:3.1 ) ruby_targets_ruby32? ( dev-lang/ruby:3.2 ) ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] )
+DEPEND=ruby_targets_ruby32? ( dev-lang/ruby:3.2 ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] )
 DESCRIPTION=CSL styles and locales as a RubyGem
 EAPI=8
 HOMEPAGE=https://github.com/inukshuk/csl-styles
 INHERIT=ruby-fakegem
-IUSE=test ruby_targets_ruby31 ruby_targets_ruby32 doc test test
+IUSE=test ruby_targets_ruby32 doc test test
 KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ppc ~ppc64 ~riscv ~sparc ~x86
 LICENSE=AGPL-3 BSD-2
-RDEPEND=ruby_targets_ruby31? ( >=dev-ruby/csl-1.0[ruby_targets_ruby31(-)] <dev-ruby/csl-2[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( >=dev-ruby/csl-1.0[ruby_targets_ruby32(-)] <dev-ruby/csl-2[ruby_targets_ruby32(-)] ) ruby_targets_ruby31? ( dev-lang/ruby:3.1 ) ruby_targets_ruby32? ( dev-lang/ruby:3.2 ) ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] )
-REQUIRED_USE=|| ( ruby_targets_ruby31 ruby_targets_ruby32 )
+RDEPEND=ruby_targets_ruby32? ( >=dev-ruby/csl-1.0[ruby_targets_ruby32(-)] <dev-ruby/csl-2[ruby_targets_ruby32(-)] ) ruby_targets_ruby32? ( dev-lang/ruby:3.2 ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] )
+REQUIRED_USE=|| ( ruby_targets_ruby32 )
 RESTRICT=!test? ( test ) !test? ( test ) !test? ( test )
 SLOT=0
 SRC_URI=https://github.com/inukshuk/csl-styles/archive/ec26358947824de26ec8b13c63436d1e3122c1a6.tar.gz -> csl-styles-1.0.1.11.tar.gz https://github.com/citation-style-language/locales/archive/bd8d2dbc85713b192d426fb02749475df30f0d2c.tar.gz -> csl-styles-locales-bd8d2dbc85713b192d426fb02749475df30f0d2c.tar.gz https://github.com/citation-style-language/styles/archive/9b9c74d04fbaab04fa942a932289f2b2e9b9d4ab.tar.gz -> csl-styles-styles-9b9c74d04fbaab04fa942a932289f2b2e9b9d4ab.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multilib	b2a329026f2e404e9e371097dda47f96	ruby-utils	a5d18cde09a96648a4d316ada2786cdb	ruby-ng	f0dedda0b5f19492ca5de91d98bc1708	ruby-fakegem	92ad9217e94825cb9c8ad831b513a7ec
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multilib	b2a329026f2e404e9e371097dda47f96	ruby-utils	cb2cdbbce7fae7a6b2b1021219b0680d	ruby-ng	63f7c7b319d423d92374d431c1837094	ruby-fakegem	92ad9217e94825cb9c8ad831b513a7ec
 _md5_=a5f0b8dae61c95fcb6dacc109d3bbbca
