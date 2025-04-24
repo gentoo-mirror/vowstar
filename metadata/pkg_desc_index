@@ -18,7 +18,6 @@ dev-libs/flatbuffers 23.5.26: Memory efficient serialization library
 dev-libs/gpds 1.6.0-r1 1.7.0-r1 1.8.3 1.8.4 1.9.0: A general purpose data serializer
 dev-libs/libdatrie 0.2.13: Double-Array Trie Library
 dev-libs/libthai 0.1.28 0.1.29: A a set of Thai language support routines
-dev-libs/marisa 0.2.6 9999: Matching Algorithm with Recursively Implemented StorAge
 dev-libs/nanopb 0.4.9.1 9999: plain-C Protocol Buffers for embedded/memory-constrained systems
 dev-libs/qhttpengine 1.0.1-r1 9999: HTTP server for Qt applications
 dev-libs/qschematic 1.5.0 1.5.1 1.6.0: Library for creating flowcharts and engineering diagrams
