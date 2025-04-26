@@ -8,6 +8,7 @@ app-editors/qhexedit2:gui - Install Qt5 hex editor
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 dev-build/bazel:tools - Install extra bazel tools to build from sources
 dev-cpp/belr:tools - Build tools
+dev-db/soci:cxx11 - Enable c++11 support
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
 dev-libs/belcard:tools - Build tools

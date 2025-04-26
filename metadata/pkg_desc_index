@@ -13,6 +13,9 @@ dev-cpp/belr 5.3.1: Language recognition library by Belledonne Communications
 dev-cpp/libcutl 1.11.0: A collection of C++ libraries (successor of libcult)
 dev-cpp/libodb 2.5.0_beta25: Common ODB runtime library
 dev-cpp/libodb-sqlite 2.5.0_beta25: Common ODB runtime library
+dev-cpp/libxsd-frontend 2.1.0: A compiler frontend for the W3C XML Schema definition language
+dev-cpp/xsd 4.2.0: A cross-platform W3C XML Schema to C++ data binding compiler
+dev-db/soci 4.0.3-r3: SOCI - The C++ Database Access Library
 dev-embedded/jlink 7.66b 7.96d: Tools for Segger J-Link JTAG adapters
 dev-embedded/libftd2xx 1.4.27: Library that allows a direct access to a USB device
 dev-embedded/nxp-gui-guider 1.7.2-r1: GUI Guider is a user-friendly GUI development tool for LVGL
@@ -153,6 +156,7 @@ dev-ruby/ttfunk 1.7.0-r1: A TrueType font parser written in pure ruby
 dev-tex/ninecolors 2022.02.13: Select colors with proper WCAG color contrast
 dev-tex/tabularray 2023.03.01: Typeset tabulars and arrays with LATEX3
 dev-util/build2 0.16.0: Cross-platform toolchain for building and packaging C++ code
+dev-util/cli 1.2.0: Command Line Interface compiler for C++
 dev-util/ghidra 10.1.5-r1 11.1.2 11.2.1: A software reverse engineering framework
 dev-util/jd-gui 1.6.6: A standalone graphical utility that displays Java source codes of .class file
 dev-util/nixfmt 0.6.0: An opinionated formatter for Nix
