@@ -62,9 +62,32 @@ src_install() {
 	# Remove AppImage files - not needed after extraction
 	rm -f "${S}"/squashfs-root/{*.{AppImage,desktop},.DirIcon} || die
 
+	# Set RPATH for preserve-libs handling
+	pushd "${S}"/squashfs-root || die
+	local x
+	for x in $(find) ; do
+		# Use \x7fELF header to separate ELF executables and libraries
+		[[ -f ${x} && $(od -t x1 -N 4 "${x}") == *"7f 45 4c 46"* ]] || continue
+		local RPATH_ROOT=/opt/"${PN}"
+		local RPATH_S="${RPATH_ROOT}/usr/lib/:"
+		RPATH_S+="${RPATH_ROOT}/plugins/audio/:"
+		RPATH_S+="${RPATH_ROOT}/plugins/bearer/:"
+		RPATH_S+="${RPATH_ROOT}/plugins/iconengines/:"
+		RPATH_S+="${RPATH_ROOT}/plugins/imageformats/:"
+		RPATH_S+="${RPATH_ROOT}/plugins/mediaservice/:"
+		RPATH_S+="${RPATH_ROOT}/plugins/platforminputcontexts/:"
+		RPATH_S+="${RPATH_ROOT}/plugins/platforms/:"
+		RPATH_S+="${RPATH_ROOT}/plugins/platformthemes/:"
+		RPATH_S+="${RPATH_ROOT}/plugins/texttospeech/:"
+		RPATH_S+="${RPATH_ROOT}/plugins/xcbglintegrations/"
+		patchelf --set-rpath "${RPATH_S}" "${x}" || \
+			die "patchelf failed on ${x}"
+	done
+	popd || die
+
 	# Install into /opt
-	insinto /opt/"${PN}"
-	doins -r "${S}"/squashfs-root/*
+	mkdir -p "${ED}"/opt/"${PN}" || die
+	cp -r "${S}"/squashfs-root/* "${ED}"/opt/"${PN}" || die
 
 	# Set executable bit for the main binary
 	chmod +x "${ED}/opt/${PN}/AppRun" || die
