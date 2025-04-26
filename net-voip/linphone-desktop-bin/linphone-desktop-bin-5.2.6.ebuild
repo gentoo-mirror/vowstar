@@ -19,7 +19,6 @@ RDEPEND="
 	app-arch/bzip2
 	dev-libs/glib:2
 	dev-libs/libxml2
-	dev-libs/openssl:0/1.1
 	dev-qt/qtconcurrent:5
 	dev-qt/qtcore:5
 	dev-qt/qtdbus:5
@@ -72,7 +71,7 @@ src_install() {
 	fperms +x /opt/${PN}/AppRun
 
 	# Create icon and desktop file
-	doicon -s scalable "${S}"/squashfs-root/linphone.svg
+	newicon -s scalable "${S}"/squashfs-root/usr/share/icons/hicolor/scalable/apps/linphone.svg linphone.svg
 	make_desktop_entry linphone "Linphone" linphone "Network;Telephony;" "MimeType=x-scheme-handler/sip;x-scheme-handler/sip-linphone;x-scheme-handler/tel;x-scheme-handler/callto;x-scheme-handler/linphone;"
 
 	# Create wrapper
