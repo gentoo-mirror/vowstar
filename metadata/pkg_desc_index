@@ -166,6 +166,8 @@ media-gfx/weasis-bin 4.5.1: A DICOM viewer available as a desktop application or
 media-gfx/zw3d 2023.0.3.1-r1 2025.0.3.0: CAD/CAM software for 3D design and processing
 media-gfx/zwcad 2023.23.0.3.4-r2: CAD software for 2D drawing, reviewing and printing work
 media-libs/amf-headers 1.4.30: The Advanced Media Framework (AMF) SDK
+media-libs/bcmatroska2 5.3.86: Matroska media container support
+media-libs/bv16-floatingpoint 2.1: BroadVoice 16 kbs codec
 media-libs/freetype-wps 2.13.2: High-quality and portable font engine
 media-libs/openimageio 2.5.13.1: A library for reading and writing images
 media-libs/openpgl 0.5.0-r1 0.6.0: Intel Open Path Guiding Library
@@ -176,6 +178,7 @@ media-video/davinci-resolve-studio 18.6.2: Professional A/V post-production soft
 media-video/kikoplay 0.9.3 9999: KikoPlay is a full-featured danmu player
 media-video/uxplay 1.66 1.67 1.68.3 1.70: AirPlay Unix mirroring server
 net-libs/bctoolbox 5.3.86: Utilities library used by Belledonne Communications softwares
+net-libs/bzrtp 5.3.86: Media Path Key Agreement for Unicast Secure RTP
 net-libs/ortp 5.3.86: Open Real-time Transport Protocol (RTP, RFC3550) stack
 net-print/hpuld 1.00.39.15.00.23-r1: HP Unified Linux Driver (for samsung hardware)
 net-wireless/uhd 4.7.0.0: Universal Software Radio Peripheral (USRP) Hardware Driver
