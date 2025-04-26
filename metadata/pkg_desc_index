@@ -10,6 +10,7 @@ app-text/typstyle 0.12.12: A beautiful and reliable code formatter for Typst
 app-text/xan 0.48.0: The CSV magician
 dev-build/bazel 3.7.2-r1 4.2.2 5.0.0 5.1.1 5.3.0 6.2.0 6.4.0 6.5.0 7.1.1: Fast and correct automated build system
 dev-cpp/belr 5.3.1: Language recognition library by Belledonne Communications
+dev-cpp/libcutl 1.11.0: A collection of C++ libraries (successor of libcult)
 dev-cpp/libodb 2.5.0_beta25: Common ODB runtime library
 dev-cpp/libodb-sqlite 2.5.0_beta25: Common ODB runtime library
 dev-embedded/jlink 7.66b 7.96d: Tools for Segger J-Link JTAG adapters
