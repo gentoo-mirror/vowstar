@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=Common ODB runtime library
+EAPI=8
+HOMEPAGE=https://codesynthesis.com/products/odb/
+INHERIT=toolchain-funcs multiprocessing
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=!<dev-util/build2-0.15.0
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://pkg.cppget.org/1/beta/odb/libodb-2.5.0-b.25.tar.gz https://download.build2.org/0.15.0/build2-toolchain-0.15.0.tar.xz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multiprocessing	1e32df7deee68372153dca65f4a7c21f
+_md5_=84e2a9b0775392b15b945ba119167985
