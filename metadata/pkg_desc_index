@@ -169,6 +169,7 @@ media-libs/amf-headers 1.4.30: The Advanced Media Framework (AMF) SDK
 media-libs/bcmatroska2 5.3.86: Matroska media container support
 media-libs/bv16-floatingpoint 2.1: BroadVoice 16 kbs codec
 media-libs/freetype-wps 2.13.2: High-quality and portable font engine
+media-libs/mediastreamer2 5.3.86: Mediastreaming library for telephony application
 media-libs/openimageio 2.5.13.1: A library for reading and writing images
 media-libs/openpgl 0.5.0-r1 0.6.0: Intel Open Path Guiding Library
 media-libs/vst3sdk 3.7.6: VST 3 Plug-In SDK
