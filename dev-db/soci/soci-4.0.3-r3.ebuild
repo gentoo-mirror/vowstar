@@ -11,9 +11,9 @@ SRC_URI="https://sourceforge.net/projects/soci/files/soci/${P}/${P}.tar.gz/downl
 
 LICENSE="Boost-1.0"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="odbc sqlite oracle postgres mysql static-libs test lto +cxx11"
-RESTRICT="!test? ( test )"
+RESTRICT="test"
 
 CMAKE_SKIP_TESTS=(
 	soci_odbc_test_mssql
