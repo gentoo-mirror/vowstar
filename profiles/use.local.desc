@@ -14,6 +14,9 @@ dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/li
 dev-libs/belcard:tools - Build tools
 dev-libs/belle-sip:tunnel - Enable tunnel support
 dev-libs/gpds:spdlog - Enable spdlog sink feature
+dev-libs/liblinphone:lime - Support for LIMEv2 and X3DH encryption protocol
+dev-libs/liblinphone:qrcode - Support for qrcodes using media-libs/zxing-cpp
+dev-libs/liblinphone:tools - Build tools
 dev-libs/nanopb:pb-malloc - Enable dynamic allocation support in the decoder
 dev-libs/qschematic:qt6 - Build with Qt6 support
 dev-util/nvidia-cuda-toolkit:debugger - Install the CUDA debugger
