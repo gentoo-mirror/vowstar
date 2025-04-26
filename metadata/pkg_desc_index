@@ -193,6 +193,7 @@ net-libs/bctoolbox 5.3.86: Utilities library used by Belledonne Communications s
 net-libs/bzrtp 5.3.86: Media Path Key Agreement for Unicast Secure RTP
 net-libs/ortp 5.3.86: Open Real-time Transport Protocol (RTP, RFC3550) stack
 net-print/hpuld 1.00.39.15.00.23-r1: HP Unified Linux Driver (for samsung hardware)
+net-voip/linphone-desktop 5.2.6: A free VoIP and video softphone based on the SIP protocol
 net-wireless/uhd 4.7.0.0: Universal Software Radio Peripheral (USRP) Hardware Driver
 sci-electronics/bender 0.28.1-r1: A dependency management tool for hardware projects
 sci-electronics/bluespec 2022.01-r1 2023.01 2023.07 2024.01 2024.07 2025.01 2025.01.1 9999: Toolchain for the Bluespec Hardware Definition Language

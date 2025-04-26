@@ -15,4 +15,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=https://gitlab.linphone.org/BC/public/liblinphone/-/archive/5.3.86/liblinphone-5.3.86.tar.bz2
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	python-utils-r1	974462533ec80cd68e5f366ad8a86002	python-r1	0e15b2ab9cfc87d7474678201d6bca38
-_md5_=81062d36a9516eac3d3effaaa03d96bc
+_md5_=994cf2bf214e4e8d3bf3c3732aafee4e

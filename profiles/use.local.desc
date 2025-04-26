@@ -67,6 +67,7 @@ media-sound/audacity:vamp - Enables vamp plugins support (Audio analysing plugin
 media-sound/audacity:vst - Enable VST plugin support
 net-libs/ortp:ntp-timestamp - Turn on NTP timestamping on received packet
 net-print/hpuld:scanner - Enable scanner on multifunction devices which support it
+net-voip/linphone-desktop:qrcode - Support for qrcodes using media-libs/zxing-cpp
 net-wireless/uhd:b100 - support B100 hardware
 net-wireless/uhd:b200 - support B200, B210, B200mini, B205mini hardware
 net-wireless/uhd:e300 - support E300, E310 hardware
