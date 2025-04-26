@@ -7,8 +7,10 @@ app-doc/kicad-doc:pdf - Generate documentation in PDF format
 app-editors/qhexedit2:gui - Install Qt5 hex editor
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 dev-build/bazel:tools - Install extra bazel tools to build from sources
+dev-cpp/belr:tools - Build tools
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
+dev-libs/belcard:tools - Build tools
 dev-libs/gpds:spdlog - Enable spdlog sink feature
 dev-libs/nanopb:pb-malloc - Enable dynamic allocation support in the decoder
 dev-libs/qschematic:qt6 - Build with Qt6 support
@@ -46,6 +48,7 @@ media-sound/audacity:sbsms - Enables sbsms library support for slower, more accu
 media-sound/audacity:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
 media-sound/audacity:vamp - Enables vamp plugins support (Audio analysing plugins)
 media-sound/audacity:vst - Enable VST plugin support
+net-libs/ortp:ntp-timestamp - Turn on NTP timestamping on received packet
 net-print/hpuld:scanner - Enable scanner on multifunction devices which support it
 net-wireless/uhd:b100 - support B100 hardware
 net-wireless/uhd:b200 - support B200, B210, B200mini, B205mini hardware
