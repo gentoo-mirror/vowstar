@@ -1,10 +1,10 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 GITHUB_PN="DSView"
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{11..13} )
 
 inherit cmake python-r1 udev xdg
 
@@ -49,6 +49,13 @@ DEPEND="
 BDEPEND="
 	virtual/pkgconfig
 "
+
+PATCHES=(
+	# bug 887877
+	"${FILESDIR}/${P}-gcc13.patch"
+	# bug 887913
+	"${FILESDIR}/${P}-fix-flags.patch"
+)
 
 src_configure() {
 	local mycmakeargs=(
