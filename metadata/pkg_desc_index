@@ -185,7 +185,7 @@ sci-electronics/cocotb-bus 0.2.1: Reusable testbenching tools and bus interfaces
 sci-electronics/coil64 2.1.27: Coil64 is inductance coil calculator
 sci-electronics/digilent-adept-runtime 2.27.9: The Adept Runtime to communicate with Digilent's devices
 sci-electronics/digilent-adept-utilities 2.7.1: The Adept Utilities to communicate with Digilent's devices
-sci-electronics/dsview 1.2.1 1.3.0 9999: An open source multi-function instrument
+sci-electronics/dsview 1.3.0 1.3.2 9999: An open source multi-function instrument
 sci-electronics/iverilog 10.3 10.3-r1 11.0 12.0 9999: A Verilog simulation and synthesis tool
 sci-electronics/jlc-assistant-bin 5.0.69: JLC Order Assistant (binary package)
 sci-electronics/kactus2 3.12.0 3.13.0 3.13.1 3.13.3 9999: A open source IP-XACT-based tool
