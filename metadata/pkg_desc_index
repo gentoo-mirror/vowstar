@@ -14,10 +14,9 @@ dev-embedded/libftd2xx 1.4.27: Library that allows a direct access to a USB devi
 dev-embedded/nxp-gui-guider 1.7.2-r1: GUI Guider is a user-friendly GUI development tool for LVGL
 dev-embedded/squareline-studio 1.3.2: Visual drag-and-drop UI editor for LVGL
 dev-embedded/urjtag 2021.03 9999: Tool for communicating over JTAG with flash chips, CPUs, and many more
-dev-libs/cudnn 8.8.0.121: NVIDIA Accelerated Deep Learning on GPU library
+dev-libs/cudnn 9.8.0.87: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/flatbuffers 23.5.26: Memory efficient serialization library
 dev-libs/gpds 1.6.0-r1 1.7.0-r1 1.8.3 1.8.4 1.9.0: A general purpose data serializer
-dev-libs/json-parser 1.1.0_p20211208: Very low footprint JSON parser written in portable ANSI C
 dev-libs/libdatrie 0.2.13: Double-Array Trie Library
 dev-libs/libthai 0.1.28 0.1.29: A a set of Thai language support routines
 dev-libs/nanopb 0.4.9.1 9999: plain-C Protocol Buffers for embedded/memory-constrained systems
