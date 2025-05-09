@@ -6,6 +6,18 @@ app-doc/kicad-doc:html - Generate documentation in HTML format
 app-doc/kicad-doc:pdf - Generate documentation in PDF format
 app-editors/qhexedit2:gui - Install Qt5 hex editor
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
+app-i18n/fcitx-meta:anthy - Install Anthy Japanese input method
+app-i18n/fcitx-meta:bamboo - Install Bamboo Vietnamese input method
+app-i18n/fcitx-meta:chewing - Install Chewing (Intelligent phonetic, Zhuyin/Bopomofo) input method
+app-i18n/fcitx-meta:chinese-addons - Install Chinese addons for fcitx5
+app-i18n/fcitx-meta:configtool - Enable GUI config tool
+app-i18n/fcitx-meta:gtk2 - Enable GTK2 IM support
+app-i18n/fcitx-meta:gtk3 - Enable GTK3 IM support
+app-i18n/fcitx-meta:gtk4 - Enable GTK4 IM support
+app-i18n/fcitx-meta:hangul - Install Hangul Korean input method
+app-i18n/fcitx-meta:m17n - Install m17n-provided input methods
+app-i18n/fcitx-meta:rime - Install Rime Chinese input method
+app-i18n/fcitx-meta:skk - Install SKK Japanese input method
 dev-build/bazel:tools - Install extra bazel tools to build from sources
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
