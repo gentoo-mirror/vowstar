@@ -19,6 +19,36 @@ app-i18n/fcitx-meta:m17n - Install m17n-provided input methods
 app-i18n/fcitx-meta:rime - Install Rime Chinese input method
 app-i18n/fcitx-meta:skk - Install SKK Japanese input method
 dev-build/bazel:tools - Install extra bazel tools to build from sources
+dev-embedded/sdcc:boehm-gc - Enable Hans Boehm's garbage collector dev-libs/boehm-gc
+dev-embedded/sdcc:device-lib - Enable built of devices libraries
+dev-embedded/sdcc:ds390 - Add support for Dallas DS390
+dev-embedded/sdcc:ds400 - Add support for Dallas DS400
+dev-embedded/sdcc:ez80-z80 - Add support for EZ80-Z80
+dev-embedded/sdcc:hc08 - Add support for Freescale/Motorola HC08 based
+dev-embedded/sdcc:mcs51 - Add support for Intel mcs51
+dev-embedded/sdcc:mos6502 - Add support for MOS 6502
+dev-embedded/sdcc:mos65c02 - Add support for MOS 65C02
+dev-embedded/sdcc:non-free - Enable non-free runtime library parts
+dev-embedded/sdcc:packihx - Enable Intel HEX files pack utility
+dev-embedded/sdcc:pdk13 - Add support for PDK13
+dev-embedded/sdcc:pdk14 - Add support for PDK14
+dev-embedded/sdcc:pdk15 - Add support for PDK15
+dev-embedded/sdcc:pdk16 - Add support for PDK16
+dev-embedded/sdcc:pic14 - Add support for Microchip 14 bits PICs
+dev-embedded/sdcc:pic16 - Add support for Microchip 16 bits PICs
+dev-embedded/sdcc:r2k - Add support for Rabbit 2000
+dev-embedded/sdcc:r2ka - Add support for Rabbit 2000A
+dev-embedded/sdcc:r3ka - Add support for Rabbit 3000A
+dev-embedded/sdcc:s08 - Add support for Freescale/Motorola S08
+dev-embedded/sdcc:sdcdb - Enable SDCC source level debugger
+dev-embedded/sdcc:sdcpp - Enable SDCC preprocessor based on GCC cpp
+dev-embedded/sdcc:sm83 - Add support for Gameboy SM83
+dev-embedded/sdcc:stm8 - Add support for STMicroelectronics STM8
+dev-embedded/sdcc:tlcs90 - Add support for TLCS-90
+dev-embedded/sdcc:ucsim - Enable software simulator for microcontrollers
+dev-embedded/sdcc:z180 - Add support for Zilog Z180
+dev-embedded/sdcc:z80 - Add support for Zilog Z80
+dev-embedded/sdcc:z80n - Add support for Zilog Z80N
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
 dev-libs/gpds:spdlog - Enable spdlog sink feature
