@@ -198,7 +198,7 @@ sci-electronics/kicad-packages3d 8.0.1: Electronic Schematic and PCB design tool
 sci-electronics/kicad-symbols 8.0.1: Electronic Schematic and PCB design tools symbol libraries
 sci-electronics/kicad-templates 8.0.1: Electronic Schematic and PCB design tools project templates
 sci-electronics/pulseview 0.5.0: Qt based logic analyzer GUI for sigrok
-sci-electronics/slang 1.0 2.0-r2 3.0 4.0 5.0 6.0 7.0 8.0-r1 9999: SystemVerilog compiler and language services
+sci-electronics/slang 1.0 2.0-r2 3.0 4.0 5.0 6.0 7.0 8.0-r1 8.1 9999: SystemVerilog compiler and language services
 sci-electronics/systemc 2.3.4-r2: A C++ based modeling platform for VLSI and system-level co-design
 sci-electronics/vcd 221217: VCD file (Value Change Dump) command line viewer
 sci-electronics/verible 0.0.3420 0.0.3430 0.0.3644: SystemVerilog parser, style-linter, and formatter
