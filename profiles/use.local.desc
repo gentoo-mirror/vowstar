@@ -4,6 +4,8 @@
 
 app-doc/kicad-doc:html - Generate documentation in HTML format
 app-doc/kicad-doc:pdf - Generate documentation in PDF format
+app-editors/cursor:egl - Use EGL platform, enables smooth rending in high refresh rate monitors on X11/Xwayland
+app-editors/cursor:wayland - Run in wayland mode under wayland sessions, xwayland otherwise. This flag doesn't affect x11 sessions.
 app-editors/qhexedit2:gui - Install Qt5 hex editor
 app-emulation/playonlinux:winbind - Enables support for the winbind auth daemon
 app-i18n/fcitx-meta:anthy - Install Anthy Japanese input method
