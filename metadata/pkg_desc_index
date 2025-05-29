@@ -4,7 +4,7 @@ app-doc/kicad-doc 8.0.1: Electronic Schematic and PCB design tools manuals
 app-editors/cursor 0.50.7: Cursor App - AI-first coding environment
 app-editors/qhexedit2 0.8.9_p20210525-r4 0.8.10-r1: Hex editor library, Qt application written in C++ with Python bindings
 app-editors/vscode 1.100.2: Multiplatform Visual Studio Code from Microsoft
-app-editors/windsurf 1.6.2: AI-powered code editor maintaining flow state with instant assistance.
+app-editors/windsurf 1.9.2: AI-powered code editor maintaining flow state with instant assistance.
 app-emulation/playonlinux 4.4: Set of scripts to easily install and use Windows games and software
 app-eselect/eselect-bluespec 1.0.2: Manages the /usr/bin/bsc (bluespec) symlink
 app-i18n/fcitx-meta 5.1.12: Merge this to pull in Fcitx packages
