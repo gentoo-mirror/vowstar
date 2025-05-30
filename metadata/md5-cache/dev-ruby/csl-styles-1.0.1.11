@@ -13,5 +13,5 @@ REQUIRED_USE=|| ( ruby_targets_ruby32 )
 RESTRICT=!test? ( test ) !test? ( test ) !test? ( test )
 SLOT=0
 SRC_URI=https://github.com/inukshuk/csl-styles/archive/ec26358947824de26ec8b13c63436d1e3122c1a6.tar.gz -> csl-styles-1.0.1.11.tar.gz https://github.com/citation-style-language/locales/archive/bd8d2dbc85713b192d426fb02749475df30f0d2c.tar.gz -> csl-styles-locales-bd8d2dbc85713b192d426fb02749475df30f0d2c.tar.gz https://github.com/citation-style-language/styles/archive/9b9c74d04fbaab04fa942a932289f2b2e9b9d4ab.tar.gz -> csl-styles-styles-9b9c74d04fbaab04fa942a932289f2b2e9b9d4ab.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multilib	b2a329026f2e404e9e371097dda47f96	ruby-utils	cb2cdbbce7fae7a6b2b1021219b0680d	ruby-ng	960d5adaf301da1ef0ab9bdba5018a6d	ruby-fakegem	92ad9217e94825cb9c8ad831b513a7ec
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	ruby-utils	cb2cdbbce7fae7a6b2b1021219b0680d	ruby-ng	960d5adaf301da1ef0ab9bdba5018a6d	ruby-fakegem	bc37b1e2fa23e795fae856dd70a23846
 _md5_=a5f0b8dae61c95fcb6dacc109d3bbbca
