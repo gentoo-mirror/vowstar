@@ -101,8 +101,8 @@ net-wireless/uhd:usrp2 - support USRP2, N200, N210 hardware
 net-wireless/uhd:utils - utilities needed to list, query, calibrate, or update FPGA/Firmware
 net-wireless/uhd:x300 - support X300, X310 hardware
 sci-electronics/kicad-meta:minimal - Do not install extra data like 3D packages and templates.
-sci-electronics/pulseview:decode - Enable decoding of protocols while capturing
 sci-libs/libsigrok:ftdi - Enable drivers that need dev-embedded/libftdi
+sci-libs/libsigrok:gpib - Enable drivers that need sci-libs/linux-gpib
 sci-libs/libsigrok:hidapi - Enable drivers that need dev-libs/hidapi
 sci-libs/libsigrok:nettle - Enable drivers that need dev-libs/nettle
 sci-libs/libsigrok:parport - Enable drivers that are parallel (IEEE1284) based
