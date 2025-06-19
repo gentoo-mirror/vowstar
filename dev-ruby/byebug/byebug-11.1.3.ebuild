@@ -8,18 +8,16 @@ RUBY_FAKEGEM_EXTENSIONS=(ext/byebug/extconf.rb)
 RUBY_FAKEGEM_EXTENSION_LIBDIR=lib/byebug
 RUBY_FAKEGEM_EXTRADOC="CHANGELOG.md GUIDE.md README.md"
 RUBY_FAKEGEM_GEMSPEC=${PN}.gemspec
-USE_RUBY="ruby27 ruby30 ruby31 ruby32"
+USE_RUBY="ruby32 ruby33"
 
 inherit ruby-fakegem
 
 DESCRIPTION="a Ruby 2 debugger"
 HOMEPAGE="https://github.com/deivid-rodriguez/byebug"
 SRC_URI="https://github.com/deivid-rodriguez/byebug/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~hppa ~ppc ~ppc64 ~riscv ~sparc ~x86"
-
 # Tests require bundler and hang when run from portage
 RESTRICT="test"
 
