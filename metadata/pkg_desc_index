@@ -211,7 +211,7 @@ sci-libs/libsigrok 0.6.0_pre20241020: Basic hardware drivers for logic analyzers
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sci-mathematics/cgal 5.6: C++ library for geometric algorithms and data structures
 sci-mathematics/mathematica 12.1.1-r1 12.2.0 12.3.0 13.0.0 13.0.1 13.1.0: Wolfram Mathematica
-sci-mathematics/octave-meta 20221117: Merge this to pull in all octave forge packages
+sci-mathematics/octave-meta 20221117-r1: Merge this to pull in all octave forge packages
 sec-policy/apparmor-profile-deepinwine 1.0.0: A collection of AppArmor profiles for Deepinwine6
 sec-policy/apparmor-profile-wechat 1.0.0: A collection of AppArmor profiles for wechat
 sys-fs/sanoid 2.2.0: Policy-driven snapshot management and replication tools.
