@@ -53,9 +53,7 @@ dev-embedded/sdcc:z80 - Add support for Zilog Z80
 dev-embedded/sdcc:z80n - Add support for Zilog Z80N
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
-dev-libs/gpds:spdlog - Enable spdlog sink feature
 dev-libs/nanopb:pb-malloc - Enable dynamic allocation support in the decoder
-dev-libs/qschematic:qt6 - Build with Qt6 support
 dev-util/nvidia-cuda-toolkit:debugger - Install the CUDA debugger
 dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (nsight-compute, nsight-systems)
 dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof) and the related libraries
