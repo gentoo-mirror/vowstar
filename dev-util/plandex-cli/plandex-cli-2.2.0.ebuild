@@ -36,5 +36,5 @@ src_test() {
 
 src_install() {
 	dobin "bin/plandex"
-	dosym pdx /usr/bin/plandex
+	dosym plandex /usr/bin/pdx
 }
