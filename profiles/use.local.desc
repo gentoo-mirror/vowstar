@@ -54,7 +54,6 @@ dev-embedded/sdcc:z80n - Add support for Zilog Z80N
 dev-embedded/urjtag:ftd2xx - Enable support for USB FTDI chips via dev-embedded/libftd2xx
 dev-embedded/urjtag:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
 dev-libs/nanopb:pb-malloc - Enable dynamic allocation support in the decoder
-dev-util/mamba:mamba - build mamba
 dev-util/nvidia-cuda-toolkit:debugger - Install the CUDA debugger
 dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (nsight-compute, nsight-systems)
 dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof) and the related libraries
@@ -115,24 +114,4 @@ sci-mathematics/mathematica:cuda - Install with cuda support
 sci-mathematics/mathematica:ffmpeg - Enable media-video/ffmpeg backend support
 sys-fs/sanoid:cron - Installs cron file
 sys-fs/sanoid:systemd - Installs systemd units
-sys-libs/libsolv:appdata - Build with AppStream appdata support
-sys-libs/libsolv:arch - Build with archlinux repository support
-sys-libs/libsolv:bzip2 - Build with bzip2 compression support
-sys-libs/libsolv:comps - Build with fedora comps support
-sys-libs/libsolv:conda - Build with conda dependency support
-sys-libs/libsolv:cudf - Build with cudf repository support
-sys-libs/libsolv:debian - Build with debian database/repository support
-sys-libs/libsolv:helix - Build with helix repository support
-sys-libs/libsolv:libxml2 - Build with libxml2 instead of libexpat
-sys-libs/libsolv:lzma - Build with lzma/xz compression support
-sys-libs/libsolv:mdk - Build with mandriva/mageia repository support
-sys-libs/libsolv:perl - Build the perl bindings
-sys-libs/libsolv:pubkey - Build with pubkey support
-sys-libs/libsolv:python - Build the python bindings
-sys-libs/libsolv:rpm - Build with rpm database support
-sys-libs/libsolv:ruby - Build the ruby bindings
-sys-libs/libsolv:suse - Build with suse repository support
-sys-libs/libsolv:tcl - Build the Tcl bindings
-sys-libs/libsolv:zchunk - Build with zchunk compression support
-sys-libs/libsolv:zstd - Build with zstd compression support
 sys-process/nvtop:unicode - Enable support for ncurses Unicode choice

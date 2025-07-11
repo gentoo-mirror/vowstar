@@ -11,7 +11,6 @@ app-text/typst 0.12.0: A markup-based typesetting system for the sciences
 app-text/typstyle 0.13.5: A beautiful and reliable code formatter for Typst
 app-text/xan 0.48.0: The CSV magician
 dev-build/bazel 3.7.2-r1 4.2.2 5.0.0 5.1.1 5.3.0 6.2.0 6.4.0 6.5.0 7.1.1: Fast and correct automated build system
-dev-cpp/reproc 14.2.5: A cross-platform (C99/C++11) process library
 dev-embedded/jlink 7.66b 7.96d: Tools for Segger J-Link JTAG adapters
 dev-embedded/libftd2xx 1.4.27: Library that allows a direct access to a USB device
 dev-embedded/nxp-gui-guider 1.7.2-r1: GUI Guider is a user-friendly GUI development tool for LVGL
@@ -155,9 +154,9 @@ dev-util/claude-code 1.0.44: Claude Code - an agentic coding tool by Anthropic
 dev-util/gemini-cli 0.1.9_pre20250709: Gemini CLI - a command-line AI workflow tool by Google
 dev-util/ghidra 10.1.5-r1 11.1.2 11.2.1: A software reverse engineering framework
 dev-util/jd-gui 1.6.6: A standalone graphical utility that displays Java source codes of .class file
-dev-util/mamba 2.3.0-r1: The Fast Cross-Platform Package Manager
 dev-util/nixfmt 0.6.0: An opinionated formatter for Nix
 dev-util/nvidia-cuda-toolkit 12.4.0: NVIDIA CUDA Toolkit (compiler and friends)
+dev-util/plandex-cli 2.2.0: AI-powered coding assistant that helps you with complex tasks
 dev-util/wxformbuilder 3.10.1-r1: A wxWidgets GUI Builder
 dev-vcs/gptcommit 0.5.17: A git prepare-commit-msg hook for summarizing commits with LLMs
 dev-vcs/lumen 1.9.0-r1: A CLI tool uses AI to generate commit messages, summarise git diffs
@@ -220,7 +219,6 @@ sec-policy/apparmor-profile-wechat 1.0.0: A collection of AppArmor profiles for 
 sys-fs/sanoid 2.2.0: Policy-driven snapshot management and replication tools.
 sys-fs/zfs-auto-utils 1.0.0: ZFS Automatic Scrub/Trim for Linux
 sys-libs/libnvidia-container 1.17.4 9999: NVIDIA container runtime library
-sys-libs/libsolv 0.7.33: Library for solving packages and reading repositories
 sys-power/throttled 0.8 0.9.2 9999: Fix Intel CPU Throttling on Linux
 sys-process/nvtop 3.1.0 9999: (h)top like task monitor for AMD, NVIDIA, Intel and other GPUs
 x11-themes/obsidian-icon-theme 4.15-r1 9999: Obsidian Icon Theme is intuitive Faenza-like icon theme
