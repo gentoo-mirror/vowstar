@@ -64,6 +64,28 @@ games-util/chiaki-ng:cli - Build CLI interface
 games-util/chiaki-ng:gui - Build Qt GUI interface
 games-util/chiaki-ng:mbedtls - Use mbedtls instead of OpenSSL as part of Chiaki lib
 games-util/chiaki-ng:sdl - Add support for touchpad and sensor handling via SDL. Adds support for any controller supported by SDL
+media-gfx/freecad:addonmgr - Build the addon manager module for automatic handling of 3rd party addons
+media-gfx/freecad:assembly - Build the assembly module to create 3D models composed of several distinguishable parts as a conformed machine.
+media-gfx/freecad:bim - Build the BIM module and workbench
+media-gfx/freecad:cam - Build the CAM module and workbench
+media-gfx/freecad:cloud - Build the Cloud workbench, to access cloud providers (mostly Amazon S3).
+media-gfx/freecad:designer - Build and install the Qt designer plugin, so the FreeCAD widgets can be used from within designer.
+media-gfx/freecad:fem - Build the FEM module and workbench which provides Finite Element Analysis (FEA) workflows
+media-gfx/freecad:gui - Build FreeCAD with a Qt based GUI. If built without setting this USE flag, FreeCAD can be used in a headless mode, for server-side instances. The Python modules are available, without their GUI parts though, if this is unset.
+media-gfx/freecad:idf - Build the IDF module to provide file exchange capabilities with IDF files
+media-gfx/freecad:inspection - Build the inspection workbench which gives you specific tools for examination of shapes (experimental)
+media-gfx/freecad:mesh - Build the mesh module and workbench
+media-gfx/freecad:netgen - Build support for the netgen mesher through media-gfx/netgen.
+media-gfx/freecad:openscad - Build the OpenSCAD module for interoperability with OpenSCAD and repairing Constructive Solid Geometry (CSG) history
+media-gfx/freecad:pcl - Use external sci-libs/pcl for point clouds support.
+media-gfx/freecad:points - Build the points module and workbench for working with point clouds
+media-gfx/freecad:reverse - Build the reverse engineering module and workbench
+media-gfx/freecad:robot - Build the robot module and workbench for studying robot movements
+media-gfx/freecad:smesh - Build Salome SMESH
+media-gfx/freecad:spacenav - Add support for space navigator devices through dev-libs/libspnav
+media-gfx/freecad:surface - Build the surface module and workbench
+media-gfx/freecad:techdraw - Build the techdraw module and workbench, a more advanced and feature-rich successor of the drawing workbench
+media-gfx/netgen:opencascade - Enable OpenCASCADE support
 media-libs/freetype-wps:adobe-cff - Use Adobe CFF as default font-renderer
 media-libs/freetype-wps:bzip2 - Support bzip2 compressed PCF fonts.
 media-libs/freetype-wps:cleartype-hinting - Bytecode hinting mode for TrueType fonts that activates subpixel hinting (a.k.a. ClearType hinting) by default
