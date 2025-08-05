@@ -150,7 +150,7 @@ dev-ruby/test-unit-rr 1.0.5-r1: RR adapter for Test::Unit
 dev-ruby/ttfunk 1.8.0: A TrueType font parser written in pure ruby
 dev-tex/ninecolors 2022.02.13: Select colors with proper WCAG color contrast
 dev-tex/tabularray 2023.03.01: Typeset tabulars and arrays with LATEX3
-dev-util/gemini-cli 0.1.13: Gemini CLI - a command-line AI workflow tool by Google
+dev-util/gemini-cli 0.1.17: Gemini CLI - a command-line AI workflow tool by Google
 dev-util/ghidra 10.1.5-r1 11.1.2 11.2.1: A software reverse engineering framework
 dev-util/jd-gui 1.6.6: A standalone graphical utility that displays Java source codes of .class file
 dev-util/nixfmt 0.6.0: An opinionated formatter for Nix
