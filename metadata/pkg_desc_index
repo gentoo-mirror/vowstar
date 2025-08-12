@@ -152,6 +152,7 @@ dev-tex/ninecolors 2022.02.13: Select colors with proper WCAG color contrast
 dev-tex/tabularray 2023.03.01: Typeset tabulars and arrays with LATEX3
 dev-util/gemini-cli 0.1.17: Gemini CLI - a command-line AI workflow tool by Google
 dev-util/ghidra 10.1.5-r1 11.1.2 11.2.1: A software reverse engineering framework
+dev-util/istyle 1.23_pre20220127: Fast and Free Automatic Formatter for Verilog Source Code
 dev-util/jd-gui 1.6.6: A standalone graphical utility that displays Java source codes of .class file
 dev-util/nixfmt 0.6.0: An opinionated formatter for Nix
 dev-util/nvidia-cuda-toolkit 12.4.0: NVIDIA CUDA Toolkit (compiler and friends)
