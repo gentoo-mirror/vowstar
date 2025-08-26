@@ -24,7 +24,7 @@ dev-libs/libdatrie 0.2.13: Double-Array Trie Library
 dev-libs/libthai 0.1.28 0.1.29: A a set of Thai language support routines
 dev-libs/nanopb 0.4.9.1 9999: plain-C Protocol Buffers for embedded/memory-constrained systems
 dev-libs/qhttpengine 1.0.1-r1 9999: HTTP server for Qt applications
-dev-libs/qschematic 3.0.2: Library for creating flowcharts and engineering diagrams
+dev-libs/qschematic 3.0.3: Library for creating flowcharts and engineering diagrams
 dev-libs/unordered_dense 2.0.0 2.0.1 3.1.1 4.0.1 9999: A fast and densely stored hashmap and hashset
 dev-octave/arduino 0.10.0: Basic Octave implementation of the matlab arduino extension, allowing communication to a programmed arduino board to control its hardware
 dev-octave/audio 2.0.5: Audio and MIDI Toolbox for GNU Octave
