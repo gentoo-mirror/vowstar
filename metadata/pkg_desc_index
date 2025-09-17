@@ -173,7 +173,6 @@ media-gfx/zw3d 2023.0.3.1-r1 2025.0.3.0: CAD/CAM software for 3D design and proc
 media-gfx/zwcad 2023.23.0.3.4-r2: CAD software for 2D drawing, reviewing and printing work
 media-libs/amf-headers 1.4.30: The Advanced Media Framework (AMF) SDK
 media-libs/freetype-wps 2.13.2: High-quality and portable font engine
-media-libs/opencv 4.12.0: A collection of algorithms and sample code for various computer vision problems
 media-libs/openimageio 2.5.18.0 2.5.19.0 3.0.6.1 3.0.8.1: A library for reading and writing images
 media-libs/openpgl 0.5.0-r1 0.6.0: Intel Open Path Guiding Library
 media-libs/vst3sdk 3.7.6: VST 3 Plug-In SDK
@@ -211,7 +210,7 @@ sci-electronics/vcd 221217-r1: VCD file (Value Change Dump) command line viewer
 sci-electronics/verible 0.0.3420 0.0.3430 0.0.3644: SystemVerilog parser, style-linter, and formatter
 sci-electronics/verilator 4.106 5.014 5.026-r1 5.028-r1 9999: The fast free Verilog/SystemVerilog simulator
 sci-electronics/wavedrom-editor-bin 2.9.1: Digital timing diagram editor
-sci-electronics/yosys 0.32 0.40: framework for Verilog RTL synthesis
+sci-electronics/yosys 0.32 0.40 0.57: framework for Verilog RTL synthesis
 sci-libs/libsigrok 0.6.0_pre20241020: Basic hardware drivers for logic analyzers and input/output file format support
 sci-mathematics/cado-nfs 2.3.0 9999: Number Field Sieve (NFS) implementation for factoring integers
 sci-mathematics/cgal 5.6: C++ library for geometric algorithms and data structures
