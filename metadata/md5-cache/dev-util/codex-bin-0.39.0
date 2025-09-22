@@ -7,4 +7,4 @@ LICENSE=Apache-2.0
 RESTRICT=bindist mirror strip
 SLOT=0
 SRC_URI=https://github.com/openai/codex/releases/download/rust-v0.39.0/codex-x86_64-unknown-linux-musl.tar.gz -> codex-bin-0.39.0.tar.gz
-_md5_=5945f0616479d48283c0b5f7f7a2b2ba
+_md5_=0b5bc7631b1dbce123060c95163749f4
