@@ -8,7 +8,7 @@ HOMEPAGE="https://github.com/openai/codex"
 SRC_URI="https://github.com/openai/codex/releases/download/rust-v${PV}/codex-x86_64-unknown-linux-musl.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
 
