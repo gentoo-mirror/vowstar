@@ -151,7 +151,7 @@ dev-ruby/ttfunk 1.8.0: A TrueType font parser written in pure ruby
 dev-tex/ninecolors 2022.02.13: Select colors with proper WCAG color contrast
 dev-tex/tabularray 2023.03.01: Typeset tabulars and arrays with LATEX3
 dev-util/codex-bin 0.44.0: Codex - OpenAI's code generation and completion tool
-dev-util/gemini-cli 0.1.17: Gemini CLI - a command-line AI workflow tool by Google
+dev-util/gemini-cli 0.7.0: Gemini CLI - a command-line AI workflow tool by Google
 dev-util/ghidra 10.1.5-r1 11.1.2 11.2.1: A software reverse engineering framework
 dev-util/istyle 1.23_pre20220127: Fast and Free Automatic Formatter for Verilog Source Code
 dev-util/jd-gui 1.6.6: A standalone graphical utility that displays Java source codes of .class file
@@ -166,7 +166,6 @@ media-fonts/dseg 0.46: An open-source Chinese font derived from IPAmj Mincho
 media-fonts/lxgw-neo-zhisong 0.113: An open-source Chinese font derived from IPAmj Mincho
 media-gfx/bambustudio-bin 02.02.00.85: Bambu Studio is a cutting-edge, feature-rich slicing software
 media-gfx/flameshot 12.1.1_pre20231007 12.1.1_pre20250409: Powerful yet simple to use screenshot software
-media-gfx/freecad 1.0.2: Qt based Computer Aided Design application
 media-gfx/netgen 6.2.2406-r1 6.2.2501-r1 6.2.2505: Automatic 3d tetrahedral mesh generator
 media-gfx/oda-file-converter 23.5.0.0: For converting between different versions of .dwg and .dxf
 media-gfx/weasis-bin 4.5.1: A DICOM viewer available as a desktop application or as a web-based application.
