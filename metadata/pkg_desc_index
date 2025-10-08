@@ -158,6 +158,7 @@ dev-util/jd-gui 1.6.6: A standalone graphical utility that displays Java source 
 dev-util/nixfmt 0.6.0: An opinionated formatter for Nix
 dev-util/nvidia-cuda-toolkit 12.4.0: NVIDIA CUDA Toolkit (compiler and friends)
 dev-util/plandex-cli 2.2.0: AI-powered coding assistant that helps you with complex tasks
+dev-util/qwen-code 0.0.14: Qwen Code is a powerful command-line AI workflow tool adapted from Gemini CLI
 dev-util/wxformbuilder 3.10.1-r1: A wxWidgets GUI Builder
 dev-vcs/gptcommit 0.5.17: A git prepare-commit-msg hook for summarizing commits with LLMs
 dev-vcs/lumen 1.9.0-r1: A CLI tool uses AI to generate commit messages, summarise git diffs
