@@ -11,7 +11,7 @@ app-text/typst 0.12.0: A markup-based typesetting system for the sciences
 app-text/typstyle 0.13.17: A beautiful and reliable code formatter for Typst
 app-text/xan 0.48.0: The CSV magician
 dev-build/bazel 3.7.2-r1 4.2.2 5.0.0 5.1.1 5.3.0 6.2.0 6.4.0 6.5.0 7.1.1: Fast and correct automated build system
-dev-embedded/jlink 7.66b 7.96d: Tools for Segger J-Link JTAG adapters
+dev-embedded/jlink 7.66b 7.96d 8.76: Tools for Segger J-Link JTAG adapters
 dev-embedded/libftd2xx 1.4.27: Library that allows a direct access to a USB device
 dev-embedded/nxp-gui-guider 1.7.2-r1: GUI Guider is a user-friendly GUI development tool for LVGL
 dev-embedded/sdcc 4.5.0: Small device C compiler (for various microprocessors)

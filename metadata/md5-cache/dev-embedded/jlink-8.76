@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install nofetch postinst postrm
+DESCRIPTION=Tools for Segger J-Link JTAG adapters
+EAPI=8
+HOMEPAGE=https://www.segger.com/jlink-software.html
+INHERIT=udev wrapper
+IUSE=udev
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=SEGGER
+RDEPEND=media-libs/fontconfig media-libs/freetype sys-devel/gcc x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXcursor x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr
+RESTRICT=fetch strip
+SLOT=0
+SRC_URI=amd64? ( JLink_Linux_V876_x86_64.tgz ) arm? ( JLink_Linux_V876_arm.tgz ) arm64? ( JLink_Linux_V876_arm64.tgz ) x86? ( JLink_Linux_V876_i386.tgz )
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	udev	f3d9a4376ebd22131726a68e1a0a058f	wrapper	11a2a3bd712784986679b60a0cab34a0
+_md5_=93dff28df97abaee827b9b44c08ef34e
