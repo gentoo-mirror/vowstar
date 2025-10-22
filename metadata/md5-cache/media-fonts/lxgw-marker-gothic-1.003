@@ -1,0 +1,13 @@
+BDEPEND=app-arch/unzip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=An open-source Chinese font derived from Tanugo
+EAPI=8
+HOMEPAGE=https://github.com/lxgw/LxgwMarkerGothic
+INHERIT=font
+IUSE=X
+KEYWORDS=~amd64 ~loong ~riscv ~x86
+LICENSE=OFL-1.1
+SLOT=0
+SRC_URI=https://github.com/lxgw/LxgwMarkerGothic/releases/download/v1.003/LxgwMarkerGothic-v1.003.zip
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
+_md5_=ae7a432ad87f468184066a1387d39808
