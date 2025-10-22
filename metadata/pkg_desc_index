@@ -164,9 +164,9 @@ dev-vcs/gptcommit 0.5.17: A git prepare-commit-msg hook for summarizing commits 
 dev-vcs/lumen 1.9.0-r1: A CLI tool uses AI to generate commit messages, summarise git diffs
 games-util/chiaki-ng 1.9.5 9999: Client for PlayStation 4 and PlayStation 5 Remote Play
 media-fonts/dseg 0.46: An open-source Chinese font derived from IPAmj Mincho
-media-fonts/lxgw-neo-zhisong 0.113: An open-source Chinese font derived from IPAmj Mincho
-media-fonts/xiaolai 3.126: Xiaolai (小赖字体) - An open-source Chinese font
-media-fonts/yozai 0.868: Yozai (悠哉字体) - A Chinese font derived from Y.OzFont
+media-fonts/kose-font 3.126: Kose Font (小赖字体) - An open-source Chinese font
+media-fonts/lxgw-neo-zhisong 1.041: An open-source Chinese font derived from IPAmj Mincho
+media-fonts/yozai-font 0.868: Yozai Font (悠哉字体) - A Chinese font derived from Y.OzFont
 media-gfx/bambustudio-bin 02.02.00.85: Bambu Studio is a cutting-edge, feature-rich slicing software
 media-gfx/flameshot 12.1.1_pre20231007 12.1.1_pre20250409: Powerful yet simple to use screenshot software
 media-gfx/netgen 6.2.2406-r1 6.2.2501-r1 6.2.2505: Automatic 3d tetrahedral mesh generator
