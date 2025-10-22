@@ -64,6 +64,13 @@ games-util/chiaki-ng:cli - Build CLI interface
 games-util/chiaki-ng:gui - Build Qt GUI interface
 games-util/chiaki-ng:mbedtls - Use mbedtls instead of OpenSSL as part of Chiaki lib
 games-util/chiaki-ng:sdl - Add support for touchpad and sensor handling via SDL. Adds support for any controller supported by SDL
+media-fonts/kose-font:mono - Monospace variant
+media-fonts/kose-font:regular - Regular variant
+media-fonts/lxgw-neo-zhisong:plus - Plus variant (Supports Unicode CJK Unified Ideographs Extension A)
+media-fonts/lxgw-neo-zhisong:regular - Regular variant
+media-fonts/yozai-font:light - Light weight variant
+media-fonts/yozai-font:medium - Medium weight variant
+media-fonts/yozai-font:regular - Regular weight variant
 media-gfx/netgen:opencascade - Enable OpenCASCADE support
 media-libs/freetype-wps:adobe-cff - Use Adobe CFF as default font-renderer
 media-libs/freetype-wps:bzip2 - Support bzip2 compressed PCF fonts.
