@@ -118,7 +118,7 @@ sci-mathematics/cado-nfs:hwloc - Displays the hardware topology in convenient fo
 sci-mathematics/cado-nfs:mpi - Whether to use MPI (Message Passing Interface) or not
 sci-mathematics/cado-nfs:mysql - Install mysql database to store data
 sci-mathematics/mathematica:R - Enable dev-lang/R backend support
-sci-mathematics/mathematica:cuda - Install with cuda support
+sci-mathematics/mathematica:bundle - Install from Wolfram's bundle file or from Mathematica only
 sci-mathematics/mathematica:ffmpeg - Enable media-video/ffmpeg backend support
 sys-fs/sanoid:cron - Installs cron file
 sys-fs/sanoid:systemd - Installs systemd units
