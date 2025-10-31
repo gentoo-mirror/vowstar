@@ -86,7 +86,9 @@ src_install() {
 	# fix ACCESS DENIED issue when installing documentation
 	sed -e "s|\(exec ./WolframInstaller\) -noprompt|\1 -auto -targetdir=${S}/${M_TARGET}/Documentation -noexec|" \
 		-i "Unix/Installer/WolframInstaller" || die
-
+	# prevent the installer from thinking we are root
+	sed -e 's/if \[ "${InstallUser}" -ne 0 \]; then/if true; then/' \
+		-i "Unix/Installer/WolframInstaller" || die
 	# in the depths of the installer it tests whether it can write here
 	# addpredict is by far the simplest solution
 	# bug 960526, the installer may check the following two paths for write access
